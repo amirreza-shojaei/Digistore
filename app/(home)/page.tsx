@@ -1,9 +1,14 @@
-import React from 'react'
-
+import React from "react";
+import Carousel from "@/src/components/ui/carousel";
+import CategorySwiper from "@/src/components/sections/categorySwiper";
+import { categoryP } from "@/src/data/swiper";
 function Home() {
   return (
-    <div>Home</div>
-  )
+    <div>
+      <Carousel />
+      <CategorySwiper items={categoryP} />
+    </div>
+  );
 }
 
-export default Home
+export default Home;

@@ -1,4 +1,10 @@
 import "./globals.css";
+import { Geist } from "next/font/google";
+import { cn } from "@/lib/utils";
+import Header from "@/src/components/header";
+import Footer from "@/src/components/footer";
+
+const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 
 export default function RootLayout({
@@ -10,10 +16,14 @@ export default function RootLayout({
     <html
       dir="rtl"
       lang="fa"
-      className= ""
+      className= {cn("", "font-sans", geist.variable)}
     >
       <body className="">
-        {children}</body>
+        <Header/>
+
+        {children}
+        <Footer />
+        </body>
     </html>
   );
 }
