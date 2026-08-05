@@ -7,7 +7,7 @@ import {
 } from "react-icons/fa6";
 export default function Footer() {
   return (
-    <footer className="mt-10 border-t bg-white">
+    <footer className="mt-10 m-3 w-auto border rounded-4xl bg-red-200">
       {/* Top */}
       <div className="container mx-auto flex items-center justify-between py-6">
         <h2 className="text-4xl font-bold text-red-600">DigiStore</h2>

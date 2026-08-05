@@ -1,11 +1,24 @@
 import "./globals.css";
-import { Geist } from "next/font/google";
+import localFont from "next/font/local";
 import { cn } from "@/lib/utils";
 import Header from "@/src/components/header";
 import Footer from "@/src/components/footer";
 
-const geist = Geist({subsets:['latin'],variable:'--font-sans'});
-
+const myFont = localFont({
+  src: [
+    {
+      path: "../src/assets/Fonts/IRANSansX-Regular.woff2",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../src/assets/Fonts/IRANSansX-Bold.woff2",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+  variable: "--font-sans",
+});
 
 export default function RootLayout({
   children,
@@ -13,17 +26,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      dir="rtl"
-      lang="fa"
-      className= {cn("", "font-sans", geist.variable)}
-    >
+    <html dir="rtl" lang="fa" className={cn("font-sans", myFont.variable)}>
       <body className="">
-        <Header/>
+        <Header />
 
         {children}
         <Footer />
-        </body>
+      </body>
     </html>
   );
 }
