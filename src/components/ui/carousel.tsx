@@ -5,9 +5,19 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import images from "../../data/carousel.json";
 
-export default function Carousel() {
+
+interface Img {
+  title:string;
+  link:string;
+}
+interface CarouselProps {
+  items:Img[]
+}
+
+
+
+export default function Carousel({items}:CarouselProps) {
   return (
     <Swiper
       modules={[Autoplay, Pagination, Navigation]}
@@ -19,13 +29,13 @@ export default function Carousel() {
       }}
       pagination={{ clickable: true }}
       navigation
-      className="h-[400px] w-full rounded-xl"
+      className="h-[500px] w-full rounded-2xl"
     >
-      {images.map((image, index) => (
-        <SwiperSlide key={index}>
+      {items.map((image) => (
+        <SwiperSlide key={image.title}>
           <img
-            src={image}
-            alt={`Slide ${index + 1}`}
+            src={image.link}
+            alt={image.title}
             className="h-full w-full object-cover"
           />
         </SwiperSlide>

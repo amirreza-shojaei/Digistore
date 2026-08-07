@@ -1,5 +1,16 @@
  [
-  "https://dkstatics-public.digikala.com/digikala-adservice-banners/eae08c0eea8ee54980fcb67f663ed56aff2eaac5_1785141643.jpg?x-oss-process=image/quality,q_80/format,webp",
-  "https://dkstatics-public.digikala.com/digikala-adservice-banners/aa1db912670609e4da8ae415db5829a95eb48279_1785305401.gif?x-oss-process=image/format,webp",
-  "https://dkstatics-public.digikala.com/digikala-adservice-banners/a89c97b220617991cf4869cc5ee77066ca728607_1785678780.jpg?x-oss-process=image/quality,q_80/format,webp"
+  {
+    "title":"pic1",
+    "link":"https://dkstatics-public.digikala.com/digikala-adservice-banners/eae08c0eea8ee54980fcb67f663ed56aff2eaac5_1785141643.jpg?x-oss-process=image/quality,q_80/format,webp"
+  },
+  {
+    "title":"pic2",
+    "link":"https://dkstatics-public.digikala.com/digikala-adservice-banners/aa1db912670609e4da8ae415db5829a95eb48279_1785305401.gif?x-oss-process=image/format,webp"
+  },
+  {
+    "title":"pic3",
+    "link":  "https://dkstatics-public.digikala.com/digikala-adservice-banners/a89c97b220617991cf4869cc5ee77066ca728607_1785678780.jpg?x-oss-process=image/quality,q_80/format,webp"
+  }
 ]
+
+
