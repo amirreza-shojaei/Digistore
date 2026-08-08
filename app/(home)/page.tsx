@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "@/src/components/ui/carousel";
-import CategorySwiper from "@/src/components/sections/categorySwiper";
+import CategorySwiper from "@/src/components/home/categorySwiper";
 import { categoryP } from "@/src/data/swiper";
 import images from "@/src/data/carousel.json";
 function Home() {

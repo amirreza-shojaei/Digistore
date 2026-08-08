@@ -3,9 +3,10 @@ import ProductSwiper from "../ui/swiper"
 
 export interface Items {
   id:string,
-  img:string,
+  image:string,
   title:string,
-  price:string
+  price:number,
+  slug:string
 
 }
 export interface ProductSwiperItems {
