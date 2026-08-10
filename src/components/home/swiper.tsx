@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-import { type CategorysSwiper } from "../home/categorySwiper";
+import { type CategorysSwiper } from "./categorySwiper";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -82,7 +82,7 @@ export default function ProductSwiper({ items }: ProductSwiperProps) {
                       {/* Price */}
                       <div className="mt-auto pt-2  text-left ">
                         <p className="text-base md:text-lg font-bold text-gray-900">
-                          {item.price}
+                          {new Intl.NumberFormat("fa-IR").format(item.price)}
                         </p>
                       </div>
                     </div>

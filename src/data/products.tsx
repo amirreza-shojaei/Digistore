@@ -1,176 +1,445 @@
-export interface Product {
-id:string,
-slug:string,
-category:string,
-title:string,
-name:string,
-price:number,
-image:string,
-dicount:number,
-rating:string,
-galery:{src:string,alt:string}[]
-colors:{title:string,name:string}[],
-propertys:{name:string,text:string}[],
-specifications:{name:string,text:string}[]
-}
+// data/products.ts
+import { Product } from './type';
 
 export const products: Product[] = [
+  // ========== موبایل ==========
   {
     id: "1",
-    slug:"Samsung-Galaxy-S25-FE",
+    slug: "Samsung-Galaxy-S25-FE",
     category: "mobile",
-    title: "گوشی موبایل سامسونگ Galaxy S25 FE",
+    subcategory: "samsung",
+    brand: "Samsung",
+    title: "گوشی موبایل سامسونگ مدل Galaxy S25 FE دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت",
     name: "Samsung Galaxy S25 FE",
     price: 45600000,
-    image: "https://dkstatics-public.digikala.com/digikala-products/55582a9ac4add1b88050b458e7d490564b3ac4b6_1759667022.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/format,webp/quality,q_90",
-    dicount: 12,
+    discount: 12,
     rating: "4.8",
-    galery: [
+    ratingCount: 1247,
+    image: "https://dkstatics-public.digikala.com/digikala-products/55582a9ac4add1b88050b458e7d490564b3ac4b6_1759667022.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/format,webp/quality,q_90",
+    gallery: [
       { src: "https://dkstatics-public.digikala.com/digikala-products/55582a9ac4add1b88050b458e7d490564b3ac4b6_1759667022.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Galaxy S25 FE" },
-      { src: "https://dkstatics-public.digikala.com/digikala-products/e685a271510b2a7d3d8a35f79eb995a9e0e47cca_1764607711.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Galaxy S25 FE" },
-      { src: "https://dkstatics-public.digikala.com/digikala-products/3696bc624d46179c5af8682f7560dc6864c1f89e_1764607739.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Galaxy S25 FE" }
+      { src: "https://dkstatics-public.digikala.com/digikala-products/e685a271510b2a7d3d8a35f79eb995a9e0e47cca_1764607711.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Galaxy S25 FE back" },
+      { src: "https://dkstatics-public.digikala.com/digikala-products/3696bc624d46179c5af8682f7560dc6864c1f89e_1764607739.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Galaxy S25 FE side" },
     ],
-    colors: [{title:"مشکی",name:"black"}, {title:"آبی",name:"blue"}, {title:"نقره‌ای",name:"silver"}],
-    propertys: [
-      { name: "حافظه", text: "256 گیگابایت" },
+    colors: [
+      { title: "مشکی", name: "black", hex: "#1a1a1a" },
+      { title: "آبی", name: "blue", hex: "#1e3a8a" },
+      { title: "نقره‌ای", name: "silver", hex: "#c0c0c0" },
+    ],
+    properties: [
+      { name: "حافظه داخلی", text: "256 گیگابایت" },
       { name: "رم", text: "8 گیگابایت" },
-      { name: "پردازنده", text: "Exynos 2400" }
+      { name: "پردازنده", text: "Exynos 2400" },
+      { name: "اندازه صفحه", text: "6.7 اینچ" },
     ],
     specifications: [
-      { name: "صفحه نمایش", text: "6.7 اینچ Dynamic AMOLED" },
-      { name: "باتری", text: "4700mAh" },
-      { name: "دوربین", text: "50MP + 12MP + 8MP" }
-    ]
+      { name: "صفحه نمایش", text: "6.7 اینچ Dynamic AMOLED 2X، رفرش‌ریت 120 هرتز" },
+      { name: "باتری", text: "4700 میلی‌آمپرساعت با شارژ سریع 45 وات" },
+      { name: "دوربین اصلی", text: "50 مگاپیکسل + 12 مگاپیکسل اولترا واید + 8 مگاپیکسل تله‌فوتو" },
+      { name: "دوربین سلفی", text: "12 مگاپیکسل" },
+      { name: "سیستم عامل", text: "Android 15 با One UI 7" },
+      { name: "مقاومت در برابر آب", text: "IP68" },
+    ],
+    stock: 34,
+    isAmazing: true,
+    isOriginal: true,
+    seller: "دیجی‌کالا",
+    description: "گلکسی S25 FE نسل جدید میان‌رده پرچمدار سامسونگ با پردازنده قدرتمند و دوربین حرفه‌ای.",
   },
-
   {
     id: "2",
+    slug: "Apple-iPhone-16-Pro-Max",
     category: "mobile",
-    slug:"Apple-iPhone-16-Pro-Max",
-    title: "گوشی موبایل اپل مدل iPhone 16 Pro Max ZAA دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت",
+    subcategory: "apple",
+    brand: "Apple",
+    title: "گوشی موبایل اپل مدل iPhone 16 Pro Max دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت",
     name: "Apple iPhone 16 Pro Max",
     price: 124900000,
-    image: "https://dkstatics-public.digikala.com/digikala-products/48daaebd4cb7706cce21ce8b5e485d6fdafa6bd1_1736598863.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
-    dicount: 5,
+    discount: 5,
     rating: "4.9",
-    galery: [
-      { src: "https://dkstatics-public.digikala.com/digikala-products/48daaebd4cb7706cce21ce8b5e485d6fdafa6bd1_1736598863.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "iPhone 16 Pro Max" }
-      ,{src:"https://dkstatics-public.digikala.com/digikala-products/48daaebd4cb7706cce21ce8b5e485d6fdafa6bd1_1736598863.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",alt:"16 pro"}
+    ratingCount: 892,
+    image: "https://dkstatics-public.digikala.com/digikala-products/48daaebd4cb7706cce21ce8b5e485d6fdafa6bd1_1736598863.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+    gallery: [
+      { src: "https://dkstatics-public.digikala.com/digikala-products/48daaebd4cb7706cce21ce8b5e485d6fdafa6bd1_1736598863.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "iPhone 16 Pro Max" },
     ],
-    colors: [{title:"مشکی",name:"black"}, {title:"آبی",name:"blue"}, {title:"نقره‌ای",name:"silver"}],
-    propertys: [
-      { name: "حافظه", text: "512 گیگابایت" },
+    colors: [
+      { title: "تیتانیوم طبیعی", name: "natural-titanium", hex: "#8a8a8a" },
+      { title: "تیتانیوم مشکی", name: "black-titanium", hex: "#2c2c2c" },
+      { title: "تیتانیوم سفید", name: "white-titanium", hex: "#f5f5f5" },
+      { title: "تیتانیوم آبی", name: "blue-titanium", hex: "#3b5998" },
+    ],
+    properties: [
+      { name: "حافظه داخلی", text: "256 گیگابایت" },
       { name: "رم", text: "8 گیگابایت" },
-      {name:"نسخه سیستم عامل" ,text:"ios 18"},
-      {name:"رزولوشن دوربین اصلی" ,text:"48 مگاپیکسل"}
+      { name: "چیپست", text: "A18 Pro" },
+      { name: "اندازه صفحه", text: "6.9 اینچ" },
     ],
     specifications: [
-      { name: "نمایشگر", text: "6.9 اینچ OLED" },
+      { name: "نمایشگر", text: "6.9 اینچ Super Retina XDR OLED، ProMotion 120Hz" },
       { name: "چیپست", text: "Apple A18 Pro" },
-            { name: "حافظه", text: "512 گیگابایت" },
+      { name: "دوربین اصلی", text: "48 مگاپیکسل + 12 مگاپیکسل اولترا واید + 12 مگاپیکسل تله‌فوتو 5x" },
+      { name: "باتری", text: "تا 33 ساعت پخش ویدیو" },
+      { name: "سیستم عامل", text: "iOS 18" },
+      { name: "مقاومت", text: "IP68 + Ceramic Shield" },
+    ],
+    stock: 18,
+    isAmazing: false,
+    isOriginal: true,
+    seller: "دیجی‌کالا",
+  },
+  {
+    id: "7",
+    slug: "Xiaomi-Redmi-Note-14",
+    category: "mobile",
+    brand: "Xiaomi",
+    title: "گوشی موبایل شیائومی مدل Redmi Note 14 4G دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت",
+    name: "Xiaomi Redmi Note 14",
+    price: 18990000,
+    discount: 8,
+    rating: "4.6",
+    ratingCount: 2156,
+    image: "https://dkstatics-public.digikala.com/digikala-products/55582a9ac4add1b88050b458e7d490564b3ac4b6_1759667022.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/format,webp/quality,q_90",
+    gallery: [
+      { src: "https://dkstatics-public.digikala.com/digikala-products/55582a9ac4add1b88050b458e7d490564b3ac4b6_1759667022.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Redmi Note 14" },
+    ],
+    colors: [
+      { title: "مشکی", name: "black" },
+      { title: "آبی", name: "blue" },
+      { title: "سبز", name: "green" },
+    ],
+    properties: [
+      { name: "حافظه", text: "256 گیگابایت" },
       { name: "رم", text: "8 گیگابایت" },
-      {name:"نسخه سیستم عامل" ,text:"ios 18"},
-      {name:"رزولوشن دوربین اصلی" ,text:"48 مگاپیکسل"}
-    ]
+      { name: "پردازنده", text: "Helio G99 Ultra" },
+    ],
+    specifications: [
+      { name: "صفحه نمایش", text: "6.67 اینچ AMOLED 120Hz" },
+      { name: "باتری", text: "5500mAh با شارژ 33 وات" },
+      { name: "دوربین", text: "108 مگاپیکسل اصلی" },
+    ],
+    stock: 89,
+    isAmazing: true,
+    isOriginal: true,
   },
 
+  // ========== لپ‌تاپ ==========
   {
     id: "3",
+    slug: "ASUS-Vivobook-15",
     category: "laptop",
-    slug:"ASUS-Vivobook-15",
-    title: "لپ تاپ ایسوس Vivobook 15",
+    brand: "ASUS",
+    title: "لپ تاپ 15.6 اینچی ایسوس مدل Vivobook 15 X1504VA-NJ928-i7 13620H-16GB DDR4-512GB SSD-Intel",
     name: "ASUS Vivobook 15",
     price: 38900000,
-    image: "https://dkstatics-public.digikala.com/digikala-products/9930f7954726af3d2b465182926e18b5b25e8162_1755788508.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
-    dicount: 18,
+    discount: 18,
     rating: "4.6",
-    galery: [
-      { src: "https://dkstatics-public.digikala.com/digikala-products/9930f7954726af3d2b465182926e18b5b25e8162_1755788508.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Vivobook" }
-      ,{src :"https://dkstatics-public.digikala.com/digikala-products/f25b8cbd34c83bb6fdeab45d2d9e567c82fb54c3_1756555451.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",alt:"Vivobook"}
+    ratingCount: 432,
+    image: "https://dkstatics-public.digikala.com/digikala-products/9930f7954726af3d2b465182926e18b5b25e8162_1755788508.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+    gallery: [
+      { src: "https://dkstatics-public.digikala.com/digikala-products/9930f7954726af3d2b465182926e18b5b25e8162_1755788508.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Vivobook 15" },
+      { src: "https://dkstatics-public.digikala.com/digikala-products/f25b8cbd34c83bb6fdeab45d2d9e567c82fb54c3_1756555451.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Vivobook side" },
     ],
-    colors: [{title:"مشکی",name:"black"}, {title:"آبی",name:"blue"}, {title:"نقره‌ای",name:"silver"}],
-    propertys: [
+    colors: [
+      { title: "نقره‌ای", name: "silver" },
+      { title: "آبی تیره", name: "quiet-blue" },
+    ],
+    properties: [
       { name: "پردازنده", text: "Core i7-13620H" },
-      { name: "رم", text: "16GB" },
-      { name: "SSD", text: "1TB" }
+      { name: "رم", text: "16 گیگابایت" },
+      { name: "حافظه", text: "512 گیگابایت SSD" },
     ],
     specifications: [
-      { name: "نمایشگر", text: "15.6 اینچ Full HD" },
-      { name: "گرافیک", text: "RTX 4050" }
-    ]
+      { name: "نمایشگر", text: "15.6 اینچ Full HD IPS" },
+      { name: "گرافیک", text: "Intel Iris Xe" },
+      { name: "وزن", text: "1.7 کیلوگرم" },
+      { name: "باتری", text: "42 وات‌ساعت" },
+    ],
+    stock: 12,
+    isAmazing: true,
+    isOriginal: true,
+  },
+  {
+    id: "8",
+    slug: "Lenovo-IdeaPad-Slim-3",
+    category: "laptop",
+    brand: "Lenovo",
+    title: "لپ تاپ 15.6 اینچی لنوو مدل IdeaPad Slim 3 15IRH8-i5 13420H-16GB-512GB SSD",
+    name: "Lenovo IdeaPad Slim 3",
+    price: 32900000,
+    discount: 10,
+    rating: "4.5",
+    ratingCount: 287,
+    image: "https://dkstatics-public.digikala.com/digikala-products/9930f7954726af3d2b465182926e18b5b25e8162_1755788508.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+    gallery: [
+      { src: "https://dkstatics-public.digikala.com/digikala-products/9930f7954726af3d2b465182926e18b5b25e8162_1755788508.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "IdeaPad Slim 3" },
+    ],
+    colors: [{ title: "خاکستری", name: "grey" }],
+    properties: [
+      { name: "پردازنده", text: "Core i5-13420H" },
+      { name: "رم", text: "16GB" },
+      { name: "SSD", text: "512GB" },
+    ],
+    specifications: [
+      { name: "نمایشگر", text: "15.6 اینچ FHD" },
+      { name: "گرافیک", text: "Intel UHD" },
+    ],
+    stock: 25,
+    isAmazing: false,
+    isOriginal: true,
   },
 
+  // ========== هدفون ==========
   {
     id: "4",
-    slug:"Sony-WH-1000XM5",
+    slug: "Sony-WH-1000XM5",
     category: "headphone",
-    title: "هدفون بی سیم سونی WH-1000XM5",
+    brand: "Sony",
+    title: "هدفون بی‌سیم سونی مدل WH-1000XM5 با نویز کنسلینگ فعال",
     name: "Sony WH-1000XM5",
     price: 18900000,
-    image: "https://dkstatics-public.digikala.com/digikala-products/3bc08f041859daac2c0af8535b4c6894f1b496cf_1745825003.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
-    dicount: 0,
+    discount: 0,
     rating: "4.9",
-    galery: [
-      { src: "https://dkstatics-public.digikala.com/digikala-products/3bc08f041859daac2c0af8535b4c6894f1b496cf_1745825003.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Sony XM5" }
-        ,{src:"https://dkstatics-public.digikala.com/digikala-products/e7d12999420e140c398fa1f8a4fb631312552e41_1695473459.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",alt:"headphonw"}
+    ratingCount: 1563,
+    image: "https://dkstatics-public.digikala.com/digikala-products/3bc08f041859daac2c0af8535b4c6894f1b496cf_1745825003.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+    gallery: [
+      { src: "https://dkstatics-public.digikala.com/digikala-products/3bc08f041859daac2c0af8535b4c6894f1b496cf_1745825003.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Sony XM5" },
+      { src: "https://dkstatics-public.digikala.com/digikala-products/e7d12999420e140c398fa1f8a4fb631312552e41_1695473459.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Sony XM5 folded" },
     ],
-    colors: [{title:"مشکی",name:"black"}, {title:"آبی",name:"blue"}, {title:"نقره‌ای",name:"silver"}],
-    propertys: [
-      { name: "نوع اتصال", text: "Bluetooth" },
-      { name: "شارژدهی", text: "30 ساعت" }
+    colors: [
+      { title: "مشکی", name: "black" },
+      { title: "نقره‌ای", name: "silver" },
+    ],
+    properties: [
+      { name: "نوع اتصال", text: "بلوتوث 5.3" },
+      { name: "شارژدهی", text: "30 ساعت (با ANC)" },
+      { name: "نویز کنسلینگ", text: "فعال (ANC)" },
     ],
     specifications: [
-      { name: "نویز کنسلینگ", text: "دارد" },
-      { name: "وزن", text: "250 گرم" }
-    ]
+      { name: "درایور", text: "30 میلی‌متری" },
+      { name: "وزن", text: "250 گرم" },
+      { name: "میکروفون", text: "8 میکروفون برای مکالمه شفاف" },
+      { name: "مقاومت", text: "IPX4" },
+    ],
+    stock: 41,
+    isAmazing: false,
+    isOriginal: true,
+  },
+  {
+    id: "9",
+    slug: "Anker-Soundcore-R50i",
+    category: "headphone",
+    brand: "Anker",
+    title: "هدفون بلوتوثی انکر مدل Soundcore R50i با قابلیت مکالمه و مقاومت در برابر آب",
+    name: "Anker Soundcore R50i",
+    price: 2400000,
+    discount: 15,
+    rating: "4.4",
+    ratingCount: 3241,
+    image: "https://dkstatics-public.digikala.com/digikala-products/3bc08f041859daac2c0af8535b4c6894f1b496cf_1745825003.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+    gallery: [
+      { src: "https://dkstatics-public.digikala.com/digikala-products/3bc08f041859daac2c0af8535b4c6894f1b496cf_1745825003.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Anker R50i" },
+    ],
+    colors: [
+      { title: "مشکی", name: "black" },
+      { title: "سفید", name: "white" },
+    ],
+    properties: [
+      { name: "نوع", text: "ایربادز بی‌سیم" },
+      { name: "شارژدهی", text: "تا 30 ساعت با کیس" },
+    ],
+    specifications: [
+      { name: "درایور", text: "10 میلی‌متری" },
+      { name: "مقاومت", text: "IPX5" },
+      { name: "درگاه شارژ", text: "USB-C" },
+    ],
+    stock: 156,
+    isAmazing: true,
+    isOriginal: true,
   },
 
+  // ========== ساعت هوشمند ==========
   {
     id: "5",
-    slug:"Apple-Watch-Series-10",
+    slug: "Apple-Watch-Series-10",
     category: "smartwatch",
-    title: "ساعت هوشمند اپل Watch Series 10",
+    brand: "Apple",
+    title: "ساعت هوشمند اپل مدل Series 10 Aluminum Case 46mm با بند ورزشی",
     name: "Apple Watch Series 10",
     price: 35900000,
-    image: "https://dkstatics-public.digikala.com/digikala-products/e0adcb187655ea1d704a4b4a288ffc41e8e2a233_1739285743.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
-    dicount: 10,
+    discount: 10,
     rating: "4.7",
-    galery: [
-      { src: "https://dkstatics-public.digikala.com/digikala-products/e0adcb187655ea1d704a4b4a288ffc41e8e2a233_1739285743.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Apple Watch" },
-      {src:"https://dkstatics-public.digikala.com/digikala-products/c7cbe7f10b2d893f4fd6577649c83186c6cb2fd1_1727616118.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",alt:"smartwatch"}
+    ratingCount: 678,
+    image: "https://dkstatics-public.digikala.com/digikala-products/e0adcb187655ea1d704a4b4a288ffc41e8e2a233_1739285743.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+    gallery: [
+      { src: "https://dkstatics-public.digikala.com/digikala-products/e0adcb187655ea1d704a4b4a288ffc41e8e2a233_1739285743.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Apple Watch Series 10" },
+      { src: "https://dkstatics-public.digikala.com/digikala-products/c7cbe7f10b2d893f4fd6577649c83186c6cb2fd1_1727616118.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Apple Watch side" },
     ],
-   colors: [{title:"مشکی",name:"black"}, {title:"آبی",name:"blue"}, {title:"نقره‌ای",name:"silver"}],
-    propertys: [
-      { name: "سایز", text: "46mm" },
-      { name: "GPS", text: "دارد" }
+    colors: [
+      { title: "آلومینیوم نقره‌ای", name: "silver" },
+      { title: "آلومینیوم جت بلک", name: "jet-black" },
+      { title: "آلومینیوم رز گلد", name: "rose-gold" },
+    ],
+    properties: [
+      { name: "سایز", text: "46 میلی‌متر" },
+      { name: "GPS", text: "دارد" },
+      { name: "مانیتور ضربان قلب", text: "دارد" },
     ],
     specifications: [
-      { name: "باتری", text: "18 ساعت" },
-      { name: "ضد آب", text: "تا عمق 50 متر" }
-    ]
+      { name: "باتری", text: "تا 18 ساعت" },
+      { name: "ضد آب", text: "تا عمق 50 متر (WR50)" },
+      { name: "نمایشگر", text: "Always-On Retina LTPO OLED" },
+      { name: "حسگرها", text: "ECG، اکسیژن خون، دما" },
+    ],
+    stock: 22,
+    isAmazing: false,
+    isOriginal: true,
+  },
+  {
+    id: "10",
+    slug: "Samsung-Galaxy-Watch-7",
+    category: "smartwatch",
+    brand: "Samsung",
+    title: "ساعت هوشمند سامسونگ مدل Galaxy Watch 7 44mm",
+    name: "Samsung Galaxy Watch 7",
+    price: 18900000,
+    discount: 12,
+    rating: "4.6",
+    ratingCount: 512,
+    image: "https://dkstatics-public.digikala.com/digikala-products/e0adcb187655ea1d704a4b4a288ffc41e8e2a233_1739285743.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+    gallery: [
+      { src: "https://dkstatics-public.digikala.com/digikala-products/e0adcb187655ea1d704a4b4a288ffc41e8e2a233_1739285743.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Galaxy Watch 7" },
+    ],
+    colors: [
+      { title: "سبز", name: "green" },
+      { title: "کرم", name: "cream" },
+    ],
+    properties: [
+      { name: "سایز", text: "44 میلی‌متر" },
+      { name: "سیستم عامل", text: "Wear OS" },
+    ],
+    specifications: [
+      { name: "باتری", text: "تا 40 ساعت" },
+      { name: "ضد آب", text: "5ATM + IP68" },
+      { name: "حسگر BioActive", text: "دارد" },
+    ],
+    stock: 37,
+    isAmazing: true,
+    isOriginal: true,
   },
 
+  // ========== تبلت ==========
   {
     id: "6",
-    slug:"Xiaomi-Pad-7-Pro",
+    slug: "Xiaomi-Pad-7-Pro",
     category: "tablet",
-    title: "تبلت شیائومی Pad 7 Pro",
+    brand: "Xiaomi",
+    title: "تبلت شیائومی مدل Pad 7 Pro ظرفیت 256 گیگابایت و رم 12 گیگابایت",
     name: "Xiaomi Pad 7 Pro",
     price: 29900000,
-    image: "https://dkstatics-public.digikala.com/digikala-products/f91a9fa4f89204cc6f23a39bcc356e17e943d73d_1772625340.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
-    dicount: 7,
+    discount: 7,
     rating: "4.5",
-    galery: [
-      { src: "https://dkstatics-public.digikala.com/digikala-products/f91a9fa4f89204cc6f23a39bcc356e17e943d73d_1772625340.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Pad 7 Pro" }
+    ratingCount: 198,
+    image: "https://dkstatics-public.digikala.com/digikala-products/f91a9fa4f89204cc6f23a39bcc356e17e943d73d_1772625340.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+    gallery: [
+      { src: "https://dkstatics-public.digikala.com/digikala-products/f91a9fa4f89204cc6f23a39bcc356e17e943d73d_1772625340.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Pad 7 Pro" },
     ],
-    colors: [{title:"مشکی",name:"black"}, {title:"آبی",name:"blue"}, {title:"نقره‌ای",name:"silver"}],
-    propertys: [
-      { name: "حافظه", text: "256GB" },
-      { name: "رم", text: "12GB" }
+    colors: [
+      { title: "خاکستری", name: "grey" },
+      { title: "آبی", name: "blue" },
+    ],
+    properties: [
+      { name: "حافظه", text: "256 گیگابایت" },
+      { name: "رم", text: "12 گیگابایت" },
+      { name: "پردازنده", text: "Snapdragon 8s Gen 3" },
     ],
     specifications: [
-      { name: "نمایشگر", text: "11.2 اینچ" },
-      { name: "باتری", text: "8850mAh" }
-    ]
-  }
+      { name: "نمایشگر", text: "11.2 اینچ 3.2K 144Hz" },
+      { name: "باتری", text: "8850 میلی‌آمپرساعت" },
+      { name: "قلم", text: "پشتیبانی از Xiaomi Smart Pen" },
+    ],
+    stock: 15,
+    isAmazing: false,
+    isOriginal: true,
+  },
+  {
+    id: "11",
+    slug: "Samsung-Galaxy-Tab-S10",
+    category: "tablet",
+    brand: "Samsung",
+    title: "تبلت سامسونگ مدل Galaxy Tab S10 FE ظرفیت 128 گیگابایت و رم 8 گیگابایت",
+    name: "Samsung Galaxy Tab S10 FE",
+    price: 24900000,
+    discount: 9,
+    rating: "4.7",
+    ratingCount: 145,
+    image: "https://dkstatics-public.digikala.com/digikala-products/f91a9fa4f89204cc6f23a39bcc356e17e943d73d_1772625340.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+    gallery: [
+      { src: "https://dkstatics-public.digikala.com/digikala-products/f91a9fa4f89204cc6f23a39bcc356e17e943d73d_1772625340.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Tab S10 FE" },
+    ],
+    colors: [
+      { title: "خاکستری", name: "gray" },
+      { title: "آبی", name: "blue" },
+    ],
+    properties: [
+      { name: "حافظه", text: "128 گیگابایت" },
+      { name: "رم", text: "8 گیگابایت" },
+    ],
+    specifications: [
+      { name: "نمایشگر", text: "10.9 اینچ TFT" },
+      { name: "باتری", text: "8000mAh" },
+      { name: "S Pen", text: "همراه محصول" },
+    ],
+    stock: 28,
+    isAmazing: true,
+    isOriginal: true,
+  },
+
+  // ========== تلویزیون (نمونه از دسته دیگر) ==========
+  {
+    id: "12",
+    slug: "XVision-65XCU705",
+    category: "tv",
+    brand: "XVision",
+    title: "تلویزیون LED هوشمند 65 اینچ ایکس ویژن مدل 65XCU705",
+    name: "XVision 65XCU705",
+    price: 99900000,
+    discount: 21,
+    rating: "4.4",
+    ratingCount: 89,
+    image: "https://dkstatics-public.digikala.com/digikala-products/9930f7954726af3d2b465182926e18b5b25e8162_1755788508.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+    gallery: [
+      { src: "https://dkstatics-public.digikala.com/digikala-products/9930f7954726af3d2b465182926e18b5b25e8162_1755788508.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "XVision TV" },
+    ],
+    colors: [{ title: "مشکی", name: "black" }],
+    properties: [
+      { name: "سایز", text: "65 اینچ" },
+      { name: "رزولوشن", text: "4K UHD" },
+      { name: "سیستم عامل", text: "Android TV" },
+    ],
+    specifications: [
+      { name: "نمایشگر", text: "LED 4K با HDR10" },
+      { name: "نرخ نوسازی", text: "60 هرتز" },
+      { name: "ورودی‌ها", text: "3x HDMI، 2x USB" },
+    ],
+    stock: 7,
+    isAmazing: true,
+    isOriginal: true,
+  },
 ];
+
+// توابع کمکی مفید
+export const getProductsByCategory = (categorySlug: string) =>
+  products.filter(p => p.category === categorySlug);
+
+export const getProductBySlug = (slug: string) =>
+  products.find(p => p.slug === slug);
+
+export const getAmazingOffers = () =>
+  products.filter(p => p.isAmazing);
+
+export const searchProducts = (query: string) =>
+  products.filter(p =>
+    p.title.includes(query) ||
+    p.name.toLowerCase().includes(query.toLowerCase()) ||
+    p.brand.toLowerCase().includes(query.toLowerCase())
+  );

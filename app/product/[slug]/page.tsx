@@ -25,7 +25,7 @@ export default async function ProductPage({ params }: Props) {
       
       <div className="grid grid-cols-9  gap-1 mt-10">
         <div className="col-span-3">
-          <Gallery items={product.galery} />
+          <Gallery items={product.gallery} />
         </div>
         <div className="col-span-6">
           <Info product={product} />

@@ -5,14 +5,10 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { Banner } from "@/src/data/type";
 
-
-interface Img {
-  title:string;
-  link:string;
-}
 interface CarouselProps {
-  items:Img[]
+  items:Banner[]
 }
 
 
@@ -34,7 +30,7 @@ export default function Carousel({items}:CarouselProps) {
       {items.map((image) => (
         <SwiperSlide key={image.title}>
           <img
-            src={image.link}
+            src={image.image}
             alt={image.title}
             className="h-full w-full object-cover"
           />

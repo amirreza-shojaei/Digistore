@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductSwiper from "../ui/swiper"
+import ProductSwiper from "./swiper"
 
 export interface Items {
   id:string,

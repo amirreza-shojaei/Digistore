@@ -29,7 +29,6 @@ export default function RootLayout({
     <html dir="rtl" lang="fa" className={cn("font-sans", myFont.variable)}>
       <body className="">
         <Header />
-
         {children}
         <Footer />
       </body>

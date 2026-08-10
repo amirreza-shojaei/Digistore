@@ -6,7 +6,7 @@ import {
 } from "lucide-react";
 
 import items from "../data/navbar.json"
-
+import MegaMenu from './home/megaMenu/megaMenuMain';
 function Navbar() {
   return (
     
@@ -15,10 +15,10 @@ function Navbar() {
         <nav>
           <ul className="flex items-center gap-6 text-sm text-gray-600">
 
-            <button className="flex cursor-pointer items-center gap-2 font-semibold text-black">
-              <Menu size={18} />
-              دسته‌بندی کالاها
-            </button>
+            <div className="flex cursor-pointer items-center gap-2 font-semibold text-black">
+              <MegaMenu/>
+            </div>
+            
                  {
                     items.map((item)=>(
                         <Link key={item.id} href={item.link} className="border-b-5 border-transparent transition-all hover:border-red-500" > {item.title}</Link>

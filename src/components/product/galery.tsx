@@ -14,7 +14,6 @@ interface GalleryProps {
 
 export default function Gallery({ items }: GalleryProps) {
   const [selected, setSelected] = useState(0);
-
   return (
     <div className="grid-rows-2">
       
