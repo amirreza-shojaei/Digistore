@@ -5,7 +5,7 @@ export const products: Product[] = [
   // ========== موبایل ==========
   {
     id: "1",
-    slug: "Samsung-Galaxy-S25-FE",
+    slug: "mobile-Samsung-Galaxy-S25-FE",
     category: "mobile",
     subcategory: "samsung",
     brand: "Samsung",
@@ -48,7 +48,7 @@ export const products: Product[] = [
   },
   {
     id: "2",
-    slug: "Apple-iPhone-16-Pro-Max",
+    slug: "mobile-Apple-iPhone-16-Pro-Max",
     category: "mobile",
     subcategory: "apple",
     brand: "Apple",
@@ -89,7 +89,7 @@ export const products: Product[] = [
   },
   {
     id: "7",
-    slug: "Xiaomi-Redmi-Note-14",
+    slug: "mobile-Xiaomi-Redmi-Note-14",
     category: "mobile",
     brand: "Xiaomi",
     title: "گوشی موبایل شیائومی مدل Redmi Note 14 4G دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت",
@@ -125,7 +125,7 @@ export const products: Product[] = [
   // ========== لپ‌تاپ ==========
   {
     id: "3",
-    slug: "ASUS-Vivobook-15",
+    slug: "laptop-ASUS-Vivobook-15",
     category: "laptop",
     brand: "ASUS",
     title: "لپ تاپ 15.6 اینچی ایسوس مدل Vivobook 15 X1504VA-NJ928-i7 13620H-16GB DDR4-512GB SSD-Intel",
@@ -160,7 +160,7 @@ export const products: Product[] = [
   },
   {
     id: "8",
-    slug: "Lenovo-IdeaPad-Slim-3",
+    slug: "laptop-Lenovo-IdeaPad-Slim-3",
     category: "laptop",
     brand: "Lenovo",
     title: "لپ تاپ 15.6 اینچی لنوو مدل IdeaPad Slim 3 15IRH8-i5 13420H-16GB-512GB SSD",
@@ -191,8 +191,8 @@ export const products: Product[] = [
   // ========== هدفون ==========
   {
     id: "4",
-    slug: "Sony-WH-1000XM5",
-    category: "headphone",
+    slug: "digital-Sony-WH-1000XM5",
+    category: "digital",
     brand: "Sony",
     title: "هدفون بی‌سیم سونی مدل WH-1000XM5 با نویز کنسلینگ فعال",
     name: "Sony WH-1000XM5",
@@ -226,8 +226,8 @@ export const products: Product[] = [
   },
   {
     id: "9",
-    slug: "Anker-Soundcore-R50i",
-    category: "headphone",
+    slug: "digital-Anker-Soundcore-R50i",
+    category: "digital",
     brand: "Anker",
     title: "هدفون بلوتوثی انکر مدل Soundcore R50i با قابلیت مکالمه و مقاومت در برابر آب",
     name: "Anker Soundcore R50i",
@@ -260,8 +260,8 @@ export const products: Product[] = [
   // ========== ساعت هوشمند ==========
   {
     id: "5",
-    slug: "Apple-Watch-Series-10",
-    category: "smartwatch",
+    slug: "digital-Apple-Watch-Series-10",
+    category: "digital",
     brand: "Apple",
     title: "ساعت هوشمند اپل مدل Series 10 Aluminum Case 46mm با بند ورزشی",
     name: "Apple Watch Series 10",
@@ -296,8 +296,8 @@ export const products: Product[] = [
   },
   {
     id: "10",
-    slug: "Samsung-Galaxy-Watch-7",
-    category: "smartwatch",
+    slug: "digital-Samsung-Galaxy-Watch-7",
+    category: "digital",
     brand: "Samsung",
     title: "ساعت هوشمند سامسونگ مدل Galaxy Watch 7 44mm",
     name: "Samsung Galaxy Watch 7",
@@ -330,8 +330,8 @@ export const products: Product[] = [
   // ========== تبلت ==========
   {
     id: "6",
-    slug: "Xiaomi-Pad-7-Pro",
-    category: "tablet",
+    slug: "mobile-Xiaomi-Pad-7-Pro",
+    category: "mobile",
     brand: "Xiaomi",
     title: "تبلت شیائومی مدل Pad 7 Pro ظرفیت 256 گیگابایت و رم 12 گیگابایت",
     name: "Xiaomi Pad 7 Pro",
@@ -363,8 +363,8 @@ export const products: Product[] = [
   },
   {
     id: "11",
-    slug: "Samsung-Galaxy-Tab-S10",
-    category: "tablet",
+    slug: "mobile-Samsung-Galaxy-Tab-S10",
+    category: "mobile",
     brand: "Samsung",
     title: "تبلت سامسونگ مدل Galaxy Tab S10 FE ظرفیت 128 گیگابایت و رم 8 گیگابایت",
     name: "Samsung Galaxy Tab S10 FE",
@@ -397,8 +397,8 @@ export const products: Product[] = [
   // ========== تلویزیون (نمونه از دسته دیگر) ==========
   {
     id: "12",
-    slug: "XVision-65XCU705",
-    category: "tv",
+    slug: "digital-XVision-65XCU705",
+    category: "digital",
     brand: "XVision",
     title: "تلویزیون LED هوشمند 65 اینچ ایکس ویژن مدل 65XCU705",
     name: "XVision 65XCU705",

@@ -18,7 +18,6 @@ export interface SidebarCategory {
   title: string;
   slug: string;
   icon: React.ReactNode; 
-  href: string;
 }
 
 export const sidebarCategories: SidebarCategory[] = [
@@ -26,84 +25,72 @@ export const sidebarCategories: SidebarCategory[] = [
     id: "mobile",
     title: "موبایل",
     slug: "mobile",
-    icon: <Smartphone />,
-    href: "/search/category-mobile-phone/",
+    icon: <Smartphone />
   },
   {
     id: "laptop",
     title: "لپ تاپ",
     slug: "laptop",
-    icon: <Laptop />,
-    href: "/search/category-notebook-netbook-ultrabook/",
+    icon: <Laptop />
   },
   {
     id: "digital",
     title: "کالای دیجیتال",
     slug: "digital",
-    icon: <Monitor />,
-    href: "/main/electronic-devices/",
+    icon: <Monitor />
   },
   {
     id: "home-kitchen",
     title: "خانه و آشپزخانه",
     slug: "home-kitchen",
-    icon: <Home />,
-    href: "/main/home-and-kitchen/",
+    icon: <Home />
   },
   {
     id: "home-appliances",
     title: "لوازم خانگی برقی",
     slug: "home-appliances",
-    icon: <Plug />,
-    href: "/main/home-appliances/",
+    icon: <Plug />
   },
   {
     id: "beauty",
     title: "آرایشی بهداشتی",
     slug: "beauty",
-    icon: <Sparkles />,
-    href: "/main/beauty/",
+    icon: <Sparkles />
   },
   {
     id: "fashion",
     title: "مد و پوشاک",
     slug: "fashion",
-    icon: <Shirt />,
-    href: "/main/apparel/",
+    icon: <Shirt />
   },
   {
     id: "gold",
     title: "طلا و نقره",
     slug: "gold",
-    icon: <Gem />,
-    href: "/main/gold/",
+    icon: <Gem />
   },
   {
     id: "auto",
     title: "خودرو و موتورسیکلت",
     slug: "auto",
-    icon: <Car />,
-    href: "/main/vehicles/",
+    icon: <Car />
   },
   {
     id: "health",
     title: "سلامت و پزشکی",
     slug: "health",
-    icon: <HeartPulse />,
-    href: "/main/health/",
+    icon: <HeartPulse />
   },
   {
     id: "tools",
     title: "ابزارآلات و تجهیزات",
     slug: "tools",
-    icon: <Wrench />,
-    href: "/main/tools/",
+    icon: <Wrench />
   },
   {
     id: "books",
     title: "کتاب و هنر",
     slug: "books",
-    icon: <BookOpen />,
-    href: "/main/books/",
+    icon: <BookOpen />
   },
 ];

@@ -1,5 +1,5 @@
 "use client";
-
+import Link from "next/link";
 import { sidebarCategories, SidebarCategory } from "@/src/data/megaMenu";
 
 interface MegaMenuSidebarProps {
@@ -15,7 +15,7 @@ export default function MegaMenuSidebar({ activeId, onSelect }: MegaMenuSidebarP
           const isActive = activeId === category.id;
 
           return (
-            <li key={category.id}>
+            <Link href={`/category/${category.slug}`} key={category.id}>
               <button
                 onMouseEnter={() => onSelect(category.id)}
                 onClick={() => onSelect(category.id)}
@@ -31,7 +31,7 @@ export default function MegaMenuSidebar({ activeId, onSelect }: MegaMenuSidebarP
                 <span className="text-lg">{category.icon}</span>
                 <span>{category.title}</span>
               </button>
-            </li>
+            </Link>
           );
         })}
       </ul>
