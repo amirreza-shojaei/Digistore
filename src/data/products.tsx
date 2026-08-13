@@ -1,5 +1,5 @@
 // data/products.ts
-import { Product } from './type';
+import { Product } from "./type";
 
 export const products: Product[] = [
   // ========== موبایل ==========
@@ -9,17 +9,28 @@ export const products: Product[] = [
     category: "mobile",
     subcategory: "samsung",
     brand: "Samsung",
-    title: "گوشی موبایل سامسونگ مدل Galaxy S25 FE دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت",
+    title:
+      "گوشی موبایل سامسونگ مدل Galaxy S25 FE دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت",
     name: "Samsung Galaxy S25 FE",
     price: 45600000,
     discount: 12,
     rating: "4.8",
     ratingCount: 1247,
-    image: "https://dkstatics-public.digikala.com/digikala-products/55582a9ac4add1b88050b458e7d490564b3ac4b6_1759667022.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/format,webp/quality,q_90",
+    image:
+      "https://dkstatics-public.digikala.com/digikala-products/55582a9ac4add1b88050b458e7d490564b3ac4b6_1759667022.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/format,webp/quality,q_90",
     gallery: [
-      { src: "https://dkstatics-public.digikala.com/digikala-products/55582a9ac4add1b88050b458e7d490564b3ac4b6_1759667022.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Galaxy S25 FE" },
-      { src: "https://dkstatics-public.digikala.com/digikala-products/e685a271510b2a7d3d8a35f79eb995a9e0e47cca_1764607711.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Galaxy S25 FE back" },
-      { src: "https://dkstatics-public.digikala.com/digikala-products/3696bc624d46179c5af8682f7560dc6864c1f89e_1764607739.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Galaxy S25 FE side" },
+      {
+        src: "https://dkstatics-public.digikala.com/digikala-products/55582a9ac4add1b88050b458e7d490564b3ac4b6_1759667022.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+        alt: "Galaxy S25 FE",
+      },
+      {
+        src: "https://dkstatics-public.digikala.com/digikala-products/e685a271510b2a7d3d8a35f79eb995a9e0e47cca_1764607711.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+        alt: "Galaxy S25 FE back",
+      },
+      {
+        src: "https://dkstatics-public.digikala.com/digikala-products/3696bc624d46179c5af8682f7560dc6864c1f89e_1764607739.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+        alt: "Galaxy S25 FE side",
+      },
     ],
     colors: [
       { title: "مشکی", name: "black", hex: "#1a1a1a" },
@@ -33,9 +44,15 @@ export const products: Product[] = [
       { name: "اندازه صفحه", text: "6.7 اینچ" },
     ],
     specifications: [
-      { name: "صفحه نمایش", text: "6.7 اینچ Dynamic AMOLED 2X، رفرش‌ریت 120 هرتز" },
+      {
+        name: "صفحه نمایش",
+        text: "6.7 اینچ Dynamic AMOLED 2X، رفرش‌ریت 120 هرتز",
+      },
       { name: "باتری", text: "4700 میلی‌آمپرساعت با شارژ سریع 45 وات" },
-      { name: "دوربین اصلی", text: "50 مگاپیکسل + 12 مگاپیکسل اولترا واید + 8 مگاپیکسل تله‌فوتو" },
+      {
+        name: "دوربین اصلی",
+        text: "50 مگاپیکسل + 12 مگاپیکسل اولترا واید + 8 مگاپیکسل تله‌فوتو",
+      },
       { name: "دوربین سلفی", text: "12 مگاپیکسل" },
       { name: "سیستم عامل", text: "Android 15 با One UI 7" },
       { name: "مقاومت در برابر آب", text: "IP68" },
@@ -44,7 +61,8 @@ export const products: Product[] = [
     isAmazing: true,
     isOriginal: true,
     seller: "دیجی‌کالا",
-    description: "گلکسی S25 FE نسل جدید میان‌رده پرچمدار سامسونگ با پردازنده قدرتمند و دوربین حرفه‌ای.",
+    description:
+      "گلکسی S25 FE نسل جدید میان‌رده پرچمدار سامسونگ با پردازنده قدرتمند و دوربین حرفه‌ای.",
   },
   {
     id: "2",
@@ -52,15 +70,20 @@ export const products: Product[] = [
     category: "mobile",
     subcategory: "apple",
     brand: "Apple",
-    title: "گوشی موبایل اپل مدل iPhone 16 Pro Max دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت",
+    title:
+      "گوشی موبایل اپل مدل iPhone 16 Pro Max دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت",
     name: "Apple iPhone 16 Pro Max",
     price: 124900000,
     discount: 5,
     rating: "4.9",
     ratingCount: 892,
-    image: "https://dkstatics-public.digikala.com/digikala-products/48daaebd4cb7706cce21ce8b5e485d6fdafa6bd1_1736598863.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+    image:
+      "https://dkstatics-public.digikala.com/digikala-products/48daaebd4cb7706cce21ce8b5e485d6fdafa6bd1_1736598863.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
     gallery: [
-      { src: "https://dkstatics-public.digikala.com/digikala-products/48daaebd4cb7706cce21ce8b5e485d6fdafa6bd1_1736598863.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "iPhone 16 Pro Max" },
+      {
+        src: "https://dkstatics-public.digikala.com/digikala-products/48daaebd4cb7706cce21ce8b5e485d6fdafa6bd1_1736598863.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+        alt: "iPhone 16 Pro Max",
+      },
     ],
     colors: [
       { title: "تیتانیوم طبیعی", name: "natural-titanium", hex: "#8a8a8a" },
@@ -75,9 +98,15 @@ export const products: Product[] = [
       { name: "اندازه صفحه", text: "6.9 اینچ" },
     ],
     specifications: [
-      { name: "نمایشگر", text: "6.9 اینچ Super Retina XDR OLED، ProMotion 120Hz" },
+      {
+        name: "نمایشگر",
+        text: "6.9 اینچ Super Retina XDR OLED، ProMotion 120Hz",
+      },
       { name: "چیپست", text: "Apple A18 Pro" },
-      { name: "دوربین اصلی", text: "48 مگاپیکسل + 12 مگاپیکسل اولترا واید + 12 مگاپیکسل تله‌فوتو 5x" },
+      {
+        name: "دوربین اصلی",
+        text: "48 مگاپیکسل + 12 مگاپیکسل اولترا واید + 12 مگاپیکسل تله‌فوتو 5x",
+      },
       { name: "باتری", text: "تا 33 ساعت پخش ویدیو" },
       { name: "سیستم عامل", text: "iOS 18" },
       { name: "مقاومت", text: "IP68 + Ceramic Shield" },
@@ -92,15 +121,20 @@ export const products: Product[] = [
     slug: "mobile-Xiaomi-Redmi-Note-14",
     category: "mobile",
     brand: "Xiaomi",
-    title: "گوشی موبایل شیائومی مدل Redmi Note 14 4G دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت",
+    title:
+      "گوشی موبایل شیائومی مدل Redmi Note 14 4G دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت",
     name: "Xiaomi Redmi Note 14",
     price: 18990000,
     discount: 8,
     rating: "4.6",
     ratingCount: 2156,
-    image: "https://dkstatics-public.digikala.com/digikala-products/55582a9ac4add1b88050b458e7d490564b3ac4b6_1759667022.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/format,webp/quality,q_90",
+    image:
+      "https://dkstatics-public.digikala.com/digikala-products/55582a9ac4add1b88050b458e7d490564b3ac4b6_1759667022.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/format,webp/quality,q_90",
     gallery: [
-      { src: "https://dkstatics-public.digikala.com/digikala-products/55582a9ac4add1b88050b458e7d490564b3ac4b6_1759667022.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Redmi Note 14" },
+      {
+        src: "https://dkstatics-public.digikala.com/digikala-products/55582a9ac4add1b88050b458e7d490564b3ac4b6_1759667022.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+        alt: "Redmi Note 14",
+      },
     ],
     colors: [
       { title: "مشکی", name: "black" },
@@ -128,16 +162,24 @@ export const products: Product[] = [
     slug: "laptop-ASUS-Vivobook-15",
     category: "laptop",
     brand: "ASUS",
-    title: "لپ تاپ 15.6 اینچی ایسوس مدل Vivobook 15 X1504VA-NJ928-i7 13620H-16GB DDR4-512GB SSD-Intel",
+    title:
+      "لپ تاپ 15.6 اینچی ایسوس مدل Vivobook 15 X1504VA-NJ928-i7 13620H-16GB DDR4-512GB SSD-Intel",
     name: "ASUS Vivobook 15",
     price: 38900000,
     discount: 18,
     rating: "4.6",
     ratingCount: 432,
-    image: "https://dkstatics-public.digikala.com/digikala-products/9930f7954726af3d2b465182926e18b5b25e8162_1755788508.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+    image:
+      "https://dkstatics-public.digikala.com/digikala-products/9930f7954726af3d2b465182926e18b5b25e8162_1755788508.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
     gallery: [
-      { src: "https://dkstatics-public.digikala.com/digikala-products/9930f7954726af3d2b465182926e18b5b25e8162_1755788508.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Vivobook 15" },
-      { src: "https://dkstatics-public.digikala.com/digikala-products/f25b8cbd34c83bb6fdeab45d2d9e567c82fb54c3_1756555451.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Vivobook side" },
+      {
+        src: "https://dkstatics-public.digikala.com/digikala-products/9930f7954726af3d2b465182926e18b5b25e8162_1755788508.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+        alt: "Vivobook 15",
+      },
+      {
+        src: "https://dkstatics-public.digikala.com/digikala-products/f25b8cbd34c83bb6fdeab45d2d9e567c82fb54c3_1756555451.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+        alt: "Vivobook side",
+      },
     ],
     colors: [
       { title: "نقره‌ای", name: "silver" },
@@ -163,15 +205,20 @@ export const products: Product[] = [
     slug: "laptop-Lenovo-IdeaPad-Slim-3",
     category: "laptop",
     brand: "Lenovo",
-    title: "لپ تاپ 15.6 اینچی لنوو مدل IdeaPad Slim 3 15IRH8-i5 13420H-16GB-512GB SSD",
+    title:
+      "لپ تاپ 15.6 اینچی لنوو مدل IdeaPad Slim 3 15IRH8-i5 13420H-16GB-512GB SSD",
     name: "Lenovo IdeaPad Slim 3",
     price: 32900000,
     discount: 10,
     rating: "4.5",
     ratingCount: 287,
-    image: "https://dkstatics-public.digikala.com/digikala-products/9930f7954726af3d2b465182926e18b5b25e8162_1755788508.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+    image:
+      "https://dkstatics-public.digikala.com/digikala-products/9930f7954726af3d2b465182926e18b5b25e8162_1755788508.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
     gallery: [
-      { src: "https://dkstatics-public.digikala.com/digikala-products/9930f7954726af3d2b465182926e18b5b25e8162_1755788508.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "IdeaPad Slim 3" },
+      {
+        src: "https://dkstatics-public.digikala.com/digikala-products/9930f7954726af3d2b465182926e18b5b25e8162_1755788508.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+        alt: "IdeaPad Slim 3",
+      },
     ],
     colors: [{ title: "خاکستری", name: "grey" }],
     properties: [
@@ -200,10 +247,17 @@ export const products: Product[] = [
     discount: 0,
     rating: "4.9",
     ratingCount: 1563,
-    image: "https://dkstatics-public.digikala.com/digikala-products/3bc08f041859daac2c0af8535b4c6894f1b496cf_1745825003.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+    image:
+      "https://dkstatics-public.digikala.com/digikala-products/3bc08f041859daac2c0af8535b4c6894f1b496cf_1745825003.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
     gallery: [
-      { src: "https://dkstatics-public.digikala.com/digikala-products/3bc08f041859daac2c0af8535b4c6894f1b496cf_1745825003.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Sony XM5" },
-      { src: "https://dkstatics-public.digikala.com/digikala-products/e7d12999420e140c398fa1f8a4fb631312552e41_1695473459.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Sony XM5 folded" },
+      {
+        src: "https://dkstatics-public.digikala.com/digikala-products/3bc08f041859daac2c0af8535b4c6894f1b496cf_1745825003.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+        alt: "Sony XM5",
+      },
+      {
+        src: "https://dkstatics-public.digikala.com/digikala-products/e7d12999420e140c398fa1f8a4fb631312552e41_1695473459.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+        alt: "Sony XM5 folded",
+      },
     ],
     colors: [
       { title: "مشکی", name: "black" },
@@ -229,15 +283,20 @@ export const products: Product[] = [
     slug: "digital-Anker-Soundcore-R50i",
     category: "digital",
     brand: "Anker",
-    title: "هدفون بلوتوثی انکر مدل Soundcore R50i با قابلیت مکالمه و مقاومت در برابر آب",
+    title:
+      "هدفون بلوتوثی انکر مدل Soundcore R50i با قابلیت مکالمه و مقاومت در برابر آب",
     name: "Anker Soundcore R50i",
     price: 2400000,
     discount: 15,
     rating: "4.4",
     ratingCount: 3241,
-    image: "https://dkstatics-public.digikala.com/digikala-products/3bc08f041859daac2c0af8535b4c6894f1b496cf_1745825003.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+    image:
+      "https://dkstatics-public.digikala.com/digikala-products/3bc08f041859daac2c0af8535b4c6894f1b496cf_1745825003.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
     gallery: [
-      { src: "https://dkstatics-public.digikala.com/digikala-products/3bc08f041859daac2c0af8535b4c6894f1b496cf_1745825003.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Anker R50i" },
+      {
+        src: "https://dkstatics-public.digikala.com/digikala-products/3bc08f041859daac2c0af8535b4c6894f1b496cf_1745825003.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+        alt: "Anker R50i",
+      },
     ],
     colors: [
       { title: "مشکی", name: "black" },
@@ -269,10 +328,17 @@ export const products: Product[] = [
     discount: 10,
     rating: "4.7",
     ratingCount: 678,
-    image: "https://dkstatics-public.digikala.com/digikala-products/e0adcb187655ea1d704a4b4a288ffc41e8e2a233_1739285743.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+    image:
+      "https://dkstatics-public.digikala.com/digikala-products/e0adcb187655ea1d704a4b4a288ffc41e8e2a233_1739285743.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
     gallery: [
-      { src: "https://dkstatics-public.digikala.com/digikala-products/e0adcb187655ea1d704a4b4a288ffc41e8e2a233_1739285743.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Apple Watch Series 10" },
-      { src: "https://dkstatics-public.digikala.com/digikala-products/c7cbe7f10b2d893f4fd6577649c83186c6cb2fd1_1727616118.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Apple Watch side" },
+      {
+        src: "https://dkstatics-public.digikala.com/digikala-products/e0adcb187655ea1d704a4b4a288ffc41e8e2a233_1739285743.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+        alt: "Apple Watch Series 10",
+      },
+      {
+        src: "https://dkstatics-public.digikala.com/digikala-products/c7cbe7f10b2d893f4fd6577649c83186c6cb2fd1_1727616118.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+        alt: "Apple Watch side",
+      },
     ],
     colors: [
       { title: "آلومینیوم نقره‌ای", name: "silver" },
@@ -305,9 +371,13 @@ export const products: Product[] = [
     discount: 12,
     rating: "4.6",
     ratingCount: 512,
-    image: "https://dkstatics-public.digikala.com/digikala-products/e0adcb187655ea1d704a4b4a288ffc41e8e2a233_1739285743.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+    image:
+      "https://dkstatics-public.digikala.com/digikala-products/e0adcb187655ea1d704a4b4a288ffc41e8e2a233_1739285743.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
     gallery: [
-      { src: "https://dkstatics-public.digikala.com/digikala-products/e0adcb187655ea1d704a4b4a288ffc41e8e2a233_1739285743.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Galaxy Watch 7" },
+      {
+        src: "https://dkstatics-public.digikala.com/digikala-products/e0adcb187655ea1d704a4b4a288ffc41e8e2a233_1739285743.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+        alt: "Galaxy Watch 7",
+      },
     ],
     colors: [
       { title: "سبز", name: "green" },
@@ -339,9 +409,13 @@ export const products: Product[] = [
     discount: 7,
     rating: "4.5",
     ratingCount: 198,
-    image: "https://dkstatics-public.digikala.com/digikala-products/f91a9fa4f89204cc6f23a39bcc356e17e943d73d_1772625340.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+    image:
+      "https://dkstatics-public.digikala.com/digikala-products/f91a9fa4f89204cc6f23a39bcc356e17e943d73d_1772625340.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
     gallery: [
-      { src: "https://dkstatics-public.digikala.com/digikala-products/f91a9fa4f89204cc6f23a39bcc356e17e943d73d_1772625340.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Pad 7 Pro" },
+      {
+        src: "https://dkstatics-public.digikala.com/digikala-products/f91a9fa4f89204cc6f23a39bcc356e17e943d73d_1772625340.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+        alt: "Pad 7 Pro",
+      },
     ],
     colors: [
       { title: "خاکستری", name: "grey" },
@@ -366,15 +440,20 @@ export const products: Product[] = [
     slug: "mobile-Samsung-Galaxy-Tab-S10",
     category: "mobile",
     brand: "Samsung",
-    title: "تبلت سامسونگ مدل Galaxy Tab S10 FE ظرفیت 128 گیگابایت و رم 8 گیگابایت",
+    title:
+      "تبلت سامسونگ مدل Galaxy Tab S10 FE ظرفیت 128 گیگابایت و رم 8 گیگابایت",
     name: "Samsung Galaxy Tab S10 FE",
     price: 24900000,
     discount: 9,
     rating: "4.7",
     ratingCount: 145,
-    image: "https://dkstatics-public.digikala.com/digikala-products/f91a9fa4f89204cc6f23a39bcc356e17e943d73d_1772625340.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+    image:
+      "https://dkstatics-public.digikala.com/digikala-products/f91a9fa4f89204cc6f23a39bcc356e17e943d73d_1772625340.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
     gallery: [
-      { src: "https://dkstatics-public.digikala.com/digikala-products/f91a9fa4f89204cc6f23a39bcc356e17e943d73d_1772625340.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "Tab S10 FE" },
+      {
+        src: "https://dkstatics-public.digikala.com/digikala-products/f91a9fa4f89204cc6f23a39bcc356e17e943d73d_1772625340.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+        alt: "Tab S10 FE",
+      },
     ],
     colors: [
       { title: "خاکستری", name: "gray" },
@@ -406,9 +485,13 @@ export const products: Product[] = [
     discount: 21,
     rating: "4.4",
     ratingCount: 89,
-    image: "https://dkstatics-public.digikala.com/digikala-products/9930f7954726af3d2b465182926e18b5b25e8162_1755788508.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+    image:
+      "https://dkstatics-public.digikala.com/digikala-products/9930f7954726af3d2b465182926e18b5b25e8162_1755788508.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
     gallery: [
-      { src: "https://dkstatics-public.digikala.com/digikala-products/9930f7954726af3d2b465182926e18b5b25e8162_1755788508.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90", alt: "XVision TV" },
+      {
+        src: "https://dkstatics-public.digikala.com/digikala-products/9930f7954726af3d2b465182926e18b5b25e8162_1755788508.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+        alt: "XVision TV",
+      },
     ],
     colors: [{ title: "مشکی", name: "black" }],
     properties: [
@@ -429,17 +512,17 @@ export const products: Product[] = [
 
 // توابع کمکی مفید
 export const getProductsByCategory = (categorySlug: string) =>
-  products.filter(p => p.category === categorySlug);
+  products.filter((p) => p.category === categorySlug);
 
 export const getProductBySlug = (slug: string) =>
-  products.find(p => p.slug === slug);
+  products.find((p) => p.slug === slug);
 
-export const getAmazingOffers = () =>
-  products.filter(p => p.isAmazing);
+export const getAmazingOffers = () => products.filter((p) => p.isAmazing);
 
 export const searchProducts = (query: string) =>
-  products.filter(p =>
-    p.title.includes(query) ||
-    p.name.toLowerCase().includes(query.toLowerCase()) ||
-    p.brand.toLowerCase().includes(query.toLowerCase())
+  products.filter(
+    (p) =>
+      p.title.includes(query) ||
+      p.name.toLowerCase().includes(query.toLowerCase()) ||
+      p.brand.toLowerCase().includes(query.toLowerCase()),
   );

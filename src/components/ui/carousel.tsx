@@ -8,12 +8,10 @@ import "swiper/css/navigation";
 import { Banner } from "@/src/data/type";
 
 interface CarouselProps {
-  items:Banner[]
+  items: Banner[];
 }
 
-
-
-export default function Carousel({items}:CarouselProps) {
+export default function Carousel({ items }: CarouselProps) {
   return (
     <Swiper
       modules={[Autoplay, Pagination, Navigation]}

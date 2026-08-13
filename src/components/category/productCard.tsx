@@ -14,8 +14,7 @@ export default function ProductCard({ product }: ProductCardProps) {
     ? Math.round(product.price * (1 - product.discount / 100))
     : product.price;
 
-  const formatPrice = (price: number) =>
-    price.toLocaleString("fa-IR");
+  const formatPrice = (price: number) => price.toLocaleString("fa-IR");
 
   return (
     <Link

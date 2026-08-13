@@ -19,11 +19,15 @@ function Navbar() {
               <MegaMenu/>
             </div>
             
-                 {
-                    items.map((item)=>(
-                        <Link key={item.id} href={item.link} className="border-b-5 border-transparent transition-all hover:border-red-500" > {item.title}</Link>
-                    ))
-                 }
+       <div className='hidden lg:flex items-center gap-6 text-sm text-gray-600'>
+  {
+    items.map((item)=>(
+      <Link key={item.id} href={item.link} className="border-b-5 border-transparent transition-all hover:border-red-500">
+        {item.title}
+      </Link>
+    ))
+  }
+</div>
           </ul>
         </nav>
         <button className="flex items-center gap-2 rounded-full bg-orange-50 px-4 py-2 text-sm text-orange-500">
