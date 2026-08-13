@@ -12,7 +12,7 @@ export default function MegaMenu() {
       <button
         onClick={() => setIsOpen(!isOpen)}
         onMouseEnter={() => setIsOpen(true)}
-        className="flex items-center gap-2 px-3 py-2   text-black font-bold hover:text-red-500"
+        className="flex items-center gap-2 text-lg text-black font-bold hover:text-red-500"
       >
         <span className="text-lg ">☰</span>
         دسته‌بندی کالاها

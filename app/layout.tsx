@@ -1,7 +1,7 @@
 import "./globals.css";
 import localFont from "next/font/local";
 import { cn } from "@/lib/utils";
-import Header from "@/src/components/layout/header";
+import Header from "@/src/components/layout/header/header";
 import Footer from "@/src/components/layout/footer";
 
 const myFont = localFont({
