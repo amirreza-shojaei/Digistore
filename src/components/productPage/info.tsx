@@ -3,9 +3,9 @@
 import { ChevronLeft } from "lucide-react";
 import Purchase from "./purchase";
 import Breadcrumb from "../ui/breadcrumb";
-import ColorSelector from "./colorSelector"
+import ColorSelector from "./colorSelector";
 import { scroller } from "../../utils/scrollManager";
-import {Product} from "../../data/type"
+import { Product } from "../../types/interfaces";
 interface ProductInfoProps {
   product: Product;
 }

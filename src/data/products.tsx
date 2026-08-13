@@ -1,5 +1,5 @@
 // data/products.ts
-import { Product } from "./type";
+import { Product } from "../types/interfaces";
 
 export const products: Product[] = [
   // ========== موبایل ==========

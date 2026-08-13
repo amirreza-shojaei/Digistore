@@ -1,8 +1,8 @@
 import React from "react";
 import Carousel from "@/src/components/ui/carousel";
-import CategorySwiper from "@/src/components/home/categorySwiper";
+import CategorySwiper from "@/src/components/homePage/categorySwiper";
 import { categoryP } from "@/src/data/swiper";
-import {banners} from "@/src/data/carousel";
+import { banners } from "@/src/data/carousel";
 function Home() {
   return (
     <div>

@@ -1,5 +1,5 @@
 // data/banners.ts
-import { Banner } from "../data/type";
+import { Banner } from "../types/interfaces";
 
 export const banners: Banner[] = [
   {

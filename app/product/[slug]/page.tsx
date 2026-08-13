@@ -1,8 +1,8 @@
 import { products } from "@/src/data/products";
-import Gallery from "@/src/components/product/galery";
-import Info from "@/src/components/product/info";
+import Gallery from "@/src/components/productPage/galery";
+import Info from "@/src/components/productPage/info";
 import Breadcrumb from "@/src/components/ui/breadcrumb";
-import Specifications from "@/src/components/product/specifications";
+import Specifications from "@/src/components/productPage/specifications";
 import { notFound } from "next/navigation";
 type Props = {
   params: Promise<{

@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Star } from "lucide-react";
-import { Product } from "@/src/data/type"; // اینترفیس محصول خودت
+import { Product } from "@/src/types/interfaces"; // اینترفیس محصول خودت
 
 interface ProductCardProps {
   product: Product;

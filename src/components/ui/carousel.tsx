@@ -5,7 +5,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Banner } from "@/src/data/type";
+import { Banner } from "@/src/types/interfaces";
 
 interface CarouselProps {
   items: Banner[];

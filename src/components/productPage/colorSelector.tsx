@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { Check } from "lucide-react";
-import { Product } from "@/src/data/type";
+import { Product } from "@/src/types/interfaces";
 
 interface ColorSelectorProps {
   product: Product;
