@@ -1,14 +1,11 @@
-import React from 'react'
-import Breadcrumb from '@/src/components/ui/breadcrumb';
-interface HLayout{
-    children:React.ReactNode;
-}
-function Layout({children}:HLayout) {
-  return (
-    <div className='m-5'>
-      <Breadcrumb className=" text-gray-400 m-7" />
-      {children}</div>
-  )
-}
+import { ReactNode } from "react";
+import Breadcrumb from "@/src/components/ui/breadcrumb";
 
-export default Layout
+export default function CategoryLayout({ children }: { children: ReactNode }) {
+  return (
+    <div className="mx-auto  px-4 py-6 sm:px-6">
+      <Breadcrumb className="mb-6 text-sm text-gray-400" />
+      {children}
+    </div>
+  );
+}

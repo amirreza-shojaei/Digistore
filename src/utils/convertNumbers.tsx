@@ -1,16 +1,13 @@
-export function ConvertNumbers(input: string | number, direction: 'toPersian' | 'toEnglish' = 'toPersian'): string {
-  const persianDigits = '۰۱۲۳۴۵۶۷۸۹';
-  const englishDigits = '0123456789';
-  
-  const strInput = String(input);
-  
-  if (direction === 'toPersian') {
-    return strInput.replace(/\d/g, (match) => {
-      return persianDigits[parseInt(match)];
-    });
-  } else {
-    return strInput.replace(/[۰-۹]/g, (match) => {
-      return englishDigits[persianDigits.indexOf(match)];
-    });
+export function ConvertNumbers(
+  value: number | string,
+  type: "toPersian" | "toEnglish" = "toPersian"
+) {
+  const num = Number(value);
+
+  if (type === "toPersian") {
+    return new Intl.NumberFormat("fa-IR").format(num);
   }
+
+  // اگر حالت انگلیسی هم لازم داری
+  return new Intl.NumberFormat("en-US").format(num);
 }

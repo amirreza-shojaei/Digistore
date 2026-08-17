@@ -13,7 +13,7 @@ export const products: Product[] = [
       "گوشی موبایل سامسونگ مدل Galaxy S25 FE دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت",
     name: "Samsung Galaxy S25 FE",
     price: 45600000,
-    discount: 12,
+    discount: 0,
     rating: "4.8",
     ratingCount: 1247,
     image:
@@ -58,7 +58,7 @@ export const products: Product[] = [
       { name: "مقاومت در برابر آب", text: "IP68" },
     ],
     stock: 34,
-    isAmazing: true,
+    isAmazing: false,
     isOriginal: true,
     seller: "دیجی‌کالا",
     description:
@@ -137,9 +137,9 @@ export const products: Product[] = [
       },
     ],
     colors: [
-      { title: "مشکی", name: "black" },
-      { title: "آبی", name: "blue" },
-      { title: "سبز", name: "green" },
+      { title: "مشکی", name: "black",hex:"#1a1a1a" },
+      { title: "آبی", name: "blue",hex:"#1e3a8a" },
+      { title: "سبز", name: "green",hex:"#1aaf3f" },
     ],
     properties: [
       { name: "حافظه", text: "256 گیگابایت" },
