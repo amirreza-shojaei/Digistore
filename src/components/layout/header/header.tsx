@@ -6,9 +6,9 @@ import HeaderActions from "./headerActions";
 
 const Header = () => {
   return (
-    <header className="w-auto border-b bg-white mx-4">
+    <header className=" w-auto border-b bg-white mx-4" id="header">
       {/* Top Header */}
-      <div className="mx-auto flex h-20 items-center justify-between">
+      <div className="  mx-auto flex h-20 items-center justify-between">
         {/* Logo Section */}
         <div className="flex items-center gap-6">
           <HeaderLogo />
