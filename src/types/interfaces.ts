@@ -32,7 +32,7 @@ export interface Product {
   price: number;             // قیمت به تومان
   discount: number;          // درصد تخفیف (0 تا 100)
   rating: string;            // مثلاً "4.8"
-  ratingCount?: number;      // تعداد نظرات
+  ratingCount: number;      // تعداد نظرات
   image: string;             // تصویر اصلی
   gallery: GalleryItem[];
   colors: ColorOption[];

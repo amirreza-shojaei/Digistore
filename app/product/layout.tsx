@@ -1,13 +1,5 @@
-import React from 'react'
+import { ReactNode } from "react";
 
-interface HLayout{
-    children:React.ReactNode;
+export default function ProductLayout({ children }: { children: ReactNode }) {
+  return <>{children}</>;
 }
-function Layout({children}:HLayout) {
-  return (
-    <div className=''>
-      {children}</div>
-  )
-}
-
-export default Layout

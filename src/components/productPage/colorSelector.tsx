@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 import { Check } from "lucide-react";
 import { Product } from "@/src/types/interfaces";
@@ -9,50 +10,53 @@ interface ColorSelectorProps {
 
 export default function ColorSelector({ product }: ColorSelectorProps) {
   const [selectedIndex, setSelectedIndex] = useState(0);
-  console.log(product.colors[selectedIndex].name);
+
+  const selectedColor = product.colors[selectedIndex];
+
   return (
     <div className="w-full">
-      <div className="flex items-center gap-3 mb-4" dir="rtl">
-        <h3 className="font-bold text-lg">
+      {/* color name*/}
+      <div className="mb-4 flex items-center gap-3" dir="rtl">
+        <h3 className="text-lg font-bold">
           رنگ:
-          <span className="font-normal mr-1">
-            {product.colors[selectedIndex]?.title}
-          </span>
+          <span className="mr-1 font-normal">{selectedColor?.title}</span>
         </h3>
         <div
-          className={`w-5 h-5 rounded-full `}
-          style={{
-            backgroundColor:
-              selectedIndex || selectedIndex == 0
-                ? product.colors[selectedIndex].name
-                : "",
-          }}
-        ></div>
+          className="h-5 w-5 rounded-full border border-gray-200"
+          style={{ backgroundColor: selectedColor?.hex }}
+        />
       </div>
-
+{/*select button */}
       <div className="flex gap-3" dir="rtl">
         {product.colors.map((color, index) => {
           const isSelected = selectedIndex === index;
 
           return (
             <button
-              key={index}
+              key={color.name + index}
+              type="button"
               onClick={() => setSelectedIndex(index)}
+              aria-label={`انتخاب رنگ ${color.title}`}
               className={`
-                w-12 h-12 rounded-full flex items-center justify-center transition-all duration-200
-                ${isSelected ? "border-2 border-[#1a73e8]" : "border border-gray-300 hover:border-gray-400"}
+                relative flex h-12 w-12 items-center justify-center rounded-full
+                transition-all duration-200
+                ${
+                  isSelected
+                    ? "border-4 border-blue-600 bg-blue-50"
+                    : "border border-gray-300 hover:border-gray-400"
+                }
               `}
-              style={{
-                backgroundColor: isSelected ? "#e8f0fe" : "transparent",
-              }}
             >
               <div
-                className="w-8 h-8 rounded-full shrink-0"
-                style={{ backgroundColor: color.name }}
+                className="h-8 w-8 shrink-0 rounded-full"
+                style={{ backgroundColor: color.hex }}
               />
+
               {isSelected && (
-                <div className="absolute w-6 h-6 rounded-full bg-[#d2e3fc] flex items-center justify-center">
-                  <Check size={16} className="text-black stroke-[3]" />
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="flex h-6 w-6 items-center justify-center rounded-full">
+                    <Check size={14} className={`stroke-7 ${selectedColor.name.includes("white") ?"text-black" :"text-white"}`} />
+                  </div>
                 </div>
               )}
             </button>

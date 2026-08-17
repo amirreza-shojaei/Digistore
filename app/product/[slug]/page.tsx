@@ -1,9 +1,10 @@
 import { products } from "@/src/data/products";
-import Gallery from "@/src/components/productPage/galery";
+import Gallery from "@/src/components/productPage/gallery";
 import Info from "@/src/components/productPage/info";
 import Breadcrumb from "@/src/components/ui/breadcrumb";
 import Specifications from "@/src/components/productPage/specifications";
 import { notFound } from "next/navigation";
+
 type Props = {
   params: Promise<{
     slug: string;
@@ -12,7 +13,6 @@ type Props = {
 
 export default async function ProductPage({ params }: Props) {
   const { slug } = await params;
-
   const product = products.find((item) => item.slug === slug);
 
   if (!product) {
@@ -20,17 +20,19 @@ export default async function ProductPage({ params }: Props) {
   }
 
   return (
-    <div className="m-5">
-      <Breadcrumb className=" text-gray-400" />
-      
-      <div className="grid grid-cols-9  gap-1 mt-10">
-        <div className="col-span-3">
+    <div className="mx-auto px-4 py-6 sm:px-6">
+      <Breadcrumb className="mb-6 text-sm text-gray-400" />
+
+      <div className="grid grid-cols-1 gap-8 lg:grid-cols-12">
+        <div className="lg:col-span-4">
           <Gallery items={product.gallery} />
         </div>
-        <div className="col-span-6">
+
+        <div className="lg:col-span-8">
           <Info product={product} />
         </div>
       </div>
+
       <Specifications items={product.specifications} />
     </div>
   );
