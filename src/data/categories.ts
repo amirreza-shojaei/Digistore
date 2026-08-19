@@ -75,37 +75,37 @@ export const categories: Category[] = [
     image: "https://dkstatics-public.digikala.com/digikala-admin-landing/0cdf9c404e509371c3177a334be948a7e500419c_1740821987.jpg?x-oss-process=image/format,webp"
   },
     {
-    id: "books",
+    id: "books2",
     title: "کتاب و هنر",
     slug: "books",
     image: "https://dkstatics-public.digikala.com/digikala-admin-landing/0cdf9c404e509371c3177a334be948a7e500419c_1740821987.jpg?x-oss-process=image/format,webp"
   },
    {
-    id: "books",
+    id: "books3",
     title: "کتاب و هنر",
     slug: "books",
     image: "https://dkstatics-public.digikala.com/digikala-admin-landing/0cdf9c404e509371c3177a334be948a7e500419c_1740821987.jpg?x-oss-process=image/format,webp"
   },
    {
-    id: "books",
+    id: "books4",
     title: "کتاب و هنر",
     slug: "books",
     image: "https://dkstatics-public.digikala.com/digikala-admin-landing/0cdf9c404e509371c3177a334be948a7e500419c_1740821987.jpg?x-oss-process=image/format,webp"
   },
    {
-    id: "books",
+    id: "books5",
     title: "کتاب و هنر",
     slug: "books",
     image: "https://dkstatics-public.digikala.com/digikala-admin-landing/0cdf9c404e509371c3177a334be948a7e500419c_1740821987.jpg?x-oss-process=image/format,webp"
   },
    {
-    id: "books",
+    id: "books6",
     title: "کتاب و هنر",
     slug: "books",
     image: "https://dkstatics-public.digikala.com/digikala-admin-landing/0cdf9c404e509371c3177a334be948a7e500419c_1740821987.jpg?x-oss-process=image/format,webp"
   },
    {
-    id: "books",
+    id: "books7",
     title: "کتاب و هنر",
     slug: "books",
     image: "https://dkstatics-public.digikala.com/digikala-admin-landing/0cdf9c404e509371c3177a334be948a7e500419c_1740821987.jpg?x-oss-process=image/format,webp"

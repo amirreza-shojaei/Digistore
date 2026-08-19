@@ -57,7 +57,6 @@ export interface Banner {
   title: string;
   image: string;
   link: string;
-  mobileImage?: string;
 }
 
 // types.ts (اضافه کن)

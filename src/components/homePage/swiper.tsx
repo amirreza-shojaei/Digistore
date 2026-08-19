@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 import { type CategorysSwiper } from "./categorySwiper";
 import Image from "next/image";
 import Link from "next/link";
-
+import {ChevronLeft } from "lucide-react"
 export interface ProductSwiperProps {
   items: CategorysSwiper;
 }
@@ -20,8 +20,9 @@ export default function ProductSwiper({ items }: ProductSwiperProps) {
         <h2 className="text-xl md:text-2xl font-bold text-gray-800">
           {items.catName}
         </h2>
-        <button className="text-blue-600 hover:text-blue-800 font-medium text-sm md:text-base transition-colors">
+        <button className=" flex felx-row bg-gray-100 border p-2 rounded-lg hover:text-red-700   transition-colors">
           مشاهده همه
+          <ChevronLeft />
         </button>
       </div>
 
@@ -34,26 +35,26 @@ export default function ProductSwiper({ items }: ProductSwiperProps) {
           slidesPerView={1}
           breakpoints={{
             480: {
-              slidesPerView: 2,
+              slidesPerView: 4,
               spaceBetween: 15,
             },
             768: {
-              slidesPerView: 3,
+              slidesPerView: 5,
               spaceBetween: 20,
             },
             1024: {
-              slidesPerView: 4,
+              slidesPerView: 6,
               spaceBetween: 20,
             },
             1280: {
-              slidesPerView: 5,
+              slidesPerView: 7,
               spaceBetween: 20,
             },
           }}
           className="product-swiper"
         >
           {items.product.map((item) => (
-            <SwiperSlide key={item.id} className="w-62.5!">
+            <SwiperSlide key={item.id} >
               <Link href={`/product/${item.slug}`} key={item.id}>
                 <div className="group rounded-xl border border-gray-200 hover:shadow-lg transition-all duration-300 h-full">
                   <div className="flex flex-col h-full">
