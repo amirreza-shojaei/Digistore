@@ -47,12 +47,9 @@ export interface Product {
 
 export interface Category {
   id: string;
-  title: string;             // فارسی
-  slug: string;
-  icon?: string;             // آیکون یا ایموجی
-  image?: string;
-  parentId?: string | null;  // برای سلسله‌مراتبی
-  children?: Category[];
+  title: string;            
+  slug: string;           
+  image: string;
 }
 
 export interface Banner {

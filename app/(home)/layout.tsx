@@ -5,7 +5,7 @@ interface HLayout{
 }
 function Layout({children}:HLayout) {
   return (
-    <div>
+    <div  >
       {children}</div>
   )
 }

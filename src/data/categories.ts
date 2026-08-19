@@ -3,113 +3,112 @@ import { Category } from "../types/interfaces";
 
 export const categories: Category[] = [
   {
-    id: "1",
+    id: "mobile",
+    title: "موبایل",
+    slug: "mobile",
+    image: "https://dkstatics-public.digikala.com/digikala-admin-landing/09a98a13c782e12a245930b4515d243b17734a33_1740821989.jpg?x-oss-process=image/format,webp"
+  },
+  {
+    id: "laptop",
+    title: "لپ تاپ",
+    slug: "laptop",
+    image: "https://dkstatics-public.digikala.com/digikala-mega-menu/7cf1fed6dac6bdfd1b888db6bf8f443ea680244b_1748692252.jpg?x-oss-process=image/format,webp"
+  },
+  {
+    id: "digital",
     title: "کالای دیجیتال",
     slug: "digital",
-    icon: "📱",
-    children: [
-      { id: "1-1", title: "موبایل", slug: "mobile", parentId: "1" },
-      { id: "1-2", title: "لپ‌تاپ و الترابوک", slug: "laptop", parentId: "1" },
-      { id: "1-3", title: "تبلت", slug: "tablet", parentId: "1" },
-      {
-        id: "1-4",
-        title: "ساعت هوشمند و مچ‌بند",
-        slug: "smartwatch",
-        parentId: "1",
-      },
-      {
-        id: "1-5",
-        title: "هدفون، هدست و هندزفری",
-        slug: "headphone",
-        parentId: "1",
-      },
-      { id: "1-6", title: "اسپیکر", slug: "speaker", parentId: "1" },
-      { id: "1-7", title: "کنسول بازی", slug: "console", parentId: "1" },
-      {
-        id: "1-8",
-        title: "لوازم جانبی موبایل",
-        slug: "mobile-accessory",
-        parentId: "1",
-      },
-    ],
+    image: "https://dkstatics-public.digikala.com/digikala-admin-landing/151ec29bae111afd3b6a0e71cec5c4c26f1c3014_1740821986.jpg?x-oss-process=image/format,webp"
   },
   {
-    id: "2",
-    title: "لوازم خانگی برقی",
-    slug: "home-appliances",
-    icon: "🏠",
-    children: [
-      {
-        id: "2-1",
-        title: "یخچال و فریزر",
-        slug: "refrigerator",
-        parentId: "2",
-      },
-      {
-        id: "2-2",
-        title: "ماشین لباسشویی",
-        slug: "washing-machine",
-        parentId: "2",
-      },
-      { id: "2-3", title: "تلویزیون", slug: "tv", parentId: "2" },
-      { id: "2-4", title: "جاروبرقی", slug: "vacuum", parentId: "2" },
-    ],
-  },
-  {
-    id: "3",
-    title: "مد و پوشاک",
-    slug: "fashion",
-    icon: "👕",
-    children: [
-      { id: "3-1", title: "لباس مردانه", slug: "men-clothing", parentId: "3" },
-      { id: "3-2", title: "لباس زنانه", slug: "women-clothing", parentId: "3" },
-      { id: "3-3", title: "کفش", slug: "shoes", parentId: "3" },
-      { id: "3-4", title: "کیف و کوله", slug: "bag", parentId: "3" },
-    ],
-  },
-  {
-    id: "4",
-    title: "آرایشی، بهداشتی و سلامت",
-    slug: "beauty-health",
-    icon: "💄",
-    children: [
-      { id: "4-1", title: "آرایش صورت", slug: "makeup", parentId: "4" },
-      { id: "4-2", title: "مراقبت پوست", slug: "skincare", parentId: "4" },
-      { id: "4-3", title: "عطر و ادکلن", slug: "perfume", parentId: "4" },
-      {
-        id: "4-4",
-        title: "مکمل‌های غذایی",
-        slug: "supplements",
-        parentId: "4",
-      },
-    ],
-  },
-  {
-    id: "5",
+    id: "home-kitchen",
     title: "خانه و آشپزخانه",
     slug: "home-kitchen",
-    icon: "🍳",
+    image: "https://dkstatics-public.digikala.com/digikala-admin-landing/8a042388b93c5116604f35092a1fb35f8f0756be_1740821985.jpg?x-oss-process=image/format,webp"
   },
   {
-    id: "6",
-    title: "کتاب، لوازم تحریر و هنر",
-    slug: "books",
-    icon: "📚",
+    id: "home-appliances",
+    title: "لوازم خانگی برقی",
+    slug: "home-appliances",
+    image:"https://dkstatics-public.digikala.com/digikala-admin-landing/d825f64f509cd5067a9022528c465e8ca705f60d_1740821988.jpg?x-oss-process=image/format,webp"
   },
   {
-    id: "7",
-    title: "ورزش و سفر",
-    slug: "sports",
-    icon: "⚽",
+    id: "beauty",
+    title: "آرایشی بهداشتی",
+    slug: "beauty",
+    image: "https://dkstatics-public.digikala.com/digikala-admin-landing/b196bbdea97f57bfac02dc1666d7401b16ee4bcb_1740821984.jpg?x-oss-process=image/format,webp"
   },
   {
-    id: "8",
+    id: "fashion",
+    title: "مد و پوشاک",
+    slug: "fashion",
+    image: "https://dkstatics-public.digikala.com/digikala-admin-landing/b3d4eaefebe67ab8d849296ea2e7e113cde8094c_1740821988.jpg?x-oss-process=image/format,webp"
+  },
+  {
+    id: "gold",
+    title: "طلا و نقره",
+    slug: "gold",
+    image: "https://dkstatics-public.digikala.com/digikala-admin-landing/78135af4274ad7b7fcdaec7e5912689e5f5db96a_1740821985.jpg?x-oss-process=image/format,webp"
+  },
+  {
+    id: "auto",
     title: "خودرو و موتورسیکلت",
     slug: "auto",
-    icon: "🚗",
+    image: "https://dkstatics-public.digikala.com/digikala-admin-landing/03552aa1293fec9f43477814ca62afdacdac18e3_1740821990.jpg?x-oss-process=image/format,webp"
   },
+  {
+    id: "health",
+    title: "سلامت و پزشکی",
+    slug: "health",
+    image: "https://dkstatics-public.digikala.com/digikala-admin-landing/deb3f514c62761797eb6a49e1559268b8bce3219_1740821984.jpg?x-oss-process=image/format,webp"
+  },
+  {
+    id: "tools",
+    title: "ابزارآلات و تجهیزات",
+    slug: "tools",
+    image: "https://dkstatics-public.digikala.com/digikala-admin-landing/fb6303218362cd2c48b40fef5da89ad33a5c04d7_1740821984.jpg?x-oss-process=image/format,webp"
+  },
+  {
+    id: "books",
+    title: "کتاب و هنر",
+    slug: "books",
+    image: "https://dkstatics-public.digikala.com/digikala-admin-landing/0cdf9c404e509371c3177a334be948a7e500419c_1740821987.jpg?x-oss-process=image/format,webp"
+  },
+    {
+    id: "books",
+    title: "کتاب و هنر",
+    slug: "books",
+    image: "https://dkstatics-public.digikala.com/digikala-admin-landing/0cdf9c404e509371c3177a334be948a7e500419c_1740821987.jpg?x-oss-process=image/format,webp"
+  },
+   {
+    id: "books",
+    title: "کتاب و هنر",
+    slug: "books",
+    image: "https://dkstatics-public.digikala.com/digikala-admin-landing/0cdf9c404e509371c3177a334be948a7e500419c_1740821987.jpg?x-oss-process=image/format,webp"
+  },
+   {
+    id: "books",
+    title: "کتاب و هنر",
+    slug: "books",
+    image: "https://dkstatics-public.digikala.com/digikala-admin-landing/0cdf9c404e509371c3177a334be948a7e500419c_1740821987.jpg?x-oss-process=image/format,webp"
+  },
+   {
+    id: "books",
+    title: "کتاب و هنر",
+    slug: "books",
+    image: "https://dkstatics-public.digikala.com/digikala-admin-landing/0cdf9c404e509371c3177a334be948a7e500419c_1740821987.jpg?x-oss-process=image/format,webp"
+  },
+   {
+    id: "books",
+    title: "کتاب و هنر",
+    slug: "books",
+    image: "https://dkstatics-public.digikala.com/digikala-admin-landing/0cdf9c404e509371c3177a334be948a7e500419c_1740821987.jpg?x-oss-process=image/format,webp"
+  },
+   {
+    id: "books",
+    title: "کتاب و هنر",
+    slug: "books",
+    image: "https://dkstatics-public.digikala.com/digikala-admin-landing/0cdf9c404e509371c3177a334be948a7e500419c_1740821987.jpg?x-oss-process=image/format,webp"
+  },
+  
 ];
-
-export const flatCategories = categories.flatMap((c) =>
-  c.children ? [c, ...c.children] : [c],
-);

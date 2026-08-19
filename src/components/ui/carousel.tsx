@@ -6,6 +6,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Banner } from "@/src/types/interfaces";
+import Image from "next/image";
 
 interface CarouselProps {
   items: Banner[];
@@ -23,14 +24,15 @@ export default function Carousel({ items }: CarouselProps) {
       }}
       pagination={{ clickable: true }}
       navigation
-      className="h-[500px] w-full rounded-2xl"
+      className="h-125 w-full"
     >
       {items.map((image) => (
         <SwiperSlide key={image.title}>
-          <img
+          <Image
             src={image.image}
             alt={image.title}
             className="h-full w-full object-cover"
+            fill
           />
         </SwiperSlide>
       ))}

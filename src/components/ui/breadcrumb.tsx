@@ -2,8 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import path from "path";
-import {sidebarCategories} from "@/src/data/megaMenu"
+
 interface BreadcrumbProps {
   className?: string;
 }
@@ -13,6 +12,7 @@ const names: Record<string, string> = {
   category: "دسته‌بندی",
   mobile: "موبایل",
   laptop: "لپ تاپ",
+  digital:"کالای دیجیتال"
 };
 
 
@@ -36,9 +36,7 @@ export default function Breadcrumb({ className = "" }: BreadcrumbProps) {
         </li>
 
         {catName.map((path, index) => {
-          // const href = "/" + paths.slice(0, index + 1).join("/");
           const href ="/category/"+path  ;
-          console.log(href);
           return (
             <li key={href} className="flex items-center gap-2">
               <span className="text-gray-400">/</span>

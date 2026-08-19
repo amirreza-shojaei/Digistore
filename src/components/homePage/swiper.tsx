@@ -14,7 +14,7 @@ export interface ProductSwiperProps {
 
 export default function ProductSwiper({ items }: ProductSwiperProps) {
   return (
-    <div className="  border m-10 mr-30 ml-30 rounded-2xl bg-white shadow-lg overflow-hidden">
+    <div className="  border my-5 rounded-2xl bg-white shadow-lg overflow-hidden">
       {/* Header Section */}
       <div className="flex justify-between items-center p-4  md:p-6 ">
         <h2 className="text-xl md:text-2xl font-bold text-gray-800">
@@ -53,17 +53,18 @@ export default function ProductSwiper({ items }: ProductSwiperProps) {
           className="product-swiper"
         >
           {items.product.map((item) => (
-            <SwiperSlide key={item.id} className="!w-[250px]">
+            <SwiperSlide key={item.id} className="w-62.5!">
               <Link href={`/product/${item.slug}`} key={item.id}>
                 <div className="group rounded-xl border border-gray-200 hover:shadow-lg transition-all duration-300 h-full">
                   <div className="flex flex-col h-full">
                     {/* Image Container */}
                     <div className="relative w-full aspect-square rounded-t-xl overflow-hidden">
                       {item.image ? (
-                        <img
+                        <Image
                           src={item.image}
                           alt={item.title || "Product image"}
                           className="w-full h-full object-contain  group-hover:scale-105 transition-transform duration-300"
+                          fill
                         />
                       ) : (
                         <div className="w-full h-full flex items-center justify-center text-gray-400">
