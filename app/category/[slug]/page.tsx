@@ -1,7 +1,7 @@
 import ProductCard from "@/src/components/categoriesPage/productCard";
 import { products } from "@/src/data/products";
 import { notFound } from "next/navigation";
-
+import {getProductsByCategory} from "@/src/services/products"
 type Props = {
   params: Promise<{
     slug: string;
@@ -10,10 +10,10 @@ type Props = {
 
 export default async function CategoryPage({ params }: Props) {
   const { slug } = await params;
-
-  const filteredProducts = products.filter(
-    (item) => item.category === slug
-  );
+  const filteredProducts = await getProductsByCategory(slug);
+  // const filteredProducts = products.filter(
+  //   (item) => item.category === slug
+  // );
 
   if (filteredProducts.length === 0) {
     return (

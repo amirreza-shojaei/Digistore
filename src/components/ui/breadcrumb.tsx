@@ -19,7 +19,6 @@ const names: Record<string, string> = {
 export default function Breadcrumb({ className = "" }: BreadcrumbProps) {
   const pathname = usePathname();
   const paths = pathname.split("/").filter(Boolean);
-  console.log(paths);
   const temp = paths[paths.length-1].split("-").filter(Boolean);
   const catName =[];
   catName[0]=temp[0];

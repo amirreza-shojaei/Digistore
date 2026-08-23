@@ -1,0 +1,4610 @@
+{
+  "categories": [
+    {
+      "id": "mobile",
+      "title": "موبایل",
+      "slug": "mobile",
+      "icon": "<Smartphone />",
+      "image": ""
+    },
+    {
+      "id": "laptop",
+      "title": "لپ تاپ",
+      "slug": "laptop",
+      "icon": "<Laptop />",
+      "image": ""
+    },
+    {
+      "id": "digital",
+      "title": "کالای دیجیتال",
+      "slug": "digital",
+      "icon": "<Monitor />",
+      "image": ""
+    },
+    {
+      "id": "home-kitchen",
+      "title": "خانه و آشپزخانه",
+      "slug": "home-kitchen",
+      "icon": " <Home />",
+      "image": ""
+    },
+    {
+      "id": "home-appliances",
+      "title": "لوازم خانگی برقی",
+      "slug": "home-appliances",
+      "icon": "<Plug />",
+      "image": ""
+    },
+    {
+      "id": "beauty",
+      "title": "آرایشی بهداشتی",
+      "slug": "beauty",
+      "icon": "<Sparkles />",
+      "image": ""
+    },
+    {
+      "id": "fashion",
+      "title": "مد و پوشاک",
+      "slug": "fashion",
+      "icon": "<Shirt />",
+      "image": ""
+    },
+    {
+      "id": "gold",
+      "title": "طلا و نقره",
+      "slug": "gold",
+      "icon": "<Gem />",
+      "image": ""
+    },
+    {
+      "id": "motor",
+      "title": "خودرو و موتورسیکلت",
+      "slug": "motor",
+      "icon": "<Car />",
+      "image": ""
+    },
+    {
+      "id": "health",
+      "title": "سلامت و پزشکی",
+      "slug": "health",
+      "icon": "<HeartPulse />",
+      "image": ""
+    },
+    {
+      "id": "tools",
+      "title": "ابزارآلات و تجهیزات",
+      "slug": "tools",
+      "icon": "<Wrench />",
+      "image": ""
+    },
+    {
+      "id": "books",
+      "title": "کتاب و هنر",
+      "slug": "books",
+      "icon": "<BookOpen />",
+      "image": ""
+    }
+  ],
+  "navbarItems": [
+    {
+      "id": 1,
+      "title": "شگفت‌انگیزها",
+      "link": "/"
+    },
+    {
+      "id": 2,
+      "title": "سوپرمارکت",
+      "link": "/"
+    },
+    {
+      "id": 3,
+      "title": "طلا و نقره دیجیتال",
+      "link": "/"
+    },
+    {
+      "id": 4,
+      "title": "پرفروش‌ترین‌ها",
+      "link": "/"
+    },
+    {
+      "id": 5,
+      "title": "دیجی استایل",
+      "link": "/"
+    },
+    {
+      "id": 6,
+      "title": "در دیجی‌کالا بفروشید",
+      "link": "/"
+    }
+  ],
+  "footerFeatures": [
+    {
+      "image": "",
+      "title": "امکان تحویل اکسپرس"
+    },
+    {
+      "image": "",
+      "title": "امکان پرداخت در محل"
+    },
+    {
+      "image": "",
+      "title": "۷ روز هفته، ۲۴ ساعته"
+    },
+    {
+      "image": "",
+      "title": "۷ روز ضمانت بازگشت"
+    },
+    {
+      "image": "",
+      "title": "ضمانت اصل بودن کالا"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "slug": "mobile-Samsung-Galaxy-S25-FE",
+      "category": "mobile",
+      "subcategory": "samsung",
+      "brand": "Samsung",
+      "title": "گوشی موبایل سامسونگ مدل Galaxy S25 FE دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت",
+      "name": "Samsung Galaxy S25 FE",
+      "price": 45600000,
+      "discount": 0,
+      "rating": "4.8",
+      "ratingCount": 1247,
+      "image": "/images/products/mobiles/Galaxy-S25-FE/main.webp",
+      "gallery": [
+        {
+          "src": "/images/products/mobiles/Galaxy-S25-FE/main.webp",
+          "alt": "Galaxy S25 FE"
+        },
+        {
+          "src": "/images/products/mobiles/Galaxy-S25-FE/gallery.webp",
+          "alt": "Galaxy S25 FE back"
+        },
+             {
+          "src": "/images/products/mobiles/Galaxy-S25-FE/gallery2.webp",
+          "alt": "Galaxy S25 FE side"
+        },
+             {
+          "src": "/images/products/mobiles/Galaxy-S25-FE/gallery3.webp",
+          "alt": "Galaxy S25 FE side"
+        }
+      ],
+      "colors": [
+        {
+          "title": "مشکی",
+          "name": "black",
+          "hex": "#1a1a1a"
+        },
+        {
+          "title": "آبی",
+          "name": "blue",
+          "hex": "#1e3a8a"
+        },
+        {
+          "title": "نقره‌ای",
+          "name": "silver",
+          "hex": "#c0c0c0"
+        }
+      ],
+      "properties": [
+        {
+          "name": "حافظه داخلی",
+          "text": "256 گیگابایت"
+        },
+        {
+          "name": "رم",
+          "text": "8 گیگابایت"
+        },
+        {
+          "name": "پردازنده",
+          "text": "Exynos 2400"
+        },
+        {
+          "name": "اندازه صفحه",
+          "text": "6.7 اینچ"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "صفحه نمایش",
+          "text": "6.7 اینچ Dynamic AMOLED 2X، رفرش‌ریت 120 هرتز"
+        },
+        {
+          "name": "باتری",
+          "text": "4700 میلی‌آمپرساعت با شارژ سریع 45 وات"
+        },
+        {
+          "name": "دوربین اصلی",
+          "text": "50 مگاپیکسل + 12 مگاپیکسل اولترا واید + 8 مگاپیکسل تله‌فوتو"
+        },
+        {
+          "name": "دوربین سلفی",
+          "text": "12 مگاپیکسل"
+        },
+        {
+          "name": "سیستم عامل",
+          "text": "Android 15 با One UI 7"
+        },
+        {
+          "name": "مقاومت در برابر آب",
+          "text": "IP68"
+        }
+      ],
+      "stock": 34,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "گلکسی S25 FE نسل جدید میان‌رده پرچمدار سامسونگ با پردازنده قدرتمند و دوربین حرفه‌ای."
+    },
+    {
+      "id": "2",
+      "slug": "mobile-Apple-iPhone-15",
+      "category": "mobile",
+      "subcategory": "apple",
+      "brand": "Apple",
+      "title": "گوشی موبایل اپل مدل iPhone 15 دو سیم کارت ظرفیت 128 گیگابایت",
+      "name": "Apple iPhone 15",
+      "price": 52900000,
+      "discount": 5,
+      "rating": "4.9",
+      "ratingCount": 3021,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "iPhone 15 front"
+        },
+        {
+          "src": "",
+          "alt": "iPhone 15 back"
+        },
+        {
+          "src": "",
+          "alt": "iPhone 15 colors"
+        }
+      ],
+      "colors": [
+        {
+          "title": "مشکی",
+          "name": "black",
+          "hex": "#0e0e0e"
+        },
+        {
+          "title": "صورتی",
+          "name": "pink",
+          "hex": "#f5c2d0"
+        },
+        {
+          "title": "زرد",
+          "name": "yellow",
+          "hex": "#f2e05a"
+        },
+        {
+          "title": "آبی",
+          "name": "blue",
+          "hex": "#8fb4d9"
+        }
+      ],
+      "properties": [
+        {
+          "name": "حافظه داخلی",
+          "text": "128 گیگابایت"
+        },
+        {
+          "name": "رم",
+          "text": "6 گیگابایت"
+        },
+        {
+          "name": "پردازنده",
+          "text": "Apple A16 Bionic"
+        },
+        {
+          "name": "اندازه صفحه",
+          "text": "6.1 اینچ"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "صفحه نمایش",
+          "text": "6.1 اینچ Super Retina XDR OLED"
+        },
+        {
+          "name": "باتری",
+          "text": "3349 میلی‌آمپرساعت"
+        },
+        {
+          "name": "دوربین اصلی",
+          "text": "48 مگاپیکسل + 12 مگاپیکسل اولترا واید"
+        },
+        {
+          "name": "دوربین سلفی",
+          "text": "12 مگاپیکسل"
+        },
+        {
+          "name": "سیستم عامل",
+          "text": "iOS 17"
+        },
+        {
+          "name": "پورت شارژ",
+          "text": "USB-C"
+        }
+      ],
+      "stock": 21,
+      "isAmazing": true,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "آیفون 15 با تراشه A16 و طراحی داینامیک آیلند، یکی از پرفروش‌ترین گوشی‌های اپل."
+    },
+    {
+      "id": "3",
+      "slug": "mobile-Xiaomi-Redmi-Note-13-Pro",
+      "category": "mobile",
+      "subcategory": "xiaomi",
+      "brand": "Xiaomi",
+      "title": "گوشی موبایل شیائومی مدل Redmi Note 13 Pro دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت",
+      "name": "Xiaomi Redmi Note 13 Pro",
+      "price": 18200000,
+      "discount": 12,
+      "rating": "4.6",
+      "ratingCount": 895,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "Redmi Note 13 Pro front"
+        },
+        {
+          "src": "",
+          "alt": "Redmi Note 13 Pro back"
+        }
+      ],
+      "colors": [
+        {
+          "title": "مشکی",
+          "name": "black",
+          "hex": "#151515"
+        },
+        {
+          "title": "بنفش",
+          "name": "purple",
+          "hex": "#7b5ea7"
+        },
+        {
+          "title": "سبز",
+          "name": "green",
+          "hex": "#5a8f6b"
+        }
+      ],
+      "properties": [
+        {
+          "name": "حافظه داخلی",
+          "text": "256 گیگابایت"
+        },
+        {
+          "name": "رم",
+          "text": "8 گیگابایت"
+        },
+        {
+          "name": "پردازنده",
+          "text": "Snapdragon 7s Gen 2"
+        },
+        {
+          "name": "اندازه صفحه",
+          "text": "6.67 اینچ"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "صفحه نمایش",
+          "text": "6.67 اینچ AMOLED، رفرش‌ریت 120 هرتز"
+        },
+        {
+          "name": "باتری",
+          "text": "5100 میلی‌آمپرساعت با شارژ سریع 67 وات"
+        },
+        {
+          "name": "دوربین اصلی",
+          "text": "200 مگاپیکسل + 8 مگاپیکسل اولترا واید"
+        },
+        {
+          "name": "دوربین سلفی",
+          "text": "16 مگاپیکسل"
+        },
+        {
+          "name": "سیستم عامل",
+          "text": "Android 13 با MIUI 14"
+        },
+        {
+          "name": "مقاومت در برابر آب",
+          "text": "IP54"
+        }
+      ],
+      "stock": 58,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "ردمی نوت 13 پرو با دوربین 200 مگاپیکسلی، انتخابی مقرون‌به‌صرفه در میان‌رده."
+    },
+    {
+      "id": "4",
+      "slug": "mobile-Samsung-Galaxy-A55",
+      "category": "mobile",
+      "subcategory": "samsung",
+      "brand": "Samsung",
+      "title": "گوشی موبایل سامسونگ مدل Galaxy A55 5G دو سیم کارت ظرفیت 128 گیگابایت و رم 8 گیگابایت",
+      "name": "Samsung Galaxy A55",
+      "price": 22500000,
+      "discount": 0,
+      "rating": "4.5",
+      "ratingCount": 612,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "Galaxy A55 front"
+        },
+        {
+          "src": "",
+          "alt": "Galaxy A55 back"
+        }
+      ],
+      "colors": [
+        {
+          "title": "آبی روشن",
+          "name": "lightblue",
+          "hex": "#a9c9e6"
+        },
+        {
+          "title": "لیمویی",
+          "name": "lemon",
+          "hex": "#d7e07a"
+        },
+        {
+          "title": "نیوی",
+          "name": "navy",
+          "hex": "#1c2b4a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "حافظه داخلی",
+          "text": "128 گیگابایت"
+        },
+        {
+          "name": "رم",
+          "text": "8 گیگابایت"
+        },
+        {
+          "name": "پردازنده",
+          "text": "Exynos 1480"
+        },
+        {
+          "name": "اندازه صفحه",
+          "text": "6.6 اینچ"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "صفحه نمایش",
+          "text": "6.6 اینچ Super AMOLED، رفرش‌ریت 120 هرتز"
+        },
+        {
+          "name": "باتری",
+          "text": "5000 میلی‌آمپرساعت با شارژ سریع 25 وات"
+        },
+        {
+          "name": "دوربین اصلی",
+          "text": "50 مگاپیکسل + 12 مگاپیکسل اولترا واید + 5 مگاپیکسل ماکرو"
+        },
+        {
+          "name": "دوربین سلفی",
+          "text": "32 مگاپیکسل"
+        },
+        {
+          "name": "سیستم عامل",
+          "text": "Android 14 با One UI 6.1"
+        },
+        {
+          "name": "مقاومت در برابر آب",
+          "text": "IP67"
+        }
+      ],
+      "stock": 47,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "گلکسی A55 با بدنه فلزی و دوربین بهبود یافته، یکی از محبوب‌ترین گوشی‌های میان‌رده سامسونگ."
+    },
+    {
+      "id": "5",
+      "slug": "mobile-Nokia-G42-5G",
+      "category": "mobile",
+      "subcategory": "nokia",
+      "brand": "Nokia",
+      "title": "گوشی موبایل نوکیا مدل G42 5G دو سیم کارت ظرفیت 128 گیگابایت و رم 6 گیگابایت",
+      "name": "Nokia G42 5G",
+      "price": 9800000,
+      "discount": 8,
+      "rating": "4.2",
+      "ratingCount": 210,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "Nokia G42 front"
+        },
+        {
+          "src": "",
+          "alt": "Nokia G42 back"
+        }
+      ],
+      "colors": [
+        {
+          "title": "خاکستری",
+          "name": "gray",
+          "hex": "#7a7a7a"
+        },
+        {
+          "title": "آبی",
+          "name": "blue",
+          "hex": "#3b5c8a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "حافظه داخلی",
+          "text": "128 گیگابایت"
+        },
+        {
+          "name": "رم",
+          "text": "6 گیگابایت"
+        },
+        {
+          "name": "پردازنده",
+          "text": "Snapdragon 480+"
+        },
+        {
+          "name": "اندازه صفحه",
+          "text": "6.56 اینچ"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "صفحه نمایش",
+          "text": "6.56 اینچ HD+ IPS، رفرش‌ریت 90 هرتز"
+        },
+        {
+          "name": "باتری",
+          "text": "5000 میلی‌آمپرساعت"
+        },
+        {
+          "name": "دوربین اصلی",
+          "text": "50 مگاپیکسل + 2 مگاپیکسل عمق"
+        },
+        {
+          "name": "دوربین سلفی",
+          "text": "8 مگاپیکسل"
+        },
+        {
+          "name": "سیستم عامل",
+          "text": "Android 13"
+        },
+        {
+          "name": "قابلیت تعمیر آسان",
+          "text": "طراحی ماژولار QuickFix"
+        }
+      ],
+      "stock": 66,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "نوکیا G42 با تمرکز بر دوام و قابلیت تعمیر آسان، گزینه‌ای مقتصد برای کاربران روزمره."
+    },
+    {
+      "id": "6",
+      "slug": "laptop-Asus-Vivobook-15",
+      "category": "laptop",
+      "subcategory": "asus",
+      "brand": "Asus",
+      "title": "لپ تاپ 15.6 اینچی ایسوس مدل Vivobook 15 پردازنده Core i5 نسل 13 رم 16 گیگابایت حافظه 512 گیگابایت SSD",
+      "name": "Asus Vivobook 15",
+      "price": 38900000,
+      "discount": 3,
+      "rating": "4.5",
+      "ratingCount": 430,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "Vivobook 15 front"
+        },
+        {
+          "src": "",
+          "alt": "Vivobook 15 keyboard"
+        }
+      ],
+      "colors": [
+        {
+          "title": "مشکی",
+          "name": "black",
+          "hex": "#1a1a1a"
+        },
+        {
+          "title": "نقره‌ای",
+          "name": "silver",
+          "hex": "#c9c9c9"
+        }
+      ],
+      "properties": [
+        {
+          "name": "پردازنده",
+          "text": "Intel Core i5-1335U"
+        },
+        {
+          "name": "رم",
+          "text": "16 گیگابایت"
+        },
+        {
+          "name": "حافظه",
+          "text": "512 گیگابایت SSD"
+        },
+        {
+          "name": "اندازه صفحه",
+          "text": "15.6 اینچ"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "صفحه نمایش",
+          "text": "15.6 اینچ Full HD IPS"
+        },
+        {
+          "name": "گرافیک",
+          "text": "Intel Iris Xe"
+        },
+        {
+          "name": "باتری",
+          "text": "تا 8 ساعت کارکرد"
+        },
+        {
+          "name": "پورت‌ها",
+          "text": "USB-C, USB-A, HDMI"
+        },
+        {
+          "name": "وزن",
+          "text": "1.7 کیلوگرم"
+        }
+      ],
+      "stock": 19,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "لپ‌تاپ همه‌کاره ایسوس ویووبوک با کارایی مناسب برای کارهای روزمره و دانشجویی."
+    },
+    {
+      "id": "7",
+      "slug": "laptop-Lenovo-IdeaPad-3",
+      "category": "laptop",
+      "subcategory": "lenovo",
+      "brand": "Lenovo",
+      "title": "لپ تاپ 15.6 اینچی لنوو مدل IdeaPad 3 پردازنده Ryzen 5 رم 8 گیگابایت حافظه 512 گیگابایت SSD",
+      "name": "Lenovo IdeaPad 3",
+      "price": 29500000,
+      "discount": 0,
+      "rating": "4.3",
+      "ratingCount": 310,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "IdeaPad 3 front"
+        },
+        {
+          "src": "",
+          "alt": "IdeaPad 3 side"
+        }
+      ],
+      "colors": [
+        {
+          "title": "خاکستری",
+          "name": "gray",
+          "hex": "#8a8a8a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "پردازنده",
+          "text": "AMD Ryzen 5 7520U"
+        },
+        {
+          "name": "رم",
+          "text": "8 گیگابایت"
+        },
+        {
+          "name": "حافظه",
+          "text": "512 گیگابایت SSD"
+        },
+        {
+          "name": "اندازه صفحه",
+          "text": "15.6 اینچ"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "صفحه نمایش",
+          "text": "15.6 اینچ Full HD"
+        },
+        {
+          "name": "گرافیک",
+          "text": "AMD Radeon Graphics"
+        },
+        {
+          "name": "باتری",
+          "text": "تا 7 ساعت کارکرد"
+        },
+        {
+          "name": "پورت‌ها",
+          "text": "USB-C, USB-A, HDMI"
+        },
+        {
+          "name": "وزن",
+          "text": "1.6 کیلوگرم"
+        }
+      ],
+      "stock": 27,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "لپ‌تاپ اقتصادی لنوو با پردازنده رایزن، مناسب برای کاربری اداری و آموزشی."
+    },
+    {
+      "id": "8",
+      "slug": "laptop-HP-Pavilion-15",
+      "category": "laptop",
+      "subcategory": "hp",
+      "brand": "HP",
+      "title": "لپ تاپ 15.6 اینچی اچ‌پی مدل Pavilion 15 پردازنده Core i7 نسل 13 رم 16 گیگابایت حافظه 1 ترابایت SSD",
+      "name": "HP Pavilion 15",
+      "price": 52300000,
+      "discount": 6,
+      "rating": "4.6",
+      "ratingCount": 275,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "Pavilion 15 front"
+        },
+        {
+          "src": "",
+          "alt": "Pavilion 15 keyboard"
+        }
+      ],
+      "colors": [
+        {
+          "title": "نقره‌ای",
+          "name": "silver",
+          "hex": "#d4d4d4"
+        },
+        {
+          "title": "طلایی",
+          "name": "gold",
+          "hex": "#c9ae6d"
+        }
+      ],
+      "properties": [
+        {
+          "name": "پردازنده",
+          "text": "Intel Core i7-1355U"
+        },
+        {
+          "name": "رم",
+          "text": "16 گیگابایت"
+        },
+        {
+          "name": "حافظه",
+          "text": "1 ترابایت SSD"
+        },
+        {
+          "name": "اندازه صفحه",
+          "text": "15.6 اینچ"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "صفحه نمایش",
+          "text": "15.6 اینچ Full HD IPS ضدانعکاس"
+        },
+        {
+          "name": "گرافیک",
+          "text": "Intel Iris Xe"
+        },
+        {
+          "name": "باتری",
+          "text": "تا 9 ساعت کارکرد"
+        },
+        {
+          "name": "پورت‌ها",
+          "text": "Thunderbolt 4, USB-A, HDMI"
+        },
+        {
+          "name": "وزن",
+          "text": "1.75 کیلوگرم"
+        }
+      ],
+      "stock": 14,
+      "isAmazing": true,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "اچ‌پی پاویلیون 15 با پردازنده نسل 13 و حافظه فراوان، مناسب چندوظیفگی سنگین."
+    },
+    {
+      "id": "9",
+      "slug": "laptop-Apple-MacBook-Air-M2",
+      "category": "laptop",
+      "subcategory": "apple",
+      "brand": "Apple",
+      "title": "لپ تاپ 13.6 اینچی اپل مدل MacBook Air M2 رم 8 گیگابایت حافظه 256 گیگابایت SSD",
+      "name": "Apple MacBook Air M2",
+      "price": 78500000,
+      "discount": 0,
+      "rating": "4.9",
+      "ratingCount": 940,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "MacBook Air M2 front"
+        },
+        {
+          "src": "",
+          "alt": "MacBook Air M2 side"
+        }
+      ],
+      "colors": [
+        {
+          "title": "خاکستری فضایی",
+          "name": "spacegray",
+          "hex": "#4a4a4a"
+        },
+        {
+          "title": "نقره‌ای",
+          "name": "silver",
+          "hex": "#e3e3e3"
+        },
+        {
+          "title": "طلایی",
+          "name": "gold",
+          "hex": "#dcc9a3"
+        }
+      ],
+      "properties": [
+        {
+          "name": "پردازنده",
+          "text": "Apple M2"
+        },
+        {
+          "name": "رم",
+          "text": "8 گیگابایت"
+        },
+        {
+          "name": "حافظه",
+          "text": "256 گیگابایت SSD"
+        },
+        {
+          "name": "اندازه صفحه",
+          "text": "13.6 اینچ"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "صفحه نمایش",
+          "text": "13.6 اینچ Liquid Retina"
+        },
+        {
+          "name": "گرافیک",
+          "text": "GPU 8 هسته‌ای یکپارچه"
+        },
+        {
+          "name": "باتری",
+          "text": "تا 18 ساعت کارکرد"
+        },
+        {
+          "name": "پورت‌ها",
+          "text": "Thunderbolt/USB 4, MagSafe 3"
+        },
+        {
+          "name": "وزن",
+          "text": "1.24 کیلوگرم"
+        }
+      ],
+      "stock": 9,
+      "isAmazing": true,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "مک‌بوک ایر M2 با طراحی فوق‌العاده سبک و عمر باتری بالا، مناسب کاربران حرفه‌ای و خلاق."
+    },
+    {
+      "id": "10",
+      "slug": "laptop-Dell-Inspiron-15",
+      "category": "laptop",
+      "subcategory": "dell",
+      "brand": "Dell",
+      "title": "لپ تاپ 15.6 اینچی دل مدل Inspiron 15 3520 پردازنده Core i3 نسل 12 رم 8 گیگابایت حافظه 256 گیگابایت SSD",
+      "name": "Dell Inspiron 15",
+      "price": 24700000,
+      "discount": 4,
+      "rating": "4.1",
+      "ratingCount": 188,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "Inspiron 15 front"
+        },
+        {
+          "src": "",
+          "alt": "Inspiron 15 side"
+        }
+      ],
+      "colors": [
+        {
+          "title": "مشکی",
+          "name": "black",
+          "hex": "#111111"
+        }
+      ],
+      "properties": [
+        {
+          "name": "پردازنده",
+          "text": "Intel Core i3-1215U"
+        },
+        {
+          "name": "رم",
+          "text": "8 گیگابایت"
+        },
+        {
+          "name": "حافظه",
+          "text": "256 گیگابایت SSD"
+        },
+        {
+          "name": "اندازه صفحه",
+          "text": "15.6 اینچ"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "صفحه نمایش",
+          "text": "15.6 اینچ Full HD"
+        },
+        {
+          "name": "گرافیک",
+          "text": "Intel UHD Graphics"
+        },
+        {
+          "name": "باتری",
+          "text": "تا 6 ساعت کارکرد"
+        },
+        {
+          "name": "پورت‌ها",
+          "text": "USB-C, USB-A, HDMI"
+        },
+        {
+          "name": "وزن",
+          "text": "1.83 کیلوگرم"
+        }
+      ],
+      "stock": 33,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "دل اینسپایرون 15 گزینه‌ای مقرون‌به‌صرفه برای کارهای اداری روزمره."
+    },
+    {
+      "id": "11",
+      "slug": "digital-Sony-WH-1000XM5",
+      "category": "digital",
+      "subcategory": "audio",
+      "brand": "Sony",
+      "title": "هدفون بی‌سیم سونی مدل WH-1000XM5 با قابلیت حذف نویز فعال",
+      "name": "Sony WH-1000XM5",
+      "price": 26800000,
+      "discount": 10,
+      "rating": "4.8",
+      "ratingCount": 654,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "WH-1000XM5 front"
+        },
+        {
+          "src": "",
+          "alt": "WH-1000XM5 folded"
+        }
+      ],
+      "colors": [
+        {
+          "title": "مشکی",
+          "name": "black",
+          "hex": "#1a1a1a"
+        },
+        {
+          "title": "نقره‌ای",
+          "name": "silver",
+          "hex": "#d9d9d9"
+        }
+      ],
+      "properties": [
+        {
+          "name": "نوع",
+          "text": "روگوشی بی‌سیم"
+        },
+        {
+          "name": "حذف نویز",
+          "text": "فعال"
+        },
+        {
+          "name": "زمان شارژدهی",
+          "text": "تا 30 ساعت"
+        },
+        {
+          "name": "اتصال",
+          "text": "بلوتوث 5.2"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "درایور",
+          "text": "30 میلی‌متری"
+        },
+        {
+          "name": "میکروفون",
+          "text": "8 عددی برای مکالمه و حذف نویز"
+        },
+        {
+          "name": "شارژ سریع",
+          "text": "3 دقیقه شارژ برای 3 ساعت پخش"
+        },
+        {
+          "name": "وزن",
+          "text": "250 گرم"
+        }
+      ],
+      "stock": 22,
+      "isAmazing": true,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "هدفون پرچمدار سونی با بهترین کیفیت حذف نویز در بازار."
+    },
+    {
+      "id": "12",
+      "slug": "digital-Apple-Watch-Series-9",
+      "category": "digital",
+      "subcategory": "wearable",
+      "brand": "Apple",
+      "title": "ساعت هوشمند اپل واچ مدل Series 9 GPS سایز 45 میلی‌متر",
+      "name": "Apple Watch Series 9",
+      "price": 33500000,
+      "discount": 0,
+      "rating": "4.7",
+      "ratingCount": 512,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "Apple Watch front"
+        },
+        {
+          "src": "",
+          "alt": "Apple Watch band"
+        }
+      ],
+      "colors": [
+        {
+          "title": "مشکی",
+          "name": "black",
+          "hex": "#1c1c1c"
+        },
+        {
+          "title": "صورتی",
+          "name": "pink",
+          "hex": "#f0c9d3"
+        },
+        {
+          "title": "قرمز",
+          "name": "red",
+          "hex": "#b3382c"
+        }
+      ],
+      "properties": [
+        {
+          "name": "سایز صفحه",
+          "text": "45 میلی‌متر"
+        },
+        {
+          "name": "نوع صفحه",
+          "text": "Retina LTPO OLED"
+        },
+        {
+          "name": "مقاومت آب",
+          "text": "WR50"
+        },
+        {
+          "name": "سیستم عامل",
+          "text": "watchOS 10"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "سنسورها",
+          "text": "ضربان قلب، اکسیژن خون، ECG"
+        },
+        {
+          "name": "باتری",
+          "text": "تا 18 ساعت کارکرد"
+        },
+        {
+          "name": "اتصال",
+          "text": "GPS + بلوتوث"
+        },
+        {
+          "name": "پردازنده",
+          "text": "Apple S9 SiP"
+        }
+      ],
+      "stock": 17,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "اپل واچ سری 9 با سنسورهای سلامتی پیشرفته و صفحه‌نمایش روشن‌تر."
+    },
+    {
+      "id": "13",
+      "slug": "digital-Xiaomi-Redmi-Pad-Pro",
+      "category": "digital",
+      "subcategory": "tablet",
+      "brand": "Xiaomi",
+      "title": "تبلت شیائومی مدل Redmi Pad Pro ظرفیت 256 گیگابایت رم 8 گیگابایت",
+      "name": "Xiaomi Redmi Pad Pro",
+      "price": 17900000,
+      "discount": 7,
+      "rating": "4.4",
+      "ratingCount": 233,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "Redmi Pad Pro front"
+        },
+        {
+          "src": "",
+          "alt": "Redmi Pad Pro back"
+        }
+      ],
+      "colors": [
+        {
+          "title": "خاکستری",
+          "name": "gray",
+          "hex": "#6f6f6f"
+        },
+        {
+          "title": "سبز",
+          "name": "green",
+          "hex": "#7fa87e"
+        }
+      ],
+      "properties": [
+        {
+          "name": "حافظه داخلی",
+          "text": "256 گیگابایت"
+        },
+        {
+          "name": "رم",
+          "text": "8 گیگابایت"
+        },
+        {
+          "name": "اندازه صفحه",
+          "text": "12.1 اینچ"
+        },
+        {
+          "name": "پردازنده",
+          "text": "Snapdragon 7s Gen 2"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "صفحه نمایش",
+          "text": "12.1 اینچ 2.5K، رفرش‌ریت 120 هرتز"
+        },
+        {
+          "name": "باتری",
+          "text": "10000 میلی‌آمپرساعت"
+        },
+        {
+          "name": "دوربین اصلی",
+          "text": "8 مگاپیکسل"
+        },
+        {
+          "name": "بلندگو",
+          "text": "کوادروفونیک با Dolby Atmos"
+        }
+      ],
+      "stock": 29,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "تبلت ردمی پد پرو با صفحه بزرگ و باتری قوی، مناسب سرگرمی و مطالعه."
+    },
+    {
+      "id": "14",
+      "slug": "digital-JBL-Flip-6",
+      "category": "digital",
+      "subcategory": "speaker",
+      "brand": "JBL",
+      "title": "اسپیکر بلوتوثی قابل حمل جی‌بی‌ال مدل Flip 6",
+      "name": "JBL Flip 6",
+      "price": 8900000,
+      "discount": 15,
+      "rating": "4.6",
+      "ratingCount": 780,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "Flip 6 front"
+        },
+        {
+          "src": "",
+          "alt": "Flip 6 colors"
+        }
+      ],
+      "colors": [
+        {
+          "title": "مشکی",
+          "name": "black",
+          "hex": "#0d0d0d"
+        },
+        {
+          "title": "آبی",
+          "name": "blue",
+          "hex": "#2b5a8a"
+        },
+        {
+          "title": "قرمز",
+          "name": "red",
+          "hex": "#a8332a"
+        },
+        {
+          "title": "سفید",
+          "name": "white",
+          "hex": "#f2f2f2"
+        }
+      ],
+      "properties": [
+        {
+          "name": "توان خروجی",
+          "text": "30 وات"
+        },
+        {
+          "name": "مقاومت آب و گرد و غبار",
+          "text": "IP67"
+        },
+        {
+          "name": "اتصال",
+          "text": "بلوتوث 5.1"
+        },
+        {
+          "name": "باتری",
+          "text": "تا 12 ساعت پخش"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "درایور",
+          "text": "یک وویس کویل 44 میلی‌متری"
+        },
+        {
+          "name": "شارژ",
+          "text": "USB-C"
+        },
+        {
+          "name": "قابلیت PartyBoost",
+          "text": "اتصال چند اسپیکر همزمان"
+        },
+        {
+          "name": "وزن",
+          "text": "550 گرم"
+        }
+      ],
+      "stock": 44,
+      "isAmazing": true,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "اسپیکر جی‌بی‌ال فلیپ 6 با صدای قدرتمند و بدنه ضدآب، مناسب استفاده در فضای باز."
+    },
+    {
+      "id": "15",
+      "slug": "digital-Anker-PowerCore-20000",
+      "category": "digital",
+      "subcategory": "accessory",
+      "brand": "Anker",
+      "title": "پاوربانک انکر مدل PowerCore ظرفیت 20000 میلی‌آمپرساعت",
+      "name": "Anker PowerCore 20000",
+      "price": 3200000,
+      "discount": 5,
+      "rating": "4.5",
+      "ratingCount": 1120,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "PowerCore front"
+        },
+        {
+          "src": "",
+          "alt": "PowerCore ports"
+        }
+      ],
+      "colors": [
+        {
+          "title": "مشکی",
+          "name": "black",
+          "hex": "#161616"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ظرفیت",
+          "text": "20000 میلی‌آمپرساعت"
+        },
+        {
+          "name": "خروجی",
+          "text": "شارژ سریع PD 20 وات"
+        },
+        {
+          "name": "تعداد پورت",
+          "text": "2 پورت USB-A و 1 پورت USB-C"
+        },
+        {
+          "name": "وزن",
+          "text": "356 گرم"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "زمان شارژدهی گوشی",
+          "text": "تا 4 بار شارژ کامل"
+        },
+        {
+          "name": "تکنولوژی",
+          "text": "PowerIQ 3.0"
+        },
+        {
+          "name": "ورودی شارژ",
+          "text": "USB-C"
+        },
+        {
+          "name": "ایمنی",
+          "text": "محافظت چندگانه در برابر اتصال کوتاه"
+        }
+      ],
+      "stock": 90,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "پاوربانک پرظرفیت انکر مناسب سفر و استفاده روزمره با شارژ سریع."
+    },
+    {
+      "id": "16",
+      "slug": "home-kitchen-Philips-Airfryer-HD9252",
+      "category": "home-kitchen",
+      "subcategory": "cooking",
+      "brand": "Philips",
+      "title": "سرخ‌کن بدون روغن فیلیپس مدل HD9252 ظرفیت 4.1 لیتر",
+      "name": "Philips Airfryer HD9252",
+      "price": 12500000,
+      "discount": 8,
+      "rating": "4.7",
+      "ratingCount": 540,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "Airfryer front"
+        },
+        {
+          "src": "",
+          "alt": "Airfryer basket"
+        }
+      ],
+      "colors": [
+        {
+          "title": "مشکی",
+          "name": "black",
+          "hex": "#1a1a1a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ظرفیت",
+          "text": "4.1 لیتر"
+        },
+        {
+          "name": "توان",
+          "text": "1400 وات"
+        },
+        {
+          "name": "تکنولوژی",
+          "text": "Rapid Air"
+        },
+        {
+          "name": "کنترل",
+          "text": "صفحه لمسی دیجیتال"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "محدوده دما",
+          "text": "80 تا 200 درجه سانتی‌گراد"
+        },
+        {
+          "name": "تایمر",
+          "text": "تا 60 دقیقه"
+        },
+        {
+          "name": "قابلیت شست‌وشو",
+          "text": "سبد ضدچسبندگی قابل شست‌وشو در ماشین ظرفشویی"
+        },
+        {
+          "name": "وزن",
+          "text": "4.9 کیلوگرم"
+        }
+      ],
+      "stock": 38,
+      "isAmazing": true,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "سرخ‌کن بدون روغن فیلیپس برای پخت سالم و سریع غذا با کمترین چربی."
+    },
+    {
+      "id": "17",
+      "slug": "home-kitchen-Tefal-Electric-Kettle",
+      "category": "home-kitchen",
+      "subcategory": "cooking",
+      "brand": "Tefal",
+      "title": "کتری برقی تفال مدل Glass Kettle ظرفیت 1.7 لیتر",
+      "name": "Tefal Glass Kettle",
+      "price": 3400000,
+      "discount": 0,
+      "rating": "4.5",
+      "ratingCount": 320,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "Kettle front"
+        },
+        {
+          "src": "",
+          "alt": "Kettle base"
+        }
+      ],
+      "colors": [
+        {
+          "title": "شفاف",
+          "name": "clear",
+          "hex": "#dfeefc"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ظرفیت",
+          "text": "1.7 لیتر"
+        },
+        {
+          "name": "توان",
+          "text": "2400 وات"
+        },
+        {
+          "name": "جنس بدنه",
+          "text": "شیشه بوروسیلیکات"
+        },
+        {
+          "name": "قابلیت چرخش",
+          "text": "360 درجه"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "زمان جوش",
+          "text": "حدود 4 دقیقه"
+        },
+        {
+          "name": "سیستم ایمنی",
+          "text": "خاموشی خودکار پس از جوش"
+        },
+        {
+          "name": "صافی",
+          "text": "فیلتر ضدرسوب قابل جدا شدن"
+        },
+        {
+          "name": "نشانگر سطح آب",
+          "text": "دارد"
+        }
+      ],
+      "stock": 51,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "کتری برقی تفال با بدنه شیشه‌ای شفاف و جوش سریع، مناسب مصرف روزانه."
+    },
+    {
+      "id": "18",
+      "slug": "home-kitchen-Bosch-Blender-MMB2111",
+      "category": "home-kitchen",
+      "subcategory": "cooking",
+      "brand": "Bosch",
+      "title": "مخلوط‌کن بوش مدل MMB2111 توان 600 وات",
+      "name": "Bosch Blender MMB2111",
+      "price": 5600000,
+      "discount": 3,
+      "rating": "4.4",
+      "ratingCount": 190,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "Blender front"
+        },
+        {
+          "src": "",
+          "alt": "Blender jar"
+        }
+      ],
+      "colors": [
+        {
+          "title": "سفید",
+          "name": "white",
+          "hex": "#f5f5f5"
+        },
+        {
+          "title": "قرمز",
+          "name": "red",
+          "hex": "#a83a2e"
+        }
+      ],
+      "properties": [
+        {
+          "name": "توان",
+          "text": "600 وات"
+        },
+        {
+          "name": "ظرفیت پارچ",
+          "text": "1.5 لیتر"
+        },
+        {
+          "name": "جنس تیغه",
+          "text": "استیل ضدزنگ"
+        },
+        {
+          "name": "تعداد سرعت",
+          "text": "2 سرعت + پالس"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "جنس پارچ",
+          "text": "ترایتان ضدضربه"
+        },
+        {
+          "name": "قابلیت خردکن یخ",
+          "text": "دارد"
+        },
+        {
+          "name": "قابلیت شست‌وشو",
+          "text": "اجزا قابل شست‌وشو در ماشین ظرفشویی"
+        },
+        {
+          "name": "وزن",
+          "text": "2.1 کیلوگرم"
+        }
+      ],
+      "stock": 40,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "مخلوط‌کن بوش با موتور قدرتمند برای اسموتی و آبمیوه‌های خانگی."
+    },
+    {
+      "id": "19",
+      "slug": "home-kitchen-Delonghi-Espresso-Machine",
+      "category": "home-kitchen",
+      "subcategory": "coffee",
+      "brand": "Delonghi",
+      "title": "اسپرسوساز دلونگی مدل EC685 با فوم‌ساز شیر",
+      "name": "Delonghi EC685 Espresso Machine",
+      "price": 24900000,
+      "discount": 6,
+      "rating": "4.6",
+      "ratingCount": 145,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "Espresso machine front"
+        },
+        {
+          "src": "",
+          "alt": "Espresso machine portafilter"
+        }
+      ],
+      "colors": [
+        {
+          "title": "مشکی",
+          "name": "black",
+          "hex": "#1c1c1c"
+        },
+        {
+          "title": "قرمز",
+          "name": "red",
+          "hex": "#9c2b26"
+        }
+      ],
+      "properties": [
+        {
+          "name": "فشار پمپ",
+          "text": "15 بار"
+        },
+        {
+          "name": "ظرفیت مخزن آب",
+          "text": "1.1 لیتر"
+        },
+        {
+          "name": "توان",
+          "text": "1300 وات"
+        },
+        {
+          "name": "نوع",
+          "text": "نیمه‌اتوماتیک"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "فوم‌ساز شیر",
+          "text": "اسپیوماتور دستی"
+        },
+        {
+          "name": "پرتافیلتر",
+          "text": "فلزی حرفه‌ای"
+        },
+        {
+          "name": "امکان گرم نگه‌داشتن فنجان",
+          "text": "دارد"
+        },
+        {
+          "name": "وزن",
+          "text": "4 کیلوگرم"
+        }
+      ],
+      "stock": 12,
+      "isAmazing": true,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "اسپرسوساز دلونگی برای تهیه قهوه ایتالیایی اصیل در منزل."
+    },
+    {
+      "id": "20",
+      "slug": "home-kitchen-Fissler-Cookware-Set",
+      "category": "home-kitchen",
+      "subcategory": "cookware",
+      "brand": "Fissler",
+      "title": "سرویس قابلمه 7 پارچه فیشلر مدل Family",
+      "name": "Fissler Cookware Set 7pcs",
+      "price": 45000000,
+      "discount": 0,
+      "rating": "4.8",
+      "ratingCount": 98,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "Cookware set front"
+        },
+        {
+          "src": "",
+          "alt": "Cookware set pieces"
+        }
+      ],
+      "colors": [
+        {
+          "title": "نقره‌ای",
+          "name": "silver",
+          "hex": "#cfcfcf"
+        }
+      ],
+      "properties": [
+        {
+          "name": "جنس",
+          "text": "استیل ضدزنگ 18/10"
+        },
+        {
+          "name": "تعداد پارچه",
+          "text": "7 عدد"
+        },
+        {
+          "name": "مناسب اجاق",
+          "text": "گازی، برقی و القایی"
+        },
+        {
+          "name": "کشور سازنده",
+          "text": "آلمان"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "درب",
+          "text": "شیشه‌ای ضدحرارت"
+        },
+        {
+          "name": "ته قابلمه",
+          "text": "سه‌لایه با هدایت حرارتی یکنواخت"
+        },
+        {
+          "name": "دسته",
+          "text": "ضدحرارت و ایمن در دستشویی"
+        },
+        {
+          "name": "گارانتی",
+          "text": "ضمانت مادام‌العمر فیشلر"
+        }
+      ],
+      "stock": 8,
+      "isAmazing": true,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "سرویس قابلمه آلمانی فیشلر با کیفیت بالا برای استفاده حرفه‌ای در آشپزخانه."
+    },
+    {
+      "id": "21",
+      "slug": "home-appliances-Samsung-Washing-Machine",
+      "category": "home-appliances",
+      "subcategory": "laundry",
+      "brand": "Samsung",
+      "title": "ماشین لباسشویی سامسونگ مدل WW90T ظرفیت 9 کیلوگرم",
+      "name": "Samsung WW90T Washing Machine",
+      "price": 68500000,
+      "discount": 4,
+      "rating": "4.7",
+      "ratingCount": 260,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "Washing machine front"
+        },
+        {
+          "src": "",
+          "alt": "Washing machine drum"
+        }
+      ],
+      "colors": [
+        {
+          "title": "سفید",
+          "name": "white",
+          "hex": "#f7f7f7"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ظرفیت",
+          "text": "9 کیلوگرم"
+        },
+        {
+          "name": "سرعت خشک‌کنی",
+          "text": "1400 دور در دقیقه"
+        },
+        {
+          "name": "نوع درب",
+          "text": "از جلو"
+        },
+        {
+          "name": "تکنولوژی موتور",
+          "text": "اینورتر دیجیتال"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "برنامه‌ها",
+          "text": "14 برنامه شست‌وشو"
+        },
+        {
+          "name": "قابلیت اتصال هوشمند",
+          "text": "Wi-Fi و اپلیکیشن SmartThings"
+        },
+        {
+          "name": "رده انرژی",
+          "text": "A+++"
+        },
+        {
+          "name": "سطح صدا",
+          "text": "کمتر از 70 دسی‌بل"
+        }
+      ],
+      "stock": 15,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "ماشین لباسشویی سامسونگ با موتور اینورتر بادوام و قابلیت اتصال هوشمند."
+    },
+    {
+      "id": "22",
+      "slug": "home-appliances-LG-Refrigerator",
+      "category": "home-appliances",
+      "subcategory": "refrigerator",
+      "brand": "LG",
+      "title": "یخچال فریزر ال‌جی مدل GR-B247 نوفراست",
+      "name": "LG GR-B247 Refrigerator",
+      "price": 95000000,
+      "discount": 2,
+      "rating": "4.6",
+      "ratingCount": 175,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "Refrigerator front"
+        },
+        {
+          "src": "",
+          "alt": "Refrigerator interior"
+        }
+      ],
+      "colors": [
+        {
+          "title": "استیل",
+          "name": "steel",
+          "hex": "#a9a9a9"
+        },
+        {
+          "title": "سفید",
+          "name": "white",
+          "hex": "#f5f5f5"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ظرفیت کل",
+          "text": "667 لیتر"
+        },
+        {
+          "name": "نوع یخ‌زدایی",
+          "text": "نوفراست کامل"
+        },
+        {
+          "name": "تعداد درب",
+          "text": "دو درب (ساید بای ساید)"
+        },
+        {
+          "name": "رنگ",
+          "text": "استیل ضدلک"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "تکنولوژی خنک‌کنندگی",
+          "text": "Linear Cooling"
+        },
+        {
+          "name": "یخ‌ساز",
+          "text": "خودکار داخل درب"
+        },
+        {
+          "name": "رده انرژی",
+          "text": "A++"
+        },
+        {
+          "name": "سطح صدا",
+          "text": "کمتر از 40 دسی‌بل"
+        }
+      ],
+      "stock": 6,
+      "isAmazing": true,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "یخچال فریزر ساید بای ساید ال‌جی با ظرفیت بالا برای خانواده‌های پرجمعیت."
+    },
+    {
+      "id": "23",
+      "slug": "home-appliances-Samsung-Vacuum-Cleaner",
+      "category": "home-appliances",
+      "subcategory": "cleaning",
+      "brand": "Samsung",
+      "title": "جاروبرقی بدون کیسه سامسونگ مدل VC-P70 قدرت مکش 2000 وات",
+      "name": "Samsung VC-P70 Vacuum Cleaner",
+      "price": 9800000,
+      "discount": 10,
+      "rating": "4.3",
+      "ratingCount": 210,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "Vacuum front"
+        },
+        {
+          "src": "",
+          "alt": "Vacuum accessories"
+        }
+      ],
+      "colors": [
+        {
+          "title": "قرمز",
+          "name": "red",
+          "hex": "#a8332a"
+        },
+        {
+          "title": "مشکی",
+          "name": "black",
+          "hex": "#1a1a1a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "قدرت مکش",
+          "text": "2000 وات"
+        },
+        {
+          "name": "نوع",
+          "text": "بدون کیسه سیکلونی"
+        },
+        {
+          "name": "ظرفیت مخزن",
+          "text": "1.3 لیتر"
+        },
+        {
+          "name": "طول کابل",
+          "text": "6 متر"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "فیلتر",
+          "text": "HEPA"
+        },
+        {
+          "name": "سیستم",
+          "text": "Anti-Tangle برای موی حیوانات"
+        },
+        {
+          "name": "لوازم جانبی",
+          "text": "سری برس چندکاره"
+        },
+        {
+          "name": "وزن",
+          "text": "4.5 کیلوگرم"
+        }
+      ],
+      "stock": 25,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "جاروبرقی سامسونگ با قدرت مکش بالا و فیلتر HEPA برای نظافت عمیق‌تر."
+    },
+    {
+      "id": "24",
+      "slug": "home-appliances-Panasonic-Microwave",
+      "category": "home-appliances",
+      "subcategory": "cooking",
+      "brand": "Panasonic",
+      "title": "مایکروویو پاناسونیک مدل NN-ST34H ظرفیت 25 لیتر",
+      "name": "Panasonic NN-ST34H Microwave",
+      "price": 11200000,
+      "discount": 5,
+      "rating": "4.4",
+      "ratingCount": 160,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "Microwave front"
+        },
+        {
+          "src": "",
+          "alt": "Microwave panel"
+        }
+      ],
+      "colors": [
+        {
+          "title": "سفید",
+          "name": "white",
+          "hex": "#f2f2f2"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ظرفیت",
+          "text": "25 لیتر"
+        },
+        {
+          "name": "توان",
+          "text": "900 وات"
+        },
+        {
+          "name": "نوع",
+          "text": "سولو"
+        },
+        {
+          "name": "کنترل",
+          "text": "دیجیتال با صفحه لمسی"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "برنامه‌های خودکار",
+          "text": "14 برنامه پخت"
+        },
+        {
+          "name": "سیستم توزیع مایکروویو",
+          "text": "Inverter"
+        },
+        {
+          "name": "قفل کودک",
+          "text": "دارد"
+        },
+        {
+          "name": "وزن",
+          "text": "11.6 کیلوگرم"
+        }
+      ],
+      "stock": 30,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "مایکروویو پاناسونیک با فناوری اینورتر برای گرم کردن و پخت یکنواخت‌تر."
+    },
+    {
+      "id": "25",
+      "slug": "home-appliances-Bosch-Dishwasher",
+      "category": "home-appliances",
+      "subcategory": "cleaning",
+      "brand": "Bosch",
+      "title": "ماشین ظرفشویی بوش مدل SMS4H سری 4 ظرفیت 13 نفره",
+      "name": "Bosch SMS4H Dishwasher",
+      "price": 58000000,
+      "discount": 0,
+      "rating": "4.7",
+      "ratingCount": 88,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "Dishwasher front"
+        },
+        {
+          "src": "",
+          "alt": "Dishwasher inside"
+        }
+      ],
+      "colors": [
+        {
+          "title": "استیل",
+          "name": "steel",
+          "hex": "#b5b5b5"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ظرفیت",
+          "text": "13 نفره"
+        },
+        {
+          "name": "تعداد برنامه",
+          "text": "6 برنامه شست‌وشو"
+        },
+        {
+          "name": "رده انرژی",
+          "text": "A+++"
+        },
+        {
+          "name": "سطح صدا",
+          "text": "44 دسی‌بل"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "سبد‌ها",
+          "text": "3 سبد قابل تنظیم"
+        },
+        {
+          "name": "تکنولوژی خشک‌کنی",
+          "text": "خشک‌کن زئولیت"
+        },
+        {
+          "name": "نمایشگر",
+          "text": "نمایشگر InfoLight روی کف آشپزخانه"
+        },
+        {
+          "name": "ابعاد",
+          "text": "استاندارد 60 سانتی‌متری"
+        }
+      ],
+      "stock": 10,
+      "isAmazing": true,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "ماشین ظرفشویی بوش با مصرف انرژی پایین و شست‌وشوی بی‌صدا."
+    },
+    {
+      "id": "26",
+      "slug": "beauty-Dior-Sauvage-Perfume",
+      "category": "beauty",
+      "subcategory": "perfume",
+      "brand": "Dior",
+      "title": "ادکلن مردانه دیور مدل Sauvage حجم 100 میلی‌لیتر",
+      "name": "Dior Sauvage 100ml",
+      "price": 15800000,
+      "discount": 0,
+      "rating": "4.8",
+      "ratingCount": 430,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "Sauvage bottle"
+        },
+        {
+          "src": "",
+          "alt": "Sauvage box"
+        }
+      ],
+      "colors": [],
+      "properties": [
+        {
+          "name": "حجم",
+          "text": "100 میلی‌لیتر"
+        },
+        {
+          "name": "جنسیت",
+          "text": "مردانه"
+        },
+        {
+          "name": "خانواده رایحه",
+          "text": "چوبی ادویه‌ای"
+        },
+        {
+          "name": "درصد ماندگاری",
+          "text": "بالا"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "نت‌های اولیه",
+          "text": "برگاموت، فلفل"
+        },
+        {
+          "name": "نت‌های میانی",
+          "text": "لوندر، آمبروکسان"
+        },
+        {
+          "name": "نت‌های پایه",
+          "text": "صندل، عود"
+        },
+        {
+          "name": "نوع",
+          "text": "ادو پرفیوم"
+        }
+      ],
+      "stock": 20,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "ادکلن ساواج دیور، یکی از پرفروش‌ترین رایحه‌های مردانه در جهان."
+    },
+    {
+      "id": "27",
+      "slug": "beauty-Philips-Hair-Dryer",
+      "category": "beauty",
+      "subcategory": "haircare",
+      "brand": "Philips",
+      "title": "سشوار فیلیپس مدل BHD340 توان 2100 وات",
+      "name": "Philips BHD340 Hair Dryer",
+      "price": 4200000,
+      "discount": 8,
+      "rating": "4.4",
+      "ratingCount": 350,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "Hair dryer front"
+        },
+        {
+          "src": "",
+          "alt": "Hair dryer nozzle"
+        }
+      ],
+      "colors": [
+        {
+          "title": "مشکی",
+          "name": "black",
+          "hex": "#1a1a1a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "توان",
+          "text": "2100 وات"
+        },
+        {
+          "name": "تعداد حالت",
+          "text": "3 حالت حرارتی + یک حالت خنک"
+        },
+        {
+          "name": "تکنولوژی",
+          "text": "یونی ThermoProtect"
+        },
+        {
+          "name": "طول کابل",
+          "text": "1.8 متر"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "لوازم جانبی",
+          "text": "نازل تمرکزدهنده"
+        },
+        {
+          "name": "سیستم ایمنی",
+          "text": "محافظت در برابر گرمای بیش از حد"
+        },
+        {
+          "name": "وزن",
+          "text": "400 گرم"
+        },
+        {
+          "name": "قابلیت آویز",
+          "text": "حلقه آویز روی دسته"
+        }
+      ],
+      "stock": 42,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "سشوار فیلیپس با تکنولوژی یونی برای حفظ سلامت مو در حین خشک کردن."
+    },
+    {
+      "id": "28",
+      "slug": "beauty-Braun-Shaver",
+      "category": "beauty",
+      "subcategory": "shaving",
+      "brand": "Braun",
+      "title": "ریش‌تراش برقی براون مدل Series 7 قابل شست‌وشو",
+      "name": "Braun Series 7 Shaver",
+      "price": 12900000,
+      "discount": 12,
+      "rating": "4.6",
+      "ratingCount": 260,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "Shaver front"
+        },
+        {
+          "src": "",
+          "alt": "Shaver charging dock"
+        }
+      ],
+      "colors": [
+        {
+          "title": "مشکی",
+          "name": "black",
+          "hex": "#151515"
+        }
+      ],
+      "properties": [
+        {
+          "name": "نوع تیغه",
+          "text": "فویلی 360 درجه"
+        },
+        {
+          "name": "قابلیت شست‌وشو",
+          "text": "بله، ضدآب"
+        },
+        {
+          "name": "زمان شارژ",
+          "text": "تا 60 دقیقه استفاده با 1 ساعت شارژ"
+        },
+        {
+          "name": "قابلیت شارژ سریع",
+          "text": "5 دقیقه برای یک اصلاح"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "تکنولوژی",
+          "text": "AutoSense برای تطبیق با تراکم مو"
+        },
+        {
+          "name": "پایه شارژ",
+          "text": "ایستگاه شارژ و تمیزکننده"
+        },
+        {
+          "name": "گارانتی",
+          "text": "2 سال"
+        },
+        {
+          "name": "وزن",
+          "text": "171 گرم"
+        }
+      ],
+      "stock": 18,
+      "isAmazing": true,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "ریش‌تراش براون سری 7 با فناوری هوشمند برای اصلاحی دقیق و سریع."
+    },
+    {
+      "id": "29",
+      "slug": "beauty-Nivea-Skincare-Set",
+      "category": "beauty",
+      "subcategory": "skincare",
+      "brand": "Nivea",
+      "title": "ست مراقبت پوستی نیوآ شامل کرم روز، شب و پاک‌کننده آرایش",
+      "name": "Nivea Skincare Set",
+      "price": 2100000,
+      "discount": 15,
+      "rating": "4.3",
+      "ratingCount": 520,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "Skincare set box"
+        },
+        {
+          "src": "",
+          "alt": "Skincare set items"
+        }
+      ],
+      "colors": [],
+      "properties": [
+        {
+          "name": "تعداد اقلام",
+          "text": "3 عدد"
+        },
+        {
+          "name": "مناسب پوست",
+          "text": "انواع پوست"
+        },
+        {
+          "name": "حجم کرم روز",
+          "text": "50 میلی‌لیتر"
+        },
+        {
+          "name": "حجم کرم شب",
+          "text": "50 میلی‌لیتر"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "ترکیبات",
+          "text": "حاوی ویتامین E و روغن جوجوبا"
+        },
+        {
+          "name": "عدم آزمایش روی حیوانات",
+          "text": "بله"
+        },
+        {
+          "name": "مناسب استفاده روزانه",
+          "text": "بله"
+        },
+        {
+          "name": "کشور سازنده",
+          "text": "آلمان"
+        }
+      ],
+      "stock": 60,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "ست مراقبت پوستی نیوآ برای روتین ساده و مؤثر مراقبت از پوست."
+    },
+    {
+      "id": "30",
+      "slug": "beauty-Remington-Hair-Straightener",
+      "category": "beauty",
+      "subcategory": "haircare",
+      "brand": "Remington",
+      "title": "اتو مو رمینگتون مدل S3500 صفحات سرامیکی",
+      "name": "Remington S3500 Straightener",
+      "price": 3600000,
+      "discount": 6,
+      "rating": "4.2",
+      "ratingCount": 240,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "Straightener front"
+        },
+        {
+          "src": "",
+          "alt": "Straightener plates"
+        }
+      ],
+      "colors": [
+        {
+          "title": "صورتی",
+          "name": "pink",
+          "hex": "#e8b9c5"
+        }
+      ],
+      "properties": [
+        {
+          "name": "جنس صفحات",
+          "text": "سرامیک با پوشش تورمالین"
+        },
+        {
+          "name": "محدوده دما",
+          "text": "150 تا 230 درجه سانتی‌گراد"
+        },
+        {
+          "name": "زمان گرم شدن",
+          "text": "15 ثانیه"
+        },
+        {
+          "name": "طول کابل",
+          "text": "2.5 متر"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "قفل ایمنی",
+          "text": "دارد"
+        },
+        {
+          "name": "قابلیت چرخش کابل",
+          "text": "360 درجه"
+        },
+        {
+          "name": "خاموشی خودکار",
+          "text": "بعد از 60 دقیقه عدم استفاده"
+        },
+        {
+          "name": "وزن",
+          "text": "310 گرم"
+        }
+      ],
+      "stock": 35,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "اتو موی رمینگتون با صفحات سرامیکی برای صافی یکنواخت و بدون آسیب مو."
+    },
+    {
+      "id": "31",
+      "slug": "fashion-Mens-Casual-Shirt",
+      "category": "fashion",
+      "subcategory": "men",
+      "brand": "بادی اسپینر",
+      "title": "پیراهن مردانه اسلیم فیت طرح ساده مدل کلاسیک",
+      "name": "پیراهن مردانه اسلیم فیت",
+      "price": 980000,
+      "discount": 20,
+      "rating": "4.2",
+      "ratingCount": 340,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "پیراهن جلو"
+        },
+        {
+          "src": "",
+          "alt": "پیراهن پشت"
+        }
+      ],
+      "colors": [
+        {
+          "title": "سفید",
+          "name": "white",
+          "hex": "#f5f5f5"
+        },
+        {
+          "title": "آبی",
+          "name": "blue",
+          "hex": "#3a5a8a"
+        },
+        {
+          "title": "مشکی",
+          "name": "black",
+          "hex": "#1a1a1a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "جنس پارچه",
+          "text": "نخ پنبه"
+        },
+        {
+          "name": "فرم",
+          "text": "اسلیم فیت"
+        },
+        {
+          "name": "آستین",
+          "text": "بلند"
+        },
+        {
+          "name": "سایز",
+          "text": "M تا XXL"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "یقه",
+          "text": "کلاسیک"
+        },
+        {
+          "name": "نوع بسته‌بندی",
+          "text": "جعبه‌ای"
+        },
+        {
+          "name": "شست‌وشو",
+          "text": "ماشین لباسشویی دمای پایین"
+        },
+        {
+          "name": "کشور تولید",
+          "text": "ایران"
+        }
+      ],
+      "stock": 120,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "پیراهن مردانه ساده و اسلیم فیت، مناسب استفاده روزمره و اداری."
+    },
+    {
+      "id": "32",
+      "slug": "fashion-Womens-Jacket",
+      "category": "fashion",
+      "subcategory": "women",
+      "brand": "زارا استایل",
+      "title": "کاپشن زنانه پفی با کلاه مدل زمستانه",
+      "name": "کاپشن زنانه پفی",
+      "price": 2450000,
+      "discount": 10,
+      "rating": "4.5",
+      "ratingCount": 210,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "کاپشن جلو"
+        },
+        {
+          "src": "",
+          "alt": "کاپشن با کلاه"
+        }
+      ],
+      "colors": [
+        {
+          "title": "مشکی",
+          "name": "black",
+          "hex": "#151515"
+        },
+        {
+          "title": "زرشکی",
+          "name": "maroon",
+          "hex": "#6e1f2a"
+        },
+        {
+          "title": "خاکی",
+          "name": "khaki",
+          "hex": "#8a8064"
+        }
+      ],
+      "properties": [
+        {
+          "name": "جنس رویه",
+          "text": "نایلون ضدآب"
+        },
+        {
+          "name": "پرکننده",
+          "text": "پر مصنوعی"
+        },
+        {
+          "name": "فرم",
+          "text": "پفی"
+        },
+        {
+          "name": "سایز",
+          "text": "36 تا 44"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "کلاه",
+          "text": "جدا شونده"
+        },
+        {
+          "name": "زیپ",
+          "text": "دوطرفه"
+        },
+        {
+          "name": "جیب",
+          "text": "دو جیب جانبی و یک جیب داخلی"
+        },
+        {
+          "name": "مناسب دما",
+          "text": "تا منفی 5 درجه"
+        }
+      ],
+      "stock": 55,
+      "isAmazing": true,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "کاپشن زنانه گرم و پفی، انتخابی شیک برای فصل سرما."
+    },
+    {
+      "id": "33",
+      "slug": "fashion-Nike-Running-Shoes",
+      "category": "fashion",
+      "subcategory": "shoes",
+      "brand": "Nike",
+      "title": "کفش ورزشی نایک مدل Revolution 6 مناسب دویدن",
+      "name": "Nike Revolution 6",
+      "price": 4200000,
+      "discount": 5,
+      "rating": "4.6",
+      "ratingCount": 480,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "کفش نایک جلو"
+        },
+        {
+          "src": "",
+          "alt": "کفش نایک زیره"
+        }
+      ],
+      "colors": [
+        {
+          "title": "مشکی",
+          "name": "black",
+          "hex": "#101010"
+        },
+        {
+          "title": "سفید",
+          "name": "white",
+          "hex": "#f7f7f7"
+        },
+        {
+          "title": "قرمز",
+          "name": "red",
+          "hex": "#a8332a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "جنس رویه",
+          "text": "مش تنفس‌پذیر"
+        },
+        {
+          "name": "جنس زیره",
+          "text": "فوم واکنشی"
+        },
+        {
+          "name": "کاربرد",
+          "text": "دویدن و پیاده‌روی"
+        },
+        {
+          "name": "سایز",
+          "text": "39 تا 45"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "سیستم بندکفش",
+          "text": "بندی معمولی"
+        },
+        {
+          "name": "انعطاف‌پذیری",
+          "text": "بالا"
+        },
+        {
+          "name": "وزن هر لنگه",
+          "text": "حدود 250 گرم"
+        },
+        {
+          "name": "کشور تولید",
+          "text": "ویتنام"
+        }
+      ],
+      "stock": 70,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "کفش دویدن نایک با طراحی سبک و راحت برای فعالیت روزانه و ورزش."
+    },
+    {
+      "id": "34",
+      "slug": "fashion-Leather-Handbag",
+      "category": "fashion",
+      "subcategory": "accessory",
+      "brand": "چرم مشهد",
+      "title": "کیف دستی زنانه چرم طبیعی مدل کلاسیک",
+      "name": "کیف دستی چرم زنانه",
+      "price": 3650000,
+      "discount": 0,
+      "rating": "4.4",
+      "ratingCount": 155,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "کیف جلو"
+        },
+        {
+          "src": "",
+          "alt": "کیف داخل"
+        }
+      ],
+      "colors": [
+        {
+          "title": "قهوه‌ای",
+          "name": "brown",
+          "hex": "#5b3a24"
+        },
+        {
+          "title": "مشکی",
+          "name": "black",
+          "hex": "#161616"
+        }
+      ],
+      "properties": [
+        {
+          "name": "جنس",
+          "text": "چرم طبیعی گاوی"
+        },
+        {
+          "name": "نوع دسته",
+          "text": "دسته کوتاه و بند بلند قابل تنظیم"
+        },
+        {
+          "name": "تعداد جیب",
+          "text": "3 جیب داخلی و یک جیب خارجی"
+        },
+        {
+          "name": "ابعاد",
+          "text": "30x22x12 سانتی‌متر"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "زیپ",
+          "text": "فلزی ضدزنگ"
+        },
+        {
+          "name": "آستر داخلی",
+          "text": "پارچه‌ای مقاوم"
+        },
+        {
+          "name": "گارانتی چرم",
+          "text": "اصالت تضمینی"
+        },
+        {
+          "name": "کشور تولید",
+          "text": "ایران"
+        }
+      ],
+      "stock": 22,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "کیف دستی چرم طبیعی با طراحی کلاسیک، مناسب استفاده روزانه."
+    },
+    {
+      "id": "35",
+      "slug": "fashion-Casio-Watch",
+      "category": "fashion",
+      "subcategory": "accessory",
+      "brand": "Casio",
+      "title": "ساعت مچی کاسیو مدل MTP-VD01 ضدآب",
+      "name": "Casio MTP-VD01",
+      "price": 3100000,
+      "discount": 8,
+      "rating": "4.5",
+      "ratingCount": 290,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "ساعت کاسیو جلو"
+        },
+        {
+          "src": "",
+          "alt": "ساعت کاسیو بند"
+        }
+      ],
+      "colors": [
+        {
+          "title": "نقره‌ای",
+          "name": "silver",
+          "hex": "#c7c7c7"
+        },
+        {
+          "title": "مشکی",
+          "name": "black",
+          "hex": "#1a1a1a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "نوع موتور",
+          "text": "کوارتز"
+        },
+        {
+          "name": "جنس بند",
+          "text": "استیل ضدزنگ"
+        },
+        {
+          "name": "مقاومت آب",
+          "text": "تا 50 متر"
+        },
+        {
+          "name": "قطر صفحه",
+          "text": "40 میلی‌متر"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "شیشه",
+          "text": "مینرال"
+        },
+        {
+          "name": "تقویم",
+          "text": "نمایشگر تاریخ"
+        },
+        {
+          "name": "گارانتی",
+          "text": "18 ماهه"
+        },
+        {
+          "name": "کشور سازنده",
+          "text": "ژاپن"
+        }
+      ],
+      "stock": 48,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "ساعت مچی کلاسیک کاسیو با طراحی ساده و کیفیت ساخت بالا."
+    },
+    {
+      "id": "36",
+      "slug": "gold-18k-Necklace",
+      "category": "gold",
+      "subcategory": "necklace",
+      "brand": "طلا و جواهر آرین",
+      "title": "گردنبند طلا 18 عیار طرح برگ زیتون",
+      "name": "گردنبند طلا طرح برگ زیتون",
+      "price": 38500000,
+      "discount": 0,
+      "rating": "4.9",
+      "ratingCount": 64,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "گردنبند طلا نمای کامل"
+        },
+        {
+          "src": "",
+          "alt": "گردنبند طلا نمای نزدیک"
+        }
+      ],
+      "colors": [
+        {
+          "title": "طلایی",
+          "name": "gold",
+          "hex": "#d4af37"
+        }
+      ],
+      "properties": [
+        {
+          "name": "عیار",
+          "text": "18"
+        },
+        {
+          "name": "وزن",
+          "text": "2.1 گرم"
+        },
+        {
+          "name": "طرح",
+          "text": "برگ زیتون"
+        },
+        {
+          "name": "طول زنجیر",
+          "text": "45 سانتی‌متر"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "گواهی اصالت",
+          "text": "دارد"
+        },
+        {
+          "name": "نوع قفل",
+          "text": "قفل فنری ایمن"
+        },
+        {
+          "name": "قابلیت تنظیم طول",
+          "text": "دارد"
+        },
+        {
+          "name": "بسته‌بندی",
+          "text": "جعبه مخملی"
+        }
+      ],
+      "stock": 5,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "گردنبند ظریف طلای 18 عیار با طرح برگ زیتون، مناسب هدیه و استفاده روزانه."
+    },
+    {
+      "id": "37",
+      "slug": "gold-Silver-Ring",
+      "category": "gold",
+      "subcategory": "ring",
+      "brand": "نقره سنتی اصفهان",
+      "title": "انگشتر نقره زنانه با نگین فیروزه",
+      "name": "انگشتر نقره فیروزه",
+      "price": 1850000,
+      "discount": 5,
+      "rating": "4.6",
+      "ratingCount": 87,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "انگشتر جلو"
+        },
+        {
+          "src": "",
+          "alt": "انگشتر روی دست"
+        }
+      ],
+      "colors": [
+        {
+          "title": "نقره‌ای",
+          "name": "silver",
+          "hex": "#c0c0c0"
+        }
+      ],
+      "properties": [
+        {
+          "name": "جنس",
+          "text": "نقره عیار 925"
+        },
+        {
+          "name": "نگین",
+          "text": "فیروزه نیشابور"
+        },
+        {
+          "name": "سایز",
+          "text": "قابل تنظیم"
+        },
+        {
+          "name": "وزن",
+          "text": "4.5 گرم"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "گواهی عیار",
+          "text": "دارد"
+        },
+        {
+          "name": "نوع ساخت",
+          "text": "دست‌ساز"
+        },
+        {
+          "name": "مناسب",
+          "text": "هدیه و مراسم"
+        },
+        {
+          "name": "بسته‌بندی",
+          "text": "جعبه چوبی"
+        }
+      ],
+      "stock": 33,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "انگشتر نقره اصیل ایرانی با نگین فیروزه نیشابور، اثری از هنر سنتی."
+    },
+    {
+      "id": "38",
+      "slug": "gold-Bracelet-18k",
+      "category": "gold",
+      "subcategory": "bracelet",
+      "brand": "طلا و جواهر آرین",
+      "title": "دستبند طلا 18 عیار طرح زنجیر فیگارو",
+      "name": "دستبند طلا فیگارو",
+      "price": 29800000,
+      "discount": 0,
+      "rating": "4.7",
+      "ratingCount": 41,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "دستبند طلا نمای کامل"
+        }
+      ],
+      "colors": [
+        {
+          "title": "طلایی",
+          "name": "gold",
+          "hex": "#d4af37"
+        }
+      ],
+      "properties": [
+        {
+          "name": "عیار",
+          "text": "18"
+        },
+        {
+          "name": "وزن",
+          "text": "1.8 گرم"
+        },
+        {
+          "name": "طرح",
+          "text": "فیگارو"
+        },
+        {
+          "name": "طول",
+          "text": "18 سانتی‌متر"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "گواهی اصالت",
+          "text": "دارد"
+        },
+        {
+          "name": "نوع قفل",
+          "text": "قفل لابستر"
+        },
+        {
+          "name": "مناسب",
+          "text": "مچ ظریف"
+        },
+        {
+          "name": "بسته‌بندی",
+          "text": "جعبه مخملی"
+        }
+      ],
+      "stock": 7,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "دستبند طلای ظریف با طرح فیگارو، مناسب استفاده روزانه و مجالس."
+    },
+    {
+      "id": "39",
+      "slug": "gold-Coin-Bahar-Azadi",
+      "category": "gold",
+      "subcategory": "coin",
+      "brand": "بانک مرکزی",
+      "title": "سکه تمام بهار آزادی طرح جدید",
+      "name": "سکه تمام بهار آزادی",
+      "price": 385000000,
+      "discount": 0,
+      "rating": "4.9",
+      "ratingCount": 512,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "سکه بهار آزادی روی سکه"
+        },
+        {
+          "src": "",
+          "alt": "سکه بهار آزادی پشت سکه"
+        }
+      ],
+      "colors": [],
+      "properties": [
+        {
+          "name": "وزن",
+          "text": "8.133 گرم"
+        },
+        {
+          "name": "عیار",
+          "text": "900"
+        },
+        {
+          "name": "نوع",
+          "text": "تمام سکه"
+        },
+        {
+          "name": "سال ضرب",
+          "text": "جدیدترین سال موجود"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "گواهی اصالت",
+          "text": "تاییدیه ضرابخانه"
+        },
+        {
+          "name": "بسته‌بندی",
+          "text": "کاور محافظ اورجینال"
+        },
+        {
+          "name": "قابلیت استعلام",
+          "text": "کد رهگیری معتبر"
+        },
+        {
+          "name": "نوسان قیمت",
+          "text": "بر اساس نرخ روز بازار"
+        }
+      ],
+      "stock": 3,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "سکه تمام بهار آزادی، گزینه‌ای معتبر برای سرمایه‌گذاری و پس‌انداز."
+    },
+    {
+      "id": "40",
+      "slug": "gold-Earrings-18k",
+      "category": "gold",
+      "subcategory": "earrings",
+      "brand": "طلا و جواهر آرین",
+      "title": "گوشواره طلا 18 عیار طرح حلقه‌ای",
+      "name": "گوشواره طلا حلقه‌ای",
+      "price": 21500000,
+      "discount": 3,
+      "rating": "4.6",
+      "ratingCount": 55,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "گوشواره طلا نمای کامل"
+        }
+      ],
+      "colors": [
+        {
+          "title": "طلایی",
+          "name": "gold",
+          "hex": "#d4af37"
+        }
+      ],
+      "properties": [
+        {
+          "name": "عیار",
+          "text": "18"
+        },
+        {
+          "name": "وزن جفت",
+          "text": "1.5 گرم"
+        },
+        {
+          "name": "طرح",
+          "text": "حلقه‌ای ساده"
+        },
+        {
+          "name": "قطر حلقه",
+          "text": "2 سانتی‌متر"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "گواهی اصالت",
+          "text": "دارد"
+        },
+        {
+          "name": "نوع قفل",
+          "text": "لولایی ایمن"
+        },
+        {
+          "name": "مناسب",
+          "text": "استفاده روزانه"
+        },
+        {
+          "name": "بسته‌بندی",
+          "text": "جعبه مخملی"
+        }
+      ],
+      "stock": 11,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "گوشواره طلای حلقه‌ای ساده و شیک، مناسب سلیقه‌های کلاسیک."
+    },
+    {
+      "id": "41",
+      "slug": "motor-Car-Dashboard-Camera",
+      "category": "motor",
+      "subcategory": "accessory",
+      "brand": "70mai",
+      "title": "دوربین خودرو 70mai مدل A500S با ضبط تصویر جلو و عقب",
+      "name": "70mai A500S Dashcam",
+      "price": 6800000,
+      "discount": 10,
+      "rating": "4.5",
+      "ratingCount": 320,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "دوربین خودرو جلو"
+        },
+        {
+          "src": "",
+          "alt": "دوربین خودرو نصب شده"
+        }
+      ],
+      "colors": [
+        {
+          "title": "مشکی",
+          "name": "black",
+          "hex": "#151515"
+        }
+      ],
+      "properties": [
+        {
+          "name": "وضوح دوربین جلو",
+          "text": "2K QHD"
+        },
+        {
+          "name": "وضوح دوربین عقب",
+          "text": "Full HD"
+        },
+        {
+          "name": "زاویه دید",
+          "text": "140 درجه"
+        },
+        {
+          "name": "قابلیت GPS",
+          "text": "دارد"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "حسگر ضربه",
+          "text": "G-Sensor برای ذخیره خودکار ویدئو"
+        },
+        {
+          "name": "حالت پارکینگ",
+          "text": "نظارت 24 ساعته"
+        },
+        {
+          "name": "اتصال",
+          "text": "اپلیکیشن موبایل با Wi-Fi"
+        },
+        {
+          "name": "حافظه",
+          "text": "پشتیبانی از کارت حافظه تا 128 گیگابایت"
+        }
+      ],
+      "stock": 28,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "دوربین خودرو 70mai برای ثبت رویدادهای جاده‌ای با کیفیت بالا."
+    },
+    {
+      "id": "42",
+      "slug": "motor-AGV-Motorcycle-Helmet",
+      "category": "motor",
+      "subcategory": "safety",
+      "brand": "AGV",
+      "title": "کلاه کاسکت موتورسیکلت AGV مدل K1 فول فیس",
+      "name": "AGV K1 Full Face Helmet",
+      "price": 15600000,
+      "discount": 0,
+      "rating": "4.7",
+      "ratingCount": 140,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "کلاه کاسکت جلو"
+        },
+        {
+          "src": "",
+          "alt": "کلاه کاسکت داخل"
+        }
+      ],
+      "colors": [
+        {
+          "title": "مشکی مات",
+          "name": "mattblack",
+          "hex": "#1c1c1c"
+        },
+        {
+          "title": "سفید",
+          "name": "white",
+          "hex": "#f2f2f2"
+        }
+      ],
+      "properties": [
+        {
+          "name": "نوع",
+          "text": "فول فیس"
+        },
+        {
+          "name": "جنس پوسته",
+          "text": "ترموپلاستیک فشرده"
+        },
+        {
+          "name": "استاندارد ایمنی",
+          "text": "ECE 22.06"
+        },
+        {
+          "name": "سایز",
+          "text": "M تا XL"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "سیستم تهویه",
+          "text": "کانال‌های ورود و خروج هوا"
+        },
+        {
+          "name": "شیشه",
+          "text": "ضدخش و ضدبخار"
+        },
+        {
+          "name": "آستر داخلی",
+          "text": "قابل شست‌وشو"
+        },
+        {
+          "name": "وزن",
+          "text": "1500 گرم"
+        }
+      ],
+      "stock": 16,
+      "isAmazing": true,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "کلاه کاسکت ایتالیایی AGV با استاندارد ایمنی بالا برای موتورسواران."
+    },
+    {
+      "id": "43",
+      "slug": "motor-Michelin-Car-Tire",
+      "category": "motor",
+      "subcategory": "parts",
+      "brand": "Michelin",
+      "title": "لاستیک خودرو میشلن مدل Primacy 4 سایز 205/55R16",
+      "name": "Michelin Primacy 4 205/55R16",
+      "price": 8900000,
+      "discount": 0,
+      "rating": "4.6",
+      "ratingCount": 205,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "لاستیک میشلن رخ"
+        },
+        {
+          "src": "",
+          "alt": "لاستیک میشلن پهلو"
+        }
+      ],
+      "colors": [],
+      "properties": [
+        {
+          "name": "سایز",
+          "text": "205/55R16"
+        },
+        {
+          "name": "نوع",
+          "text": "تابستانی"
+        },
+        {
+          "name": "ساخت",
+          "text": "اندونزی/فرانسه"
+        },
+        {
+          "name": "گارانتی",
+          "text": "36 ماه یا 60000 کیلومتر"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "مقاومت غلتشی",
+          "text": "پایین برای صرفه‌جویی سوخت"
+        },
+        {
+          "name": "عملکرد در جاده خیس",
+          "text": "عالی"
+        },
+        {
+          "name": "سطح صدا",
+          "text": "کاهش یافته با طرح آج بهینه"
+        },
+        {
+          "name": "مناسب برای",
+          "text": "خودروهای سواری متوسط"
+        }
+      ],
+      "stock": 40,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "لاستیک میشلن پریمیسی 4 با چسبندگی و ایمنی بالا در جاده خشک و خیس."
+    },
+    {
+      "id": "44",
+      "slug": "motor-Motul-Engine-Oil",
+      "category": "motor",
+      "subcategory": "parts",
+      "brand": "Motul",
+      "title": "روغن موتور موتول مدل 8100 X-cess 5W40 حجم 4 لیتر",
+      "name": "Motul 8100 X-cess 5W40 4L",
+      "price": 3450000,
+      "discount": 7,
+      "rating": "4.7",
+      "ratingCount": 380,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "روغن موتور موتول جلو"
+        }
+      ],
+      "colors": [],
+      "properties": [
+        {
+          "name": "حجم",
+          "text": "4 لیتر"
+        },
+        {
+          "name": "گرید",
+          "text": "5W-40"
+        },
+        {
+          "name": "نوع",
+          "text": "تمام‌سنتتیک"
+        },
+        {
+          "name": "استاندارد",
+          "text": "API SN/CF"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "مناسب برای",
+          "text": "موتورهای بنزینی و دیزلی سبک"
+        },
+        {
+          "name": "محافظت در برابر سایش",
+          "text": "بالا"
+        },
+        {
+          "name": "عملکرد در دمای پایین",
+          "text": "عالی"
+        },
+        {
+          "name": "کشور تولید",
+          "text": "فرانسه"
+        }
+      ],
+      "stock": 65,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "روغن موتور تمام‌سنتتیک موتول برای محافظت حداکثری از موتور خودرو."
+    },
+    {
+      "id": "45",
+      "slug": "motor-Car-GPS-Navigator",
+      "category": "motor",
+      "subcategory": "accessory",
+      "brand": "Garmin",
+      "title": "جی‌پی‌اس خودرو گارمین مدل DriveSmart 65",
+      "name": "Garmin DriveSmart 65",
+      "price": 11800000,
+      "discount": 5,
+      "rating": "4.3",
+      "ratingCount": 76,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "جی‌پی‌اس گارمین جلو"
+        },
+        {
+          "src": "",
+          "alt": "جی‌پی‌اس گارمین نصب شده"
+        }
+      ],
+      "colors": [
+        {
+          "title": "مشکی",
+          "name": "black",
+          "hex": "#1a1a1a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "اندازه صفحه",
+          "text": "6.95 اینچ"
+        },
+        {
+          "name": "نوع نقشه",
+          "text": "آفلاین و آنلاین"
+        },
+        {
+          "name": "اتصال",
+          "text": "بلوتوث و Wi-Fi"
+        },
+        {
+          "name": "دستیار صوتی",
+          "text": "دارد"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "هشدار ترافیک",
+          "text": "دریافت زنده اطلاعات ترافیک"
+        },
+        {
+          "name": "باتری",
+          "text": "تا 1 ساعت کارکرد بدون برق خودرو"
+        },
+        {
+          "name": "پایه نصب",
+          "text": "مکشی روی شیشه یا داشبورد"
+        },
+        {
+          "name": "به‌روزرسانی نقشه",
+          "text": "رایگان مادام‌العمر"
+        }
+      ],
+      "stock": 14,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "جی‌پی‌اس خودرو گارمین با نقشه‌های دقیق و هشدار ترافیک زنده."
+    },
+    {
+      "id": "46",
+      "slug": "health-Beurer-Blood-Pressure-Monitor",
+      "category": "health",
+      "subcategory": "monitoring",
+      "brand": "Beurer",
+      "title": "فشارسنج دیجیتال بازویی بیورر مدل BM26",
+      "name": "Beurer BM26 Blood Pressure Monitor",
+      "price": 3200000,
+      "discount": 5,
+      "rating": "4.6",
+      "ratingCount": 410,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "فشارسنج جلو"
+        },
+        {
+          "src": "",
+          "alt": "فشارسنج بازوبند"
+        }
+      ],
+      "colors": [
+        {
+          "title": "سفید",
+          "name": "white",
+          "hex": "#f2f2f2"
+        }
+      ],
+      "properties": [
+        {
+          "name": "نوع",
+          "text": "بازویی"
+        },
+        {
+          "name": "حافظه",
+          "text": "دو کاربره، هر کدام 60 حافظه"
+        },
+        {
+          "name": "نمایشگر",
+          "text": "LCD بزرگ"
+        },
+        {
+          "name": "منبع تغذیه",
+          "text": "باتری یا آداپتور"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "تشخیص آریتمی قلبی",
+          "text": "دارد"
+        },
+        {
+          "name": "بازوبند",
+          "text": "قابل تنظیم برای دور بازوی 22 تا 36 سانتی‌متر"
+        },
+        {
+          "name": "خاموشی خودکار",
+          "text": "دارد"
+        },
+        {
+          "name": "گارانتی",
+          "text": "دو ساله"
+        }
+      ],
+      "stock": 55,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "فشارسنج بازویی بیورر با دقت بالا و قابلیت تشخیص ضربان نامنظم قلب."
+    },
+    {
+      "id": "47",
+      "slug": "health-Omron-Thermometer",
+      "category": "health",
+      "subcategory": "monitoring",
+      "brand": "Omron",
+      "title": "تب‌سنج دیجیتال امرن مدل MC-246 غیرتماسی",
+      "name": "Omron MC-246 Thermometer",
+      "price": 2100000,
+      "discount": 3,
+      "rating": "4.5",
+      "ratingCount": 380,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "تب‌سنج جلو"
+        }
+      ],
+      "colors": [
+        {
+          "title": "سفید",
+          "name": "white",
+          "hex": "#f5f5f5"
+        }
+      ],
+      "properties": [
+        {
+          "name": "نوع اندازه‌گیری",
+          "text": "غیرتماسی (پیشانی)"
+        },
+        {
+          "name": "زمان اندازه‌گیری",
+          "text": "1 ثانیه"
+        },
+        {
+          "name": "حافظه",
+          "text": "25 اندازه‌گیری اخیر"
+        },
+        {
+          "name": "دقت",
+          "text": "± 0.2 درجه سانتی‌گراد"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "نمایشگر",
+          "text": "LCD روشن"
+        },
+        {
+          "name": "هشدار تب",
+          "text": "با تغییر رنگ نمایشگر"
+        },
+        {
+          "name": "منبع تغذیه",
+          "text": "2 عدد باتری AAA"
+        },
+        {
+          "name": "گارانتی",
+          "text": "سه ساله"
+        }
+      ],
+      "stock": 70,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "تب‌سنج غیرتماسی امرن برای اندازه‌گیری سریع و دقیق دمای بدن."
+    },
+    {
+      "id": "48",
+      "slug": "health-Vitamin-D3-Supplement",
+      "category": "health",
+      "subcategory": "supplement",
+      "brand": "ژلوفن فارما",
+      "title": "قرص ویتامین D3 با دوز 50000 واحد بسته 4 عددی",
+      "name": "ویتامین D3 50000 واحد",
+      "price": 850000,
+      "discount": 0,
+      "rating": "4.4",
+      "ratingCount": 260,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "بسته ویتامین D3"
+        }
+      ],
+      "colors": [],
+      "properties": [
+        {
+          "name": "دوز",
+          "text": "50000 واحد بین‌المللی"
+        },
+        {
+          "name": "تعداد در بسته",
+          "text": "4 عدد"
+        },
+        {
+          "name": "فرم",
+          "text": "قرص خوراکی"
+        },
+        {
+          "name": "مصرف پیشنهادی",
+          "text": "هفته‌ای یک عدد یا طبق نظر پزشک"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "مجوز",
+          "text": "دارای پروانه ساخت وزارت بهداشت"
+        },
+        {
+          "name": "شرایط نگهداری",
+          "text": "دور از نور و رطوبت"
+        },
+        {
+          "name": "مناسب برای",
+          "text": "کمبود ویتامین D"
+        },
+        {
+          "name": "تاریخ انقضا",
+          "text": "درج‌شده روی بسته"
+        }
+      ],
+      "stock": 95,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "مکمل ویتامین D3 برای تقویت استخوان و سیستم ایمنی بدن."
+    },
+    {
+      "id": "49",
+      "slug": "health-Theragun-Massage-Gun",
+      "category": "health",
+      "subcategory": "recovery",
+      "brand": "Theragun",
+      "title": "دستگاه ماساژور تفنگی تراگان مدل Prime",
+      "name": "Theragun Prime Massage Gun",
+      "price": 14500000,
+      "discount": 8,
+      "rating": "4.7",
+      "ratingCount": 190,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "ماساژور تفنگی جلو"
+        },
+        {
+          "src": "",
+          "alt": "ماساژور تفنگی سرها"
+        }
+      ],
+      "colors": [
+        {
+          "title": "مشکی",
+          "name": "black",
+          "hex": "#1a1a1a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "تعداد سرعت",
+          "text": "5 سرعت قابل تنظیم"
+        },
+        {
+          "name": "عمق نفوذ",
+          "text": "16 میلی‌متر"
+        },
+        {
+          "name": "باتری",
+          "text": "تا 120 دقیقه کارکرد مداوم"
+        },
+        {
+          "name": "سطح صدا",
+          "text": "کم‌صدا"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "تعداد سر ماساژ",
+          "text": "4 عدد قابل تعویض"
+        },
+        {
+          "name": "اتصال بلوتوث",
+          "text": "برنامه‌ریزی از طریق اپلیکیشن"
+        },
+        {
+          "name": "وزن",
+          "text": "1.1 کیلوگرم"
+        },
+        {
+          "name": "گارانتی",
+          "text": "یک ساله"
+        }
+      ],
+      "stock": 20,
+      "isAmazing": true,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "ماساژور تفنگی تراگان برای ریکاوری عضلات پس از تمرین و کاهش خستگی."
+    },
+    {
+      "id": "50",
+      "slug": "health-AccuChek-Glucose-Meter",
+      "category": "health",
+      "subcategory": "monitoring",
+      "brand": "Accu-Chek",
+      "title": "دستگاه تست قند خون آکیوچک مدل Active همراه با 10 نوار تست",
+      "name": "Accu-Chek Active Glucose Meter",
+      "price": 4100000,
+      "discount": 0,
+      "rating": "4.6",
+      "ratingCount": 300,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "دستگاه تست قند خون جلو"
+        },
+        {
+          "src": "",
+          "alt": "نوار تست و لنست"
+        }
+      ],
+      "colors": [
+        {
+          "title": "آبی",
+          "name": "blue",
+          "hex": "#3a5a8a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "زمان نتیجه",
+          "text": "5 ثانیه"
+        },
+        {
+          "name": "حجم نمونه خون",
+          "text": "1 تا 2 میکرولیتر"
+        },
+        {
+          "name": "حافظه",
+          "text": "تا 500 نتیجه"
+        },
+        {
+          "name": "همراهی",
+          "text": "10 نوار تست و دستگاه سوزن‌زن"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "کدگذاری",
+          "text": "خودکار بدون نیاز به چیپ"
+        },
+        {
+          "name": "نمایشگر",
+          "text": "بزرگ و واضح"
+        },
+        {
+          "name": "منبع تغذیه",
+          "text": "باتری سکه‌ای CR2032"
+        },
+        {
+          "name": "گارانتی",
+          "text": "دستگاه دارای گارانتی معتبر"
+        }
+      ],
+      "stock": 42,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "دستگاه تست قند خون آکیوچک با نتایج سریع و دقیق برای مدیریت دیابت."
+    },
+    {
+      "id": "51",
+      "slug": "tools-Bosch-Drill",
+      "category": "tools",
+      "subcategory": "power-tools",
+      "brand": "Bosch",
+      "title": "دریل شارژی بوش مدل GSR 120-LI",
+      "name": "Bosch GSR 120-LI Drill",
+      "price": 8600000,
+      "discount": 6,
+      "rating": "4.6",
+      "ratingCount": 220,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "دریل بوش جلو"
+        },
+        {
+          "src": "",
+          "alt": "دریل بوش با باتری"
+        }
+      ],
+      "colors": [
+        {
+          "title": "آبی",
+          "name": "blue",
+          "hex": "#1e5aa8"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ولتاژ باتری",
+          "text": "12 ولت"
+        },
+        {
+          "name": "نوع باتری",
+          "text": "لیتیوم-یون"
+        },
+        {
+          "name": "گشتاور",
+          "text": "30 نیوتن‌متر"
+        },
+        {
+          "name": "قابلیت ضربه",
+          "text": "ندارد"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "سرعت بدون بار",
+          "text": "تا 1300 دور در دقیقه"
+        },
+        {
+          "name": "سایز فک",
+          "text": "10 میلی‌متر"
+        },
+        {
+          "name": "همراهی",
+          "text": "دو باتری و شارژر"
+        },
+        {
+          "name": "وزن",
+          "text": "1 کیلوگرم"
+        }
+      ],
+      "stock": 30,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "دریل شارژی بوش سبک و پرقدرت، مناسب کارهای خانگی و نیمه‌حرفه‌ای."
+    },
+    {
+      "id": "52",
+      "slug": "tools-Toolset-108pcs",
+      "category": "tools",
+      "subcategory": "hand-tools",
+      "brand": "Stanley",
+      "title": "جعبه ابزار 108 پارچه استنلی مدل STMT",
+      "name": "Stanley Toolset 108pcs",
+      "price": 6900000,
+      "discount": 10,
+      "rating": "4.5",
+      "ratingCount": 175,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "جعبه ابزار باز"
+        },
+        {
+          "src": "",
+          "alt": "جعبه ابزار بسته"
+        }
+      ],
+      "colors": [
+        {
+          "title": "زرد و مشکی",
+          "name": "yellowblack",
+          "hex": "#e0b400"
+        }
+      ],
+      "properties": [
+        {
+          "name": "تعداد پارچه",
+          "text": "108 عدد"
+        },
+        {
+          "name": "جنس بدنه جعبه",
+          "text": "پلاستیک مقاوم"
+        },
+        {
+          "name": "شامل",
+          "text": "آچار، پیچ‌گوشتی، آچارفرانسه و..."
+        },
+        {
+          "name": "مناسب برای",
+          "text": "کارهای خانگی و تعمیرات جزئی"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "جنس ابزارها",
+          "text": "فولاد کروم وانادیوم"
+        },
+        {
+          "name": "قفل جعبه",
+          "text": "دو قفل فلزی مطمئن"
+        },
+        {
+          "name": "دسته حمل",
+          "text": "ارگونومیک"
+        },
+        {
+          "name": "گارانتی",
+          "text": "یک ساله"
+        }
+      ],
+      "stock": 48,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "جعبه ابزار کامل استنلی برای رفع نیازهای روزمره تعمیراتی در منزل."
+    },
+    {
+      "id": "53",
+      "slug": "tools-Wrench-Set",
+      "category": "tools",
+      "subcategory": "hand-tools",
+      "brand": "Gedore",
+      "title": "سری آچار یکسر رینگ گدوره 8 پارچه",
+      "name": "Gedore Wrench Set 8pcs",
+      "price": 5200000,
+      "discount": 0,
+      "rating": "4.7",
+      "ratingCount": 90,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "آچار رینگ ست"
+        }
+      ],
+      "colors": [],
+      "properties": [
+        {
+          "name": "تعداد پارچه",
+          "text": "8 عدد"
+        },
+        {
+          "name": "جنس",
+          "text": "فولاد کروم وانادیوم"
+        },
+        {
+          "name": "سایزها",
+          "text": "8 تا 19 میلی‌متر"
+        },
+        {
+          "name": "نوع",
+          "text": "یکسر رینگ یکسر آچار"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "پوشش",
+          "text": "کروم مات ضدزنگ"
+        },
+        {
+          "name": "کیف حمل",
+          "text": "کیف پارچه‌ای همراه"
+        },
+        {
+          "name": "استاندارد",
+          "text": "DIN 3113"
+        },
+        {
+          "name": "کشور سازنده",
+          "text": "آلمان"
+        }
+      ],
+      "stock": 25,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "ست آچار رینگ گدوره با کیفیت آلمانی، مناسب کارهای مکانیکی دقیق."
+    },
+    {
+      "id": "54",
+      "slug": "tools-Aluminum-Ladder",
+      "category": "tools",
+      "subcategory": "equipment",
+      "brand": "نردبان صنعت",
+      "title": "نردبان آلومینیومی تاشو 6 پله",
+      "name": "نردبان آلومینیومی 6 پله",
+      "price": 4300000,
+      "discount": 5,
+      "rating": "4.3",
+      "ratingCount": 60,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "نردبان باز شده"
+        },
+        {
+          "src": "",
+          "alt": "نردبان جمع شده"
+        }
+      ],
+      "colors": [
+        {
+          "title": "نقره‌ای",
+          "name": "silver",
+          "hex": "#c0c0c0"
+        }
+      ],
+      "properties": [
+        {
+          "name": "تعداد پله",
+          "text": "6 پله"
+        },
+        {
+          "name": "جنس",
+          "text": "آلومینیوم سبک"
+        },
+        {
+          "name": "حداکثر وزن قابل تحمل",
+          "text": "150 کیلوگرم"
+        },
+        {
+          "name": "ارتفاع باز شده",
+          "text": "حدود 180 سانتی‌متر"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "قابلیت تاشدن",
+          "text": "بله، جمع و جور برای نگهداری"
+        },
+        {
+          "name": "پایه",
+          "text": "ضدلغزش لاستیکی"
+        },
+        {
+          "name": "وزن نردبان",
+          "text": "5.8 کیلوگرم"
+        },
+        {
+          "name": "گارانتی",
+          "text": "یک ساله"
+        }
+      ],
+      "stock": 19,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "نردبان آلومینیومی سبک و مقاوم، مناسب کارهای منزل و انبار."
+    },
+    {
+      "id": "55",
+      "slug": "tools-Welding-Machine",
+      "category": "tools",
+      "subcategory": "power-tools",
+      "brand": "Ariston",
+      "title": "دستگاه جوش اینورتر آریستون مدل ARC200",
+      "name": "Ariston ARC200 Welding Machine",
+      "price": 9800000,
+      "discount": 4,
+      "rating": "4.4",
+      "ratingCount": 45,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "دستگاه جوش جلو"
+        },
+        {
+          "src": "",
+          "alt": "دستگاه جوش پنل"
+        }
+      ],
+      "colors": [
+        {
+          "title": "قرمز و مشکی",
+          "name": "redblack",
+          "hex": "#a8332a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "نوع",
+          "text": "اینورتر MMA"
+        },
+        {
+          "name": "جریان خروجی",
+          "text": "20 تا 200 آمپر"
+        },
+        {
+          "name": "ولتاژ ورودی",
+          "text": "220 ولت"
+        },
+        {
+          "name": "قابلیت جوش الکترود",
+          "text": "تا 4 میلی‌متر"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "حفاظت‌ها",
+          "text": "اضافه ولتاژ، اضافه جریان و گرمای بیش از حد"
+        },
+        {
+          "name": "وزن",
+          "text": "4.5 کیلوگرم"
+        },
+        {
+          "name": "همراهی",
+          "text": "کابل جوش و ماسک"
+        },
+        {
+          "name": "گارانتی",
+          "text": "یک ساله"
+        }
+      ],
+      "stock": 13,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "دستگاه جوش اینورتر سبک و پرقدرت، مناسب کارهای نیمه‌صنعتی و خانگی."
+    },
+    {
+      "id": "56",
+      "slug": "books-Boof-e-Kur-Novel",
+      "category": "books",
+      "subcategory": "novel",
+      "brand": "نشر چشمه",
+      "title": "کتاب بوف کور نوشته صادق هدایت",
+      "name": "کتاب بوف کور",
+      "price": 320000,
+      "discount": 15,
+      "rating": "4.8",
+      "ratingCount": 980,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "جلد کتاب بوف کور"
+        }
+      ],
+      "colors": [],
+      "properties": [
+        {
+          "name": "نویسنده",
+          "text": "صادق هدایت"
+        },
+        {
+          "name": "ناشر",
+          "text": "نشر چشمه"
+        },
+        {
+          "name": "نوع جلد",
+          "text": "شومیز"
+        },
+        {
+          "name": "تعداد صفحات",
+          "text": "150"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "زبان",
+          "text": "فارسی"
+        },
+        {
+          "name": "قطع",
+          "text": "رقعی"
+        },
+        {
+          "name": "موضوع",
+          "text": "ادبیات داستانی فارسی"
+        },
+        {
+          "name": "سال چاپ",
+          "text": "آخرین چاپ"
+        }
+      ],
+      "stock": 150,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "یکی از مهم‌ترین آثار ادبیات معاصر ایران، اثر ماندگار صادق هدایت."
+    },
+    {
+      "id": "57",
+      "slug": "books-Watercolor-Painting-Set",
+      "category": "books",
+      "subcategory": "art-supplies",
+      "brand": "Winsor & Newton",
+      "title": "ست رنگ آبرنگ وینزور اند نیوتن 24 رنگ",
+      "name": "ست آبرنگ 24 رنگ Winsor Newton",
+      "price": 4200000,
+      "discount": 5,
+      "rating": "4.7",
+      "ratingCount": 130,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "ست آبرنگ باز"
+        },
+        {
+          "src": "",
+          "alt": "ست آبرنگ بسته"
+        }
+      ],
+      "colors": [],
+      "properties": [
+        {
+          "name": "تعداد رنگ",
+          "text": "24 رنگ"
+        },
+        {
+          "name": "نوع",
+          "text": "آبرنگ نیم‌حرفه‌ای"
+        },
+        {
+          "name": "همراهی",
+          "text": "قلم‌مو و پالت"
+        },
+        {
+          "name": "جعبه",
+          "text": "فلزی قابل حمل"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "کیفیت رنگدانه",
+          "text": "بالا و پایدار در برابر نور"
+        },
+        {
+          "name": "قابلیت ترکیب رنگ",
+          "text": "عالی"
+        },
+        {
+          "name": "مناسب برای",
+          "text": "هنرجویان و علاقه‌مندان نقاشی"
+        },
+        {
+          "name": "کشور سازنده",
+          "text": "انگلستان"
+        }
+      ],
+      "stock": 26,
+      "isAmazing": true,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "ست آبرنگ حرفه‌ای وینزور اند نیوتن با رنگ‌های زنده و کیفیت بالا."
+    },
+    {
+      "id": "58",
+      "slug": "books-Notebook-Set",
+      "category": "books",
+      "subcategory": "stationery",
+      "brand": "Moleskine",
+      "title": "ست دفترچه یادداشت مولسکین 3 عددی سایز A5",
+      "name": "ست دفترچه مولسکین 3 عددی",
+      "price": 1850000,
+      "discount": 0,
+      "rating": "4.6",
+      "ratingCount": 210,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "دفترچه‌های مولسکین"
+        }
+      ],
+      "colors": [
+        {
+          "title": "مشکی",
+          "name": "black",
+          "hex": "#1a1a1a"
+        },
+        {
+          "title": "قرمز",
+          "name": "red",
+          "hex": "#a8332a"
+        },
+        {
+          "title": "آبی",
+          "name": "blue",
+          "hex": "#2b4d8a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "تعداد",
+          "text": "3 عدد"
+        },
+        {
+          "name": "سایز",
+          "text": "A5"
+        },
+        {
+          "name": "نوع صفحات",
+          "text": "خط‌دار"
+        },
+        {
+          "name": "جلد",
+          "text": "سخت"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "تعداد صفحات هر دفترچه",
+          "text": "240 برگ"
+        },
+        {
+          "name": "کش نگهدارنده",
+          "text": "دارد"
+        },
+        {
+          "name": "جیب داخلی",
+          "text": "دارد برای نگهداری برگه‌ها"
+        },
+        {
+          "name": "کشور سازنده",
+          "text": "ایتالیا"
+        }
+      ],
+      "stock": 38,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "ست دفترچه یادداشت مولسکین با کیفیت ساخت عالی، مناسب یادداشت‌برداری روزانه."
+    },
+    {
+      "id": "59",
+      "slug": "books-Art-History-Book",
+      "category": "books",
+      "subcategory": "art",
+      "brand": "نشر نظر",
+      "title": "کتاب تاریخ هنر جهان اثر ارنست گامبریج",
+      "name": "کتاب تاریخ هنر جهان",
+      "price": 980000,
+      "discount": 10,
+      "rating": "4.9",
+      "ratingCount": 340,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "جلد کتاب تاریخ هنر"
+        }
+      ],
+      "colors": [],
+      "properties": [
+        {
+          "name": "نویسنده",
+          "text": "ارنست گامبریج"
+        },
+        {
+          "name": "ناشر",
+          "text": "نشر نظر"
+        },
+        {
+          "name": "نوع جلد",
+          "text": "گالینگور"
+        },
+        {
+          "name": "تعداد صفحات",
+          "text": "688"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "زبان",
+          "text": "فارسی (ترجمه)"
+        },
+        {
+          "name": "قطع",
+          "text": "رحلی"
+        },
+        {
+          "name": "موضوع",
+          "text": "تاریخ و نقد هنر"
+        },
+        {
+          "name": "تصاویر",
+          "text": "مصور و رنگی"
+        }
+      ],
+      "stock": 45,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "مرجعی جامع و خواندنی درباره تاریخ هنر جهان از دوران باستان تا معاصر."
+    },
+    {
+      "id": "60",
+      "slug": "books-Calligraphy-Set",
+      "category": "books",
+      "subcategory": "art-supplies",
+      "brand": "خوشنویسی ایرانی",
+      "title": "ست خوشنویسی شامل قلم نی، مرکب و کاغذ آهار مهره",
+      "name": "ست خوشنویسی سنتی",
+      "price": 1250000,
+      "discount": 8,
+      "rating": "4.7",
+      "ratingCount": 76,
+      "image": "",
+      "gallery": [
+        {
+          "src": "",
+          "alt": "ست خوشنویسی کامل"
+        }
+      ],
+      "colors": [],
+      "properties": [
+        {
+          "name": "محتویات",
+          "text": "قلم نی، دوات، مرکب، کاغذ آهار مهره"
+        },
+        {
+          "name": "تعداد قلم",
+          "text": "3 عدد در سایزهای مختلف"
+        },
+        {
+          "name": "مناسب برای",
+          "text": "خط نستعلیق و شکسته"
+        },
+        {
+          "name": "سطح",
+          "text": "مبتدی تا حرفه‌ای"
+        }
+      ],
+      "specifications": [
+        {
+          "name": "جنس قلم",
+          "text": "نی طبیعی تراش‌خورده"
+        },
+        {
+          "name": "مرکب",
+          "text": "مرکب مشکی خوشنویسی اصل"
+        },
+        {
+          "name": "تعداد برگ کاغذ آهار",
+          "text": "10 برگ"
+        },
+        {
+          "name": "بسته‌بندی",
+          "text": "جعبه مقوایی مناسب هدیه"
+        }
+      ],
+      "stock": 22,
+      "isAmazing": false,
+      "isOriginal": true,
+      "seller": "دیجی‌کالا",
+      "description": "ست کامل خوشنویسی سنتی ایرانی برای علاقه‌مندان به هنر خط."
+    }
+  ]
+}
