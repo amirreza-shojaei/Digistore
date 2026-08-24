@@ -48,7 +48,8 @@ export interface Product {
 export interface Category {
   id: string;
   title: string;            
-  slug: string;           
+  slug: string;   
+  icon:""        
   image: string;
 }
 

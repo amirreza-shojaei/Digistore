@@ -1,98 +1,198 @@
 {
-    "iconName":{
-        "persian":{
-            "id":"pi",
-            "image":"/images/icons/per.png"
-        },
-        "english":{
-            "id":"ei",
-            "image":""
-        }
+  "carouselItems": [
+    {
+      "id": "1",
+      "title": "کاپوچینو",
+      "link": "/",
+      "image": "/images/carousel/1.webp"
     },
+    {
+      "id": "2",
+      "title": "مکمل های دیجیتال",
+      "link": "/",
+      "image": "/images/carousel/2.gif"
+    },
+    {
+      "id": "3",
+      "title": "استایل و اطلاح مو",
+      "link": "/",
+      "image": "/images/carousel/3.webp"
+    },
+    {
+      "id": "4",
+      "title": "حراج میان فصل",
+      "link": "/",
+      "image": "/images/carousel/4.gif"
+    },
+    {
+      "id": "5",
+      "title": "لب تاپ مناسب",
+      "link": "/",
+      "image": "/images/carousel/5.webp"
+    }
+  ],
+  "bannerItems":[
+    {
+      "id": "1",
+      "title": "خرید قسطی",
+      "link": "/",
+      "image": "/images/bannersSec/1.jpg"
+    },
+    {
+      "id": "2",
+      "title": "ساعت مچی",
+      "link": "/",
+      "image": "/images/bannersSec/2.jpg"
+    },
+    {
+      "id": "3",
+      "title": "خرید طلا",
+      "link": "/",
+      "image": "/images/bannersSec/3.jpg"
+    },
+    {
+      "id": "4",
+      "title": "اکتان",
+      "link": "/",
+      "image": "/images/bannersSec/4.gif"
+    }
+  ],
+  "iconName": {
+    "persian": {
+      "id": "pi",
+      "image": "/images/icons/per.png"
+    },
+    "english": {
+      "id": "ei",
+      "image": ""
+    }
+  },
   "categories": [
     {
       "id": "mobile",
       "title": "موبایل",
       "slug": "mobile",
       "icon": "<Smartphone />",
-      "image": ""
+      "image": "/images/categoriesSec/mobile.webp"
     },
     {
       "id": "laptop",
       "title": "لپ تاپ",
       "slug": "laptop",
       "icon": "<Laptop />",
-      "image": ""
+      "image": "/images/categoriesSec/labtop.webp"
     },
     {
       "id": "digital",
       "title": "کالای دیجیتال",
       "slug": "digital",
       "icon": "<Monitor />",
-      "image": ""
+      "image": "/images/categoriesSec/digitals.webp"
     },
     {
       "id": "home-kitchen",
       "title": "خانه و آشپزخانه",
       "slug": "home-kitchen",
       "icon": " <Home />",
-      "image": ""
+      "image": "/images/categoriesSec/kitchen.webp"
     },
     {
       "id": "home-appliances",
       "title": "لوازم خانگی برقی",
       "slug": "home-appliances",
       "icon": "<Plug />",
-      "image": ""
+      "image": "/images/categoriesSec/home.webp"
     },
     {
       "id": "beauty",
       "title": "آرایشی بهداشتی",
       "slug": "beauty",
       "icon": "<Sparkles />",
-      "image": ""
+      "image": "/images/categoriesSec/behdashti.webp"
     },
     {
       "id": "fashion",
       "title": "مد و پوشاک",
       "slug": "fashion",
       "icon": "<Shirt />",
-      "image": ""
+      "image": "/images/categoriesSec/clothes.webp"
     },
     {
       "id": "gold",
       "title": "طلا و نقره",
       "slug": "gold",
       "icon": "<Gem />",
-      "image": ""
+      "image": "/images/categoriesSec/gold.webp"
     },
     {
       "id": "motor",
       "title": "خودرو و موتورسیکلت",
       "slug": "motor",
       "icon": "<Car />",
-      "image": ""
+      "image": "/images/categoriesSec/motor.webp"
     },
     {
       "id": "health",
       "title": "سلامت و پزشکی",
       "slug": "health",
       "icon": "<HeartPulse />",
-      "image": ""
+      "image": "/images/categoriesSec/medical.webp"
     },
     {
       "id": "tools",
       "title": "ابزارآلات و تجهیزات",
       "slug": "tools",
       "icon": "<Wrench />",
-      "image": ""
+      "image": "/images/categoriesSec/abzar.webp"
     },
     {
       "id": "books",
       "title": "کتاب و هنر",
       "slug": "books",
       "icon": "<BookOpen />",
-      "image": ""
+      "image": "/images/categoriesSec/book.webp"
+    },
+    {
+      "id": "food",
+      "title": "غذا و خوراکی",
+      "slug": "food",
+      "icon": "",
+      "image": "/images/categoriesSec/food.webp"
+    },
+    {
+      "id": "gift",
+      "title": "هدیه و کادو",
+      "slug": "gift",
+      "icon": "",
+      "image": "/images/categoriesSec/gift.webp"
+    },
+    {
+      "id": "mahali",
+      "title": "محلی",
+      "slug": "mahali",
+      "icon": "",
+      "image": "/images/categoriesSec/mahali.webp"
+    },
+    {
+      "id": "sport",
+      "title": "لوازم ورزشی",
+      "slug": "sport",
+      "icon": "",
+      "image": "/images/categoriesSec/sport.webp"
+    },
+    {
+      "id": "petshop",
+      "title": "لوازم حیوان خانگی",
+      "slug": "petshop",
+      "icon": "",
+      "image": "/images/categoriesSec/petshop.webp"
+    },
+    {
+      "id": "toys",
+      "title": "اسباب بازی",
+      "slug": "toys",
+      "icon": "",
+      "image": "/images/categoriesSec/toys.webp"
     }
   ],
   "navbarItems": [
@@ -129,27 +229,27 @@
   ],
   "footerFeatures": [
     {
-        "id":"asd",
+      "id": "asd",
       "image": "/images/footerFeatures/express.svg",
       "title": "امکان تحویل اکسپرس"
     },
     {
-        "id":"asc",
+      "id": "asc",
       "image": "/images/footerFeatures/inhome.svg",
       "title": "امکان پرداخت در محل"
     },
     {
-        "id":"axd",
+      "id": "axd",
       "image": "/images/footerFeatures/24h.svg",
       "title": "۷ روز هفته، ۲۴ ساعته"
     },
     {
-        "id":"afdw",
+      "id": "afdw",
       "image": "/images/footerFeatures/back.svg",
       "title": "۷ روز ضمانت بازگشت"
     },
     {
-        "id":"sac",
+      "id": "sac",
       "image": "/images/footerFeatures/orginal.svg",
       "title": "ضمانت اصل بودن کالا"
     }
@@ -177,11 +277,11 @@
           "src": "/images/products/mobiles/Galaxy-S25-FE/gallery.webp",
           "alt": "Galaxy S25 FE back"
         },
-             {
+        {
           "src": "/images/products/mobiles/Galaxy-S25-FE/gallery2.webp",
           "alt": "Galaxy S25 FE side"
         },
-             {
+        {
           "src": "/images/products/mobiles/Galaxy-S25-FE/gallery3.webp",
           "alt": "Galaxy S25 FE side"
         }

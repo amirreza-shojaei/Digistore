@@ -4,12 +4,15 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Grid, FreeMode, Navigation } from "swiper/modules";
-import { categories } from "@/src/data/categories";
-
+import { Category } from "@/src/types/interfaces";
 import "swiper/css";
 import "swiper/css/grid";
 import "swiper/css/free-mode";
 import "swiper/css/navigation";
+
+interface CategoriesSectionProps{
+  items:Category[]
+}
 
 function getBreakpoint() {
   if (typeof window === "undefined") return "default";
@@ -24,7 +27,7 @@ function getBreakpoint() {
   return "mobile";
 }
 
-export default function CategoriesSection() {
+export default function CategoriesSection({items}:CategoriesSectionProps) {
   const [breakpoint, setBreakpoint] = useState("default");
 
   useEffect(() => {
@@ -85,7 +88,7 @@ export default function CategoriesSection() {
         }}
         className="categories-swiper pb-2!"
       >
-        {categories.map((category) => (
+        {items.map((category) => (
           <SwiperSlide key={category.id}>
             <div className="group flex h-full cursor-pointer flex-col items-center text-center">
               <div className="relative flex h-16 w-16 shrink-0 items-center justify-center overflow-hidden  sm:h-20 sm:w-20 md:h-24 md:w-24 lg:h-28 lg:w-28">

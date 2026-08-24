@@ -25,6 +25,7 @@ export default function Carousel({ items }: CarouselProps) {
       pagination={{ clickable: true }}
       navigation
       className="h-125 w-full"
+      
     >
       {items.map((image) => (
         <SwiperSlide key={image.title}>
@@ -32,6 +33,7 @@ export default function Carousel({ items }: CarouselProps) {
             src={image.image}
             alt={image.title}
             className="h-full w-full object-cover"
+            unoptimized={true}
             fill
           />
         </SwiperSlide>
