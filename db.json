@@ -1,4 +1,14 @@
 {
+    "iconName":{
+        "persian":{
+            "id":"pi",
+            "image":"/images/icons/per.png"
+        },
+        "english":{
+            "id":"ei",
+            "image":""
+        }
+    },
   "categories": [
     {
       "id": "mobile",
@@ -119,23 +129,28 @@
   ],
   "footerFeatures": [
     {
-      "image": "",
+        "id":"asd",
+      "image": "/images/footerFeatures/express.svg",
       "title": "امکان تحویل اکسپرس"
     },
     {
-      "image": "",
+        "id":"asc",
+      "image": "/images/footerFeatures/inhome.svg",
       "title": "امکان پرداخت در محل"
     },
     {
-      "image": "",
+        "id":"axd",
+      "image": "/images/footerFeatures/24h.svg",
       "title": "۷ روز هفته، ۲۴ ساعته"
     },
     {
-      "image": "",
+        "id":"afdw",
+      "image": "/images/footerFeatures/back.svg",
       "title": "۷ روز ضمانت بازگشت"
     },
     {
-      "image": "",
+        "id":"sac",
+      "image": "/images/footerFeatures/orginal.svg",
       "title": "ضمانت اصل بودن کالا"
     }
   ],

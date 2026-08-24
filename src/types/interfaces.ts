@@ -80,3 +80,14 @@ export interface MegaMenuCategory {
   href: string;
   columns: MegaMenuColumn[]; // محتوای سمت چپ وقتی این دسته انتخاب شده
 }
+
+export interface FooterFeature{
+  id:string;
+  image:string;
+  title:string;
+}
+
+export interface Icons{
+  persian:{id:string,image:string};
+  english :{id:string,image:string}
+}

@@ -10,6 +10,8 @@ export async function getProductBySlug(slug: string): Promise<Product | null> {
   return products[0] || null;
 }
 
-export async function getProductsByCategory(category: string): Promise<Product[]> {
+export async function getProductsByCategory(
+  category: string,
+): Promise<Product[]> {
   return apiFetch<Product[]>(`/products?category=${category}`);
 }
