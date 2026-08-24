@@ -1,5 +1,5 @@
 import { apiFetch } from "@/src/libs/api";
-import { FooterFeature } from "@/src/types/interfaces";
+import { FooterFeature,NavbarItem } from "@/src/types/interfaces";
 import { Icons } from "@/src/types/interfaces";
 
 
@@ -8,4 +8,8 @@ export async function getFooterFeatures(): Promise<FooterFeature[]> {
 }
 export async function getSiteNameIcon(): Promise<Icons> {
     return apiFetch<Icons>("/iconName")
+}
+
+export async function getNavbarItems():Promise<NavbarItem[]> {
+    return apiFetch<NavbarItem[]>("/navbarItems")
 }

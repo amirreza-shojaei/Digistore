@@ -91,3 +91,9 @@ export interface Icons{
   persian:{id:string,image:string};
   english :{id:string,image:string}
 }
+
+export interface NavbarItem{
+  id:number;
+  title:string;
+  link:string;
+}
