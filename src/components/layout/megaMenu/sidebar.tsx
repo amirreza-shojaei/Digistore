@@ -1,6 +1,6 @@
-"use client";
+
 import Link from "next/link";
-import { sidebarCategories, SidebarCategory } from "@/src/data/megaMenu";
+import { sidebarCategories } from "@/src/data/megaMenu";
 
 interface MegaMenuSidebarProps {
   activeId: string;
@@ -11,7 +11,7 @@ export default function MegaMenuSidebar({ activeId, onSelect }: MegaMenuSidebarP
   return (
     <aside className="w-56 bg-gray-50 border-l border-gray-200 py-3 overflow-y-auto max-h-[70vh]">
       <ul className="space-y-0.5">
-        {sidebarCategories.map((category: SidebarCategory) => {
+        {sidebarCategories.map((category) => {
           const isActive = activeId === category.id;
 
           return (

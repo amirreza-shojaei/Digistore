@@ -1,5 +1,7 @@
 // types.ts
 
+import { LucideIcon } from "lucide-react";
+
 export interface GalleryItem {
   src: string;
   alt: string;
@@ -97,4 +99,11 @@ export interface NavbarItem{
   id:number;
   title:string;
   link:string;
+}
+
+export interface SidebarCategory {
+  id: string;
+  title: string;
+  slug: string;
+  icon: React.ReactNode; 
 }

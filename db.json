@@ -72,126 +72,126 @@
       "id": "mobile",
       "title": "موبایل",
       "slug": "mobile",
-      "icon": "<Smartphone />",
+      "icon": "mobile",
       "image": "/images/categoriesSec/mobile.webp"
     },
     {
       "id": "laptop",
       "title": "لپ تاپ",
       "slug": "laptop",
-      "icon": "<Laptop />",
+      "icon": "laptop",
       "image": "/images/categoriesSec/labtop.webp"
     },
     {
       "id": "digital",
       "title": "کالای دیجیتال",
       "slug": "digital",
-      "icon": "<Monitor />",
+      "icon": "digital",
       "image": "/images/categoriesSec/digitals.webp"
     },
     {
       "id": "home-kitchen",
       "title": "خانه و آشپزخانه",
       "slug": "home-kitchen",
-      "icon": " <Home />",
+      "icon": " home-kitchen",
       "image": "/images/categoriesSec/kitchen.webp"
     },
     {
       "id": "home-appliances",
       "title": "لوازم خانگی برقی",
       "slug": "home-appliances",
-      "icon": "<Plug />",
+      "icon": "home-appliances",
       "image": "/images/categoriesSec/home.webp"
     },
     {
       "id": "beauty",
       "title": "آرایشی بهداشتی",
       "slug": "beauty",
-      "icon": "<Sparkles />",
+      "icon": "beauty",
       "image": "/images/categoriesSec/behdashti.webp"
     },
     {
       "id": "fashion",
       "title": "مد و پوشاک",
       "slug": "fashion",
-      "icon": "<Shirt />",
+      "icon": "fashion",
       "image": "/images/categoriesSec/clothes.webp"
     },
     {
       "id": "gold",
       "title": "طلا و نقره",
       "slug": "gold",
-      "icon": "<Gem />",
+      "icon": "gold",
       "image": "/images/categoriesSec/gold.webp"
     },
     {
       "id": "motor",
       "title": "خودرو و موتورسیکلت",
       "slug": "motor",
-      "icon": "<Car />",
+      "icon": "motor",
       "image": "/images/categoriesSec/motor.webp"
     },
     {
       "id": "health",
       "title": "سلامت و پزشکی",
       "slug": "health",
-      "icon": "<HeartPulse />",
+      "icon": "health",
       "image": "/images/categoriesSec/medical.webp"
     },
     {
       "id": "tools",
       "title": "ابزارآلات و تجهیزات",
       "slug": "tools",
-      "icon": "<Wrench />",
+      "icon": "tools",
       "image": "/images/categoriesSec/abzar.webp"
     },
     {
       "id": "books",
       "title": "کتاب و هنر",
       "slug": "books",
-      "icon": "<BookOpen />",
+      "icon": "books",
       "image": "/images/categoriesSec/book.webp"
     },
     {
       "id": "food",
-      "title": "غذا و خوراکی",
+      "title": "کالای خوراکی و اساسی",
       "slug": "food",
-      "icon": "",
+      "icon": "food",
       "image": "/images/categoriesSec/food.webp"
     },
     {
       "id": "gift",
       "title": "هدیه و کادو",
       "slug": "gift",
-      "icon": "",
+      "icon": "gift",
       "image": "/images/categoriesSec/gift.webp"
     },
     {
       "id": "mahali",
-      "title": "محلی",
+      "title": "محصولات بومی و محلی",
       "slug": "mahali",
-      "icon": "",
+      "icon": "mahali",
       "image": "/images/categoriesSec/mahali.webp"
     },
     {
       "id": "sport",
-      "title": "لوازم ورزشی",
+      "title": "ورزش و سفر",
       "slug": "sport",
-      "icon": "",
+      "icon": "sport",
       "image": "/images/categoriesSec/sport.webp"
     },
     {
       "id": "petshop",
-      "title": "لوازم حیوان خانگی",
+      "title": "پت شاپ",
       "slug": "petshop",
-      "icon": "",
+      "icon": "petshop",
       "image": "/images/categoriesSec/petshop.webp"
     },
     {
       "id": "toys",
-      "title": "اسباب بازی",
+      "title": "اسباب بازی,کودک و نوزاد",
       "slug": "toys",
-      "icon": "",
+      "icon": "toys",
       "image": "/images/categoriesSec/toys.webp"
     }
   ],
