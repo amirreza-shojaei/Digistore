@@ -254,6 +254,210 @@
       "title": "ضمانت اصل بودن کالا"
     }
   ],
+  "homePageSwipers": [
+  {
+    "id": "68584",
+    "title": "تخفیفات فوق العاده",
+    "items": [
+      {
+        "id": "2",
+        "slug": "mobile-Apple-iPhone-15",
+        "image": "/images/swipersImages/iPhone-15.webp",
+        "title": "گوشی موبایل اپل مدل iPhone 15 دو سیم کارت ظرفیت 128 گیگابایت",
+        "price": 52900000,
+        "discount": 5
+      },
+      {
+        "id": "3",
+        "slug": "mobile-Xiaomi-Redmi-Note-13-Pro",
+        "image": "/images/swipersImages/Redmi-Note-13-Pro.webp",
+        "title": "گوشی موبایل شیائومی مدل Redmi Note 13 Pro دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت",
+        "price": 18200000,
+        "discount": 12
+      },
+      {
+        "id": "8",
+        "slug": "laptop-HP-Pavilion-15",
+        "image": "/images/swipersImages/HP-Pavilion-15.webp",
+        "title": "لپ تاپ 15.6 اینچی اچ‌پی مدل Pavilion 15 پردازنده Core i7 نسل 13 رم 16 گیگابایت حافظه 1 ترابایت SSD",
+        "price": 52300000,
+        "discount": 6
+      },
+      {
+        "id": "9",
+        "slug": "laptop-Apple-MacBook-Air-M2",
+        "image": "/images/swipersImages/MacBook-Air-M2.webp",
+        "title": "لپ تاپ 13.6 اینچی اپل مدل MacBook Air M2 رم 8 گیگابایت حافظه 256 گیگابایت SSD",
+        "price": 78500000,
+        "discount": 2
+      },
+      {
+        "id": "11",
+        "slug": "digital-Sony-WH-1000XM5",
+        "image": "/images/swipersImages/Sony-WH-1000XM5.webp",
+        "title": "هدفون بی‌سیم سونی مدل WH-1000XM5 با قابلیت حذف نویز فعال",
+        "price": 26800000,
+        "discount": 10
+      },
+      {
+        "id": "14",
+        "slug": "digital-JBL-Flip-6",
+        "image": "/images/swipersImages/JBL-Flip-6.webp",
+        "title": "اسپیکر بلوتوثی قابل حمل جی‌بی‌ال مدل Flip 6",
+        "price": 8900000,
+        "discount": 15
+      },
+      {
+        "id": "16",
+        "slug": "home-kitchen-Philips-Airfryer-HD9252",
+        "image": "/images/swipersImages/Philips-Airfryer.webp",
+        "title": "سرخ‌کن بدون روغن فیلیپس مدل HD9252 ظرفیت 4.1 لیتر",
+        "price": 12500000,
+        "discount": 8
+      },
+      {
+        "id": "19",
+        "slug": "home-kitchen-Delonghi-Espresso-Machine",
+        "image": "/images/swipersImages/Delonghi-Espresso.webp",
+        "title": "اسپرسوساز دلونگی مدل EC685 با فوم‌ساز شیر",
+        "price": 24900000,
+        "discount": 6
+      },
+      {
+        "id": "20",
+        "slug": "home-kitchen-Fissler-Cookware-Set",
+        "image": "/images/swipersImages/Fissler-Cookware.webp",
+        "title": "سرویس قابلمه 7 پارچه فیشلر مدل Family",
+        "price": 45000000,
+        "discount": 1
+      }
+    ]
+  },
+  {
+    "id": "4849",
+    "title": "محصولات جدید",
+    "items": [
+      {
+        "id": "1",
+        "slug": "mobile-Samsung-Galaxy-S25-FE",
+        "image": "/images/swipersImages/Galaxy-S25-FE.webp",
+        "title": "گوشی موبایل سامسونگ مدل Galaxy S25 FE دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت",
+        "price": 45600000,
+        "discount": 0
+      },
+      {
+        "id": "4",
+        "slug": "mobile-Samsung-Galaxy-A55",
+        "image": "/images/swipersImages/Galaxy-A55.webp",
+        "title": "گوشی موبایل سامسونگ مدل Galaxy A55 5G دو سیم کارت ظرفیت 128 گیگابایت و رم 8 گیگابایت",
+        "price": 22500000,
+        "discount": 0
+      },
+      {
+        "id": "6",
+        "slug": "laptop-Galaxy-A55",
+        "image": "/images/swipersImages/Galaxy-A55.webp",
+        "title": "لپ تاپ 15.6 اینچی ایسوس مدل Vivobook 15 پردازنده Core i5 نسل 13 رم 16 گیگابایت حافظه 512 گیگابایت SSD",
+        "price": 38900000,
+        "discount": 3
+      },
+      {
+        "id": "7",
+        "slug": "laptop-Lenovo-IdeaPad-3",
+        "image": "/images/swipersImages/Lenovo-IdeaPad-3.webp",
+        "title": "لپ تاپ 15.6 اینچی لنوو مدل IdeaPad 3 پردازنده Ryzen 5 رم 8 گیگابایت حافظه 512 گیگابایت SSD",
+        "price": 29500000,
+        "discount": 0
+      },
+      {
+        "id": "10",
+        "slug": "laptop-Dell-Inspiron-15",
+        "image": "/images/swipersImages/Dell-Inspiron-15.webp",
+        "title": "لپ تاپ 15.6 اینچی دل مدل Inspiron 15 3520 پردازنده Core i3 نسل 12 رم 8 گیگابایت حافظه 256 گیگابایت SSD",
+        "price": 24700000,
+        "discount": 4
+      },
+      {
+        "id": "12",
+        "slug": "digital-Apple-Watch-Series-9",
+        "image": "/images/swipersImages/Apple-Watch-Series-9.webp",
+        "title": "ساعت هوشمند اپل واچ مدل Series 9 GPS سایز 45 میلی‌متر",
+        "price": 33500000,
+        "discount": 0
+      }
+    ]
+  },
+  {
+  "id": "7942",
+  "title": "پر فروش‌ترین‌ها",
+  "items": [
+    {
+      "id": "1",
+      "slug": "mobile-Samsung-Galaxy-S25-FE",
+      "image": "/images/swipersImages/Galaxy-S25-FE.webp",
+      "title": "گوشی موبایل سامسونگ مدل Galaxy S25 FE دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت",
+      "price": 45600000,
+      "discount": 0
+    },
+    {
+      "id": "2",
+      "slug": "mobile-Apple-iPhone-15",
+      "image": "/images/swipersImages/iPhone-15.webp",
+      "title": "گوشی موبایل اپل مدل iPhone 15 دو سیم کارت ظرفیت 128 گیگابایت",
+      "price": 52900000,
+      "discount": 5
+    },
+    {
+      "id": "9",
+      "slug": "laptop-Apple-MacBook-Air-M2",
+      "image": "/images/swipersImages/MacBook-Air-M2.webp",
+      "title": "لپ تاپ 13.6 اینچی اپل مدل MacBook Air M2 رم 8 گیگابایت حافظه 256 گیگابایت SSD",
+      "price": 78500000,
+      "discount": 0
+    },
+    {
+      "id": "11",
+      "slug": "digital-Sony-WH-1000XM5",
+      "image": "/images/swipersImages/Sony-WH-1000XM5.webp",
+      "title": "هدفون بی‌سیم سونی مدل WH-1000XM5 با قابلیت حذف نویز فعال",
+      "price": 26800000,
+      "discount": 10
+    },
+    {
+      "id": "14",
+      "slug": "digital-JBL-Flip-6",
+      "image": "/images/swipersImages/JBL-Flip-6.webp",
+      "title": "اسپیکر بلوتوثی قابل حمل جی‌بی‌ال مدل Flip 6",
+      "price": 8900000,
+      "discount": 0
+    },
+    {
+      "id": "16",
+      "slug": "home-kitchen-Philips-Airfryer-HD9252",
+      "image": "/images/swipersImages/Philips-Airfryer.webp",
+      "title": "سرخ‌کن بدون روغن فیلیپس مدل HD9252 ظرفیت 4.1 لیتر",
+      "price": 12500000,
+      "discount": 0
+    },
+    {
+      "id": "22",
+      "slug": "home-appliances-LG-Refrigerator",
+      "image": "/images/swipersImages/LG-Refrigerator.webp",
+      "title": "یخچال فریزر ال‌جی مدل GR-B247 نوفراست",
+      "price": 95000000,
+      "discount": 2
+    },
+    {
+      "id": "28",
+      "slug": "beauty-Braun-Shaver",
+      "image": "/images/swipersImages/Braun-Shaver.webp",
+      "title": "ریش‌تراش برقی براون مدل Series 7 قابل شست‌وشو",
+      "price": 12900000,
+      "discount": 0
+    }
+  ]
+}
+],
   "products": [
     {
       "id": "1",
