@@ -11,7 +11,7 @@ export function Newsletter() {
 
   return (
     <div>
-      <h3 className="mb-3 text-xl font-bold text-gray-800">عضویت در خبرنامه</h3>
+      <h3 className="mb-3  text-xl font-bold text-gray-800">عضویت در خبرنامه</h3>
       <form onSubmit={handleSubmit} className="flex gap-2">
         <input
           type="email"

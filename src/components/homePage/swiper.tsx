@@ -4,24 +4,25 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-import { type CategorysSwiper } from "./categorySwiper";
-import Image from "next/image";
-import Link from "next/link";
-
+import {ChevronLeft } from "lucide-react"
+import { HomePageSwiper,ProductsShortDetail } from "@/src/types/interfaces";
+import SwiperCard from "./swiperCard"
 export interface ProductSwiperProps {
-  items: CategorysSwiper;
+  props: HomePageSwiper;
 }
 
-export default function ProductSwiper({ items }: ProductSwiperProps) {
+export default function ProductSwiper( {props} : ProductSwiperProps) {
+  
   return (
     <div className="  border my-5 rounded-2xl bg-white shadow-lg overflow-hidden">
       {/* Header Section */}
-      <div className="flex justify-between items-center p-4  md:p-6 ">
+      <div className="flex justify-between items-center pt-6 md:pl-6  md:pr-6 ">
         <h2 className="text-xl md:text-2xl font-bold text-gray-800">
-          {items.catName}
+          {props.title}
         </h2>
-        <button className="text-blue-600 hover:text-blue-800 font-medium text-sm md:text-base transition-colors">
+        <button className=" flex felx-row  p-2 rounded-lg hover:text-red-700   transition-colors">
           مشاهده همه
+          <ChevronLeft />
         </button>
       </div>
 
@@ -34,63 +35,29 @@ export default function ProductSwiper({ items }: ProductSwiperProps) {
           slidesPerView={1}
           breakpoints={{
             480: {
-              slidesPerView: 2,
+              slidesPerView: 4,
               spaceBetween: 15,
             },
             768: {
-              slidesPerView: 3,
+              slidesPerView: 5,
               spaceBetween: 20,
             },
             1024: {
-              slidesPerView: 4,
+              slidesPerView: 6,
               spaceBetween: 20,
             },
             1280: {
-              slidesPerView: 5,
+              slidesPerView: 7,
               spaceBetween: 20,
             },
           }}
           className="product-swiper"
         >
-          {items.product.map((item) => (
-            <SwiperSlide key={item.id} className="w-62.5!">
-              <Link href={`/product/${item.slug}`} key={item.id}>
-                <div className="group rounded-xl border border-gray-200 hover:shadow-lg transition-all duration-300 h-full">
-                  <div className="flex flex-col h-full">
-                    {/* Image Container */}
-                    <div className="relative w-full aspect-square rounded-t-xl overflow-hidden">
-                      {item.image ? (
-                        <Image
-                          src={item.image}
-                          alt={item.title || "Product image"}
-                          className="w-full h-full object-contain  group-hover:scale-105 transition-transform duration-300"
-                          fill
-                        />
-                      ) : (
-                        <div className="w-full h-full flex items-center justify-center text-gray-400">
-                          <span>بدون تصویر</span>
-                        </div>
-                      )}
-                    </div>
-
-                    {/* Content Container */}
-                    <div className="p-3 flex-1 flex flex-col">
-                      {/* Title */}
-                      <h4 className="text-sm md:text-base font-medium text-gray-800 line-clamp-2 mb-1 min-h-[2.5rem]">
-                        {item.title || "نام محصول"}
-                      </h4>
-
-                      {/* Price */}
-                      <div className="mt-auto pt-2  text-left ">
-                        <p className="text-base md:text-lg font-bold text-gray-900">
-                          {new Intl.NumberFormat("fa-IR").format(item.price)}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </Link>
-            </SwiperSlide>
+          {props.items.map((product:ProductsShortDetail) => (
+            
+            <SwiperSlide key={product.id} ><SwiperCard product={product} key={product.id}/></SwiperSlide>
+            
+            
           ))}
         </Swiper>
       </div>

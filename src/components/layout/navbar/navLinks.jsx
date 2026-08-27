@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
 import clsx from "clsx";
-import items from "../../../data/navbar.json";
-
- function NavLinks() {
-
+import { getNavbarItems } from "@/src/services/layouts";
+ async function NavLinks() {
+  const items =await getNavbarItems();
+  
   return (
     <div className="hidden lg:flex items-center gap-6 text-sm text-gray-600">
       {items.map((item) => (

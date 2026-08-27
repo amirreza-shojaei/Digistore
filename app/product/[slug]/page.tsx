@@ -4,7 +4,7 @@ import Info from "@/src/components/productPage/info";
 import Breadcrumb from "@/src/components/ui/breadcrumb";
 import Specifications from "@/src/components/productPage/specifications";
 import { notFound } from "next/navigation";
-
+import {getProductBySlug} from "@/src/services/products"
 type Props = {
   params: Promise<{
     slug: string;
@@ -13,8 +13,9 @@ type Props = {
 
 export default async function ProductPage({ params }: Props) {
   const { slug } = await params;
-  const product = products.find((item) => item.slug === slug);
-
+  // const product = products.find((item) => item.slug === slug);
+  const product =await getProductBySlug(slug);
+  console.log(product);
   if (!product) {
     notFound();
   }

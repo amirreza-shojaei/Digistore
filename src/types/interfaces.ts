@@ -48,7 +48,8 @@ export interface Product {
 export interface Category {
   id: string;
   title: string;            
-  slug: string;           
+  slug: string;   
+  icon:""        
   image: string;
 }
 
@@ -57,7 +58,6 @@ export interface Banner {
   title: string;
   image: string;
   link: string;
-  mobileImage?: string;
 }
 
 // types.ts (اضافه کن)
@@ -80,4 +80,41 @@ export interface MegaMenuCategory {
   icon?: string;
   href: string;
   columns: MegaMenuColumn[]; // محتوای سمت چپ وقتی این دسته انتخاب شده
+}
+
+export interface FooterFeature{
+  id:string;
+  image:string;
+  title:string;
+}
+
+export interface Icons{
+  persian:{id:string,image:string};
+  english :{id:string,image:string}
+}
+
+export interface NavbarItem{
+  id:number;
+  title:string;
+  link:string;
+}
+
+export interface SidebarCategory {
+  id: string;
+  title: string;
+  slug: string;
+  icon: React.ReactNode; 
+}
+export interface ProductsShortDetail{
+  id:string;
+  slug:string;
+  image:string;
+  title:string;
+  price:number;
+  discount:number;
+}
+export interface HomePageSwiper{
+  id:string;
+  title:string;
+  items:ProductsShortDetail[]
 }
