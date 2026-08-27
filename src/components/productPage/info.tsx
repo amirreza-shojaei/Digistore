@@ -1,4 +1,6 @@
+"use client"
 import { ChevronLeft } from "lucide-react";
+import { useState } from "react";
 import Purchase from "./purchase";
 import ColorSelector from "./colorSelector";
 import { Product } from "@/src/types/interfaces";
@@ -12,6 +14,10 @@ interface ProductInfoProps {
 }
 
 export default function ProductInfo({ product }: ProductInfoProps) {
+  const [selectedColor, setSelectedColor] = useState<{
+    title: string;
+    hex?: string;
+  } | null>(null);
   return (
     <div className="space-y-4">
       {/* title */}
@@ -46,7 +52,7 @@ export default function ProductInfo({ product }: ProductInfoProps) {
           </div>
 
           {/* select color*/}
-          <ColorSelector product={product} />
+          <ColorSelector product={product} onColorChange={setSelectedColor}/>
 
           <div className="flex items-center justify-between rounded-xl bg-blue-50 p-5">
             <span className="font-semibold text-blue-700">
@@ -73,7 +79,7 @@ export default function ProductInfo({ product }: ProductInfoProps) {
 
         {/*purchase box*/}
         <div className="col-span-2">
-          <Purchase price={product.price} />
+          <Purchase item={product} color={selectedColor} />
         </div>
       </div>
     </div>

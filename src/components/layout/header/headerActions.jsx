@@ -1,8 +1,5 @@
-"use client"
-
-import { Bell, ShoppingCart, User } from "lucide-react";
-
-
+import { Bell, User } from "lucide-react";
+import CartBadge from "./cartBadge";
 const HeaderActions = () => {
 
   return (
@@ -24,9 +21,7 @@ const HeaderActions = () => {
       <span className="w-px h-6 bg-gray-300" />
 
       {/* Cart */}
-      <div className="relative cursor-pointer">
-        <ShoppingCart className="hover:text-red-500 transition-colors" />
-      </div>
+     <CartBadge/>
     </div>
   );
 };

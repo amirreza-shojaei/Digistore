@@ -6,9 +6,9 @@ export interface GalleryItem {
 }
 
 export interface ColorOption {
-  title: string;   // فارسی
-  name: string;    // انگلیسی (برای کلاس و فیلتر)
-  hex?: string;    // اختیاری
+  title: string; // فارسی
+  name: string; // انگلیسی (برای کلاس و فیلتر)
+  hex: string; // اختیاری
 }
 
 export interface Property {
@@ -24,32 +24,32 @@ export interface Specification {
 export interface Product {
   id: string;
   slug: string;
-  category: string;          // slug دسته اصلی (mobile, laptop, ...)
-  subcategory?: string;      // زیر دسته
+  category: string; // slug دسته اصلی (mobile, laptop, ...)
+  subcategory?: string; // زیر دسته
   brand: string;
-  title: string;             // عنوان کامل فارسی
-  name: string;              // نام انگلیسی کوتاه
-  price: number;             // قیمت به تومان
-  discount: number;          // درصد تخفیف (0 تا 100)
-  rating: string;            // مثلاً "4.8"
-  ratingCount: number;      // تعداد نظرات
-  image: string;             // تصویر اصلی
+  title: string; // عنوان کامل فارسی
+  name: string; // نام انگلیسی کوتاه
+  price: number; // قیمت به تومان
+  discount: number; // درصد تخفیف (0 تا 100)
+  rating: string; // مثلاً "4.8"
+  ratingCount: number; // تعداد نظرات
+  image: string; // تصویر اصلی
   gallery: GalleryItem[];
   colors: ColorOption[];
-  properties: Property[];    // ویژگی‌های کوتاه (برای کارت)
+  properties: Property[]; // ویژگی‌های کوتاه (برای کارت)
   specifications: Specification[]; // مشخصات کامل
-  stock: number;             // موجودی
-  isAmazing?: boolean;       // پیشنهاد شگفت‌انگیز
-  isOriginal?: boolean;      // گارانتی اصالت
+  stock: number; // موجودی
+  isAmazing?: boolean; // پیشنهاد شگفت‌انگیز
+  isOriginal?: boolean; // گارانتی اصالت
   seller?: string;
   description?: string;
 }
 
 export interface Category {
   id: string;
-  title: string;            
-  slug: string;   
-  icon:""        
+  title: string;
+  slug: string;
+  icon: "";
   image: string;
 }
 
@@ -82,39 +82,40 @@ export interface MegaMenuCategory {
   columns: MegaMenuColumn[]; // محتوای سمت چپ وقتی این دسته انتخاب شده
 }
 
-export interface FooterFeature{
-  id:string;
-  image:string;
-  title:string;
+export interface FooterFeature {
+  id: string;
+  image: string;
+  title: string;
 }
 
-export interface Icons{
-  persian:{id:string,image:string};
-  english :{id:string,image:string}
+export interface Icons {
+  persian: { id: string; image: string };
+  english: { id: string; image: string };
 }
 
-export interface NavbarItem{
-  id:number;
-  title:string;
-  link:string;
+export interface NavbarItem {
+  id: number;
+  title: string;
+  link: string;
 }
 
 export interface SidebarCategory {
   id: string;
   title: string;
   slug: string;
-  icon: React.ReactNode; 
+  icon: React.ReactNode;
 }
-export interface ProductsShortDetail{
-  id:string;
-  slug:string;
-  image:string;
-  title:string;
-  price:number;
-  discount:number;
+export interface ProductsShortDetail {
+  id: string;
+  slug: string;
+  image: string;
+  title: string;
+  price: number;
+  discount: number;
 }
-export interface HomePageSwiper{
-  id:string;
-  title:string;
-  items:ProductsShortDetail[]
+export interface HomePageSwiper {
+  id: string;
+  title: string;
+  items: ProductsShortDetail[];
 }
+
