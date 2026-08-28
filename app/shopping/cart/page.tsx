@@ -13,7 +13,7 @@ export default function CartPage() {
   }
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-8 ">
+    <div className="mx-auto container px-4 py-8 ">
       <div>
         <h1 className="mb-8 text-2xl font-bold">
         سبد خرید
@@ -23,7 +23,7 @@ export default function CartPage() {
       </h1>
       </div>
 
-      <div className="grid grid-cols-1 gap-8 lg:grid-cols-12">
+      <div className="grid grid-cols-1 gap-10 lg:grid-cols-12">
         {/* product list */}
         <ProductCard />
         {/* Checkout Form*/}

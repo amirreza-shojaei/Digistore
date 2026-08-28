@@ -9,7 +9,7 @@ interface CheckoutProps{
 function Checkout({totalItems,totalPrice}:CheckoutProps) {
   return (
       <div className="lg:col-span-4">
-          <div className="sticky top-24 rounded-xl border border-gray-100 bg-gray-50 p-5">
+          <div className="sticky top-24 rounded-xl border-2 border-red-300 bg-gray-50 p-8">
             <div className="flex items-center justify-between text-sm text-gray-600">
               <span>
                 قیمت کالاها ({ConvertNumbers(totalItems(), "toPersian")})

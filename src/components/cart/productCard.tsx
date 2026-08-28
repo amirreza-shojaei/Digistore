@@ -8,7 +8,7 @@ function ProductCard() {
     const { items, removeItem, updateQuantity } =
       useCartStore();
   return (
-     <div className="space-y-4 lg:col-span-8">
+     <div className="space-y-4 lg:col-span-8 border-2 border-red-300 p-7 rounded-2xl">
           {items.map((item) => {
             const finalPrice = item.discount
               ? item.price * (1 - item.discount / 100)
@@ -17,11 +17,11 @@ function ProductCard() {
             return (
               <div
                 key={`${item.id}-${item.color?.title || "default"}`}
-                className="flex gap-4 rounded-xl border border-gray-100 bg-white p-4"
+                className="flex gap-4 rounded-xl border-2 border-gray-100 bg-white shadow-sm p-4"
               >
                 <Link
                   href={`/product/${item.slug}`}
-                  className="relative h-28 w-28 shrink-0"
+                  className="relative h-40 w-40 shrink-0"
                 >
                   <Image
                     src={item.image}
@@ -36,20 +36,19 @@ function ProductCard() {
                   <div>
                     <Link
                       href={`/product/${item.slug}`}
-                      className="line-clamp-2 text-sm font-medium text-gray-800 hover:text-red-500"
+                      className="line-clamp-2 text-lg font-medium text-gray-800 hover:text-red-500"
                     >
                       {item.title}
                     </Link>
 
                     {item.color && (
-                      <p className="mt-2 text-xs text-gray-500">
+                      <p className="mt-2 text-sm text-gray-500">
                         رنگ: {item.color.title}
                       </p>
                     )}
                   </div>
 
                   <div className="mt-4 flex items-center justify-between">
-                    {/* کنترل تعداد */}
                     <div className="flex items-center rounded-lg border">
                       <button
                         type="button"
