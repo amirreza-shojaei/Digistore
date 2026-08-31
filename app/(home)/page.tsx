@@ -11,7 +11,6 @@ async function Home() {
   const carouselItems =await getCarouselItems();
   const bannerItems =await getBannerItems();
   const swipers =await getSwipers();
-  console.log(swipers)
   return (
     <div>
       <Carousel items={carouselItems} />
