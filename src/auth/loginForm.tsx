@@ -7,7 +7,7 @@ import { useState } from "react";
 export default function LoginForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const callbackUrl = searchParams.get("callbackUrl") || "/profile";
+  const callbackUrl = searchParams.get("callbackUrl") || "/";
 
   const [phone, setPhone] = useState("");
   const [password, setPassword] = useState("");
