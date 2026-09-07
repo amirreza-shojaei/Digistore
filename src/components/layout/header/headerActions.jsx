@@ -1,5 +1,6 @@
 import { Bell, User } from "lucide-react";
 import CartBadge from "./cartBadge";
+import Link from "next/link";
 const HeaderActions = () => {
 
   return (
@@ -8,14 +9,15 @@ const HeaderActions = () => {
       <Bell className="cursor-pointer text-gray-600 hover:text-red-500 transition-colors" />
 
       {/* Auth Button */}
-      <button
+      <Link
+       href={"/auth/login"}
         variant="outline"
         size="sm"
         className="flex items-center gap-2 rounded-lg border px-4 py-2 hover:bg-gray-100"
       >
         <User size={18} />
         ورود | ثبت‌نام
-      </button>
+      </Link>
 
       {/* Divider */}
       <span className="w-px h-6 bg-gray-300" />

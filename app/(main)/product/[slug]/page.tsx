@@ -1,4 +1,3 @@
-import { products } from "@/src/data/products";
 import Gallery from "@/src/components/productPage/gallery";
 import Info from "@/src/components/productPage/info";
 import Breadcrumb from "@/src/components/ui/breadcrumb";
@@ -13,9 +12,7 @@ type Props = {
 
 export default async function ProductPage({ params }: Props) {
   const { slug } = await params;
-  // const product = products.find((item) => item.slug === slug);
   const product =await getProductBySlug(slug);
-  console.log(product);
   if (!product) {
     notFound();
   }
