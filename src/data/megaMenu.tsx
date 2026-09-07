@@ -11,14 +11,15 @@ import {
   Car,          
   HeartPulse,   
   Wrench,       
-  BookOpen,     
+  BookOpen,
+  Coffee,
+  Gift,
+  Mountain,
+  Bike,
+  Dog,
+  ToyBrick,     
 } from "lucide-react";
-export interface SidebarCategory {
-  id: string;
-  title: string;
-  slug: string;
-  icon: React.ReactNode; 
-}
+import {SidebarCategory} from "@/src/types/interfaces"
 
 export const sidebarCategories: SidebarCategory[] = [
   {
@@ -93,4 +94,40 @@ export const sidebarCategories: SidebarCategory[] = [
     slug: "books",
     icon: <BookOpen />
   },
+      {
+      id: "food",
+      title: "کالای خوراکی و اساسی",
+      slug: "food",
+      icon: <Coffee/>
+    },
+    {
+      id: "gift",
+      title: "هدیه و کادو",
+      slug: "gift",
+      icon: <Gift/>
+    },
+    {
+      id: "mahali",
+      title: "محصولات بومی و محلی",
+      slug: "mahali",
+      icon: <Mountain/>
+    },
+    {
+      id: "sport",
+      title: "ورزش و سفر",
+      slug: "sport",
+      icon: <Bike/>
+    },
+    {
+      id: "petshop",
+      title: "پت شاپ",
+      slug: "petshop",
+      icon: <Dog/>
+    },
+    {
+      id: "toys",
+      title: "اسباب بازی,کودک و نوزاد",
+      slug: "toys",
+      icon: <ToyBrick/>
+    }
 ];

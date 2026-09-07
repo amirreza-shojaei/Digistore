@@ -1,8 +1,7 @@
 import "./globals.css";
 import localFont from "next/font/local";
 import { cn } from "@/lib/utils";
-import Header from "@/src/components/header";
-import Footer from "@/src/components/footer";
+import AuthSessionProvider from "@/src/providers/sessionProvider";
 
 const myFont = localFont({
   src: [
@@ -27,10 +26,8 @@ export default function RootLayout({
 }>) {
   return (
     <html dir="rtl" lang="fa" className={cn("font-sans", myFont.variable)}>
-      <body className="">
-        <Header />
-        {children}
-        <Footer />
+      <body>
+        <AuthSessionProvider>{children}</AuthSessionProvider>
       </body>
     </html>
   );
